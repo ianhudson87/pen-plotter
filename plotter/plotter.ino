@@ -6,32 +6,20 @@
 // operating Frequency is 100pps. Current draw is 92mA.
 ////////////////////////////////////////////////
 
-int shoulderPin1 = 0;
-int shoulderPin2 = 0;
-int shoulderPin3 = 0;
-int shoulderPin4 = 0;
-
-int elbowPin1 = 0;
-int elbowPin2 = 0;
-int elbowPin3 = 0;
-int elbowPin4 = 0;
-
-const double clockDelayMs = 5;
-
 class Motor
 {
   private:
-    int[4] pins;
+    int pins[4] = {0, 1, 2, 3};
     int currentStep = 0;
     const double stepSize = 5.625/64; // degrees per step
-    const static int[8] motorSeq = {B01000, B01100, B00100, B00110, B00010, B00011, B00001, B01001};
+    const int motorSeq[8] = {B01000, B01100, B00100, B00110, B00010, B00011, B00001, B01001};
     double clockDelayMs;
 
     // Queued rotation variables
     int stepsRemaining = 0;
     double turnSpeed = 0; // degrees per second
     double msPerStep = 0;
-    bool isClockwise = true;
+    bool steppingClockwise = true;
     double msUntilNextStep = 0;
 
     void WriteToPins()
@@ -42,83 +30,85 @@ class Motor
       digitalWrite(pins[3], motorSeq[currentStep] & 8);
     }
 
-    void StepClockwise()
+    void DoStep(bool isClockwise)
     {
-      currentStep += 1;
-      if(currentStep >=8 )
+      if(isClockwise)
       {
-        currentStep -= 8;
+        currentStep -= 1;
+        if(currentStep < 0 )
+        {
+          currentStep += 8;
+        }
+        
       }
-      WriteToPins();
-    }
-
-    void StepAnticlockwise()
-    {
-      currentStep -= 1;
-      if(currentStep < 0 )
+      else
       {
-        currentStep += 8;
+        currentStep += 1;
+        if(currentStep >=8 )
+        {
+          currentStep -= 8;
+        }
       }
+      Serial.println(currentStep);
+      Serial.println("msPerStep" + String(this->msPerStep));
       WriteToPins();
     }
 
   public:
-    Motor(int[4] pins, double clockDelayMs)
+    Motor(int pins[], double clockDelayMs)
     {
-      this.clockDelayMs = clockDelayMs
-      this.pins = pins;
-      pinMode(this.pins[0], OUTPUT);
-      pinMode(this.pins[1], OUTPUT);
-      pinMode(this.pins[2], OUTPUT);
-      pinMode(this.pins[3], OUTPUT);
+      this->clockDelayMs = clockDelayMs;
+      this->pins[0] = pins[0];
+      this->pins[1] = pins[1];
+      this->pins[2] = pins[2];
+      this->pins[3] = pins[3];
+      pinMode(this->pins[0], OUTPUT);
+      pinMode(this->pins[1], OUTPUT);
+      pinMode(this->pins[2], OUTPUT);
+      pinMode(this->pins[3], OUTPUT);
     }
 
     void QueueRotation(bool isClockwise, double degrees, double degreesPerSecond)
     {
-      this.isClockwise = isClockwise;
-      this.stepsRemaining = degrees / this.stepSize;
-      this.turnSpeed = degreesPerSecond;
-      this.msPerStep = 1 / degreesPerSecond * this.stepSize * 1000; // TODO: check if this is less than the clock delay. Meaning it is not possible to rotate the motor as quickly as desired
-      this.msUntilNextStep = 0;
+      this->steppingClockwise = isClockwise;
+      this->stepsRemaining = degrees / this->stepSize;
+      this->turnSpeed = degreesPerSecond;
+      this->msPerStep = 1 / degreesPerSecond * this->stepSize * 1000; // TODO: check if this is less than the clock delay. Meaning it is not possible to rotate the motor as quickly as desired
+      this->msUntilNextStep = 0;
     }
 
     void ProcessRotation()
     {
-      if( this.stepsRemaining == 0 )
+      if( this->stepsRemaining == 0 )
       {
         return;
       }
 
-      if(this.msUntilNextStep > 0)
+      if(this->msUntilNextStep > 0)
       {
-        this.msUntilNextStep -= this.clockDelayMs;
+        this->msUntilNextStep -= this->clockDelayMs;
       }
       else
       {
-        
+        this->stepsRemaining -= 1;
+        this->DoStep(this->steppingClockwise);
+        this->msUntilNextStep += this->msPerStep;
       }
     }
-}
+};
 
-//declare variables for the motor pins
-int motorPin1 = 8;    // Blue   - 28BYJ48 pin 1
-int motorPin2 = 9;    // Pink   - 28BYJ48 pin 2
-int motorPin3 = 10;    // Yellow - 28BYJ48 pin 3
-int motorPin4 = 11;    // Orange - 28BYJ48 pin 4
-                        // Red    - 28BYJ48 pin 5 (VCC)
-
-int motorSpeed = 32;//variable to set stepper speed
-int count = 0;          // count of steps made
-int countsperrev = 150; // number of steps per full revolution
-int lookup[8] = {B01000, B01100, B00100, B00110, B00010, B00011, B00001, B01001};
+double clockDelayMs = 5;
+int shoulderMotorPins[4] = {3,2,1,0};
+// int elbowMotorPins[4] = {3,2,1,0};
+Motor shoulderMotor(shoulderMotorPins, clockDelayMs);
+// Motor elbowMotor(elbowMotorPins, clockDelayMs);
 
 //////////////////////////////////////////////////////////////////////////////
 void setup() {
   //declare the motor pins as outputs
-  pinMode(motorPin1, OUTPUT);
-  pinMode(motorPin2, OUTPUT);
-  pinMode(motorPin3, OUTPUT);
-  pinMode(motorPin4, OUTPUT);
+  shoulderMotor.QueueRotation(true, 90, 10);
+  // elbowMotor.QueueRotation(true, 90, 10);
+
   Serial.begin(9600);
   Serial.println("stepper");
 }
@@ -127,6 +117,8 @@ void setup() {
 void loop(){
   int startTime = millis();
   
+  shoulderMotor.ProcessRotation();
+  // elbowMotor.ProcessRotation();
 
   int endTime = millis();
   int deltaTime = endTime - startTime;
@@ -136,35 +128,35 @@ void loop(){
   }
   else
   {
-    Serial.println("missed timing by" + (deltaTime - clockDelayMs));
+    Serial.println("missed timing by" + String(deltaTime - clockDelayMs, 10));
   }
 }
 
-//////////////////////////////////////////////////////////////////////////////
-//set pins to ULN2003 high in sequence from 1 to 4
-//delay "motorSpeed" between each pin setting (to determine speed)
-void anticlockwise()
-{
-  for(int i = 0; i < 8; i++)
-  {
-    setOutput(i);
-    delay(motorSpeed);
-  }
-}
+// //////////////////////////////////////////////////////////////////////////////
+// //set pins to ULN2003 high in sequence from 1 to 4
+// //delay "motorSpeed" between each pin setting (to determine speed)
+// void anticlockwise()
+// {
+//   for(int i = 0; i < 8; i++)
+//   {
+//     setOutput(i);
+//     delay(motorSpeed);
+//   }
+// }
 
-void clockwise()
-{
-  for(int i = 7; i >= 0; i--)
-  {
-    setOutput(i);
-    delay(motorSpeed);
-  }
-}
+// void clockwise()
+// {
+//   for(int i = 7; i >= 0; i--)
+//   {
+//     setOutput(i);
+//     delay(motorSpeed);
+//   }
+// }
 
-void setOutput(int out)
-{
-  digitalWrite(motorPin1, bitRead(lookup[out], 0));
-  digitalWrite(motorPin2, bitRead(lookup[out], 1));
-  digitalWrite(motorPin3, bitRead(lookup[out], 2));
-  digitalWrite(motorPin4, bitRead(lookup[out], 3));
-}
+// void setOutput(int out)
+// {
+//   digitalWrite(motorPin1, bitRead(lookup[out], 0));
+//   digitalWrite(motorPin2, bitRead(lookup[out], 1));
+//   digitalWrite(motorPin3, bitRead(lookup[out], 2));
+//   digitalWrite(motorPin4, bitRead(lookup[out], 3));
+// }
