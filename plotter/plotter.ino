@@ -49,8 +49,6 @@ class Motor
           currentStep -= 8;
         }
       }
-      Serial.println(currentStep);
-      Serial.println("msPerStep" + String(this->msPerStep));
       WriteToPins();
     }
 
@@ -98,16 +96,19 @@ class Motor
 };
 
 double clockDelayMs = 5;
-int shoulderMotorPins[4] = {3,2,1,0};
-// int elbowMotorPins[4] = {3,2,1,0};
+int shoulderMotorPins[4] = {13,12,11,10};
+int elbowMotorPins[4] = {9,8,7,6};
+int wristMotorPins[4] = {5,4,3,2};
 Motor shoulderMotor(shoulderMotorPins, clockDelayMs);
-// Motor elbowMotor(elbowMotorPins, clockDelayMs);
+Motor elbowMotor(elbowMotorPins, clockDelayMs);
+Motor wristMotor(wristMotorPins, clockDelayMs);
 
 //////////////////////////////////////////////////////////////////////////////
 void setup() {
   //declare the motor pins as outputs
-  shoulderMotor.QueueRotation(true, 90, 10);
-  // elbowMotor.QueueRotation(true, 90, 10);
+  shoulderMotor.QueueRotation(false, 30, 5);
+  elbowMotor.QueueRotation(false, 30, 5);
+  wristMotor.QueueRotation(false, 30, 5);
 
   Serial.begin(9600);
   Serial.println("stepper");
@@ -119,6 +120,7 @@ void loop(){
   
   shoulderMotor.ProcessRotation();
   // elbowMotor.ProcessRotation();
+  // wristMotor.ProcessRotation();
 
   int endTime = millis();
   int deltaTime = endTime - startTime;
