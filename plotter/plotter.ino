@@ -6,6 +6,36 @@
 // operating Frequency is 100pps. Current draw is 92mA.
 ////////////////////////////////////////////////
 
+class AngleSolver
+{
+  private:
+    double bicepLen;
+    double forearmLen;
+  
+  public:
+    AngleSolver(double bicepLen, double forearmLen)
+    {
+      this->bicepLen = bicepLen;
+      this->forearmLen = forearmLen;
+    }
+
+    double GetShoulderAngle(double x, double y)
+    {
+      double hypSq = pow(x, 2) + pow(y, 2);
+      double hyp = sqrt(hypSq);
+      double beta = acos((pow(forearmLen,2) - pow(bicepLen,2) - hypSq) / (-2 * bicepLen * hyp));
+      double alpha = atan(x/y);
+      return (alpha + beta) / PI * 180;
+    }
+
+    double GetElbowAngle(double x, double y)
+    {
+      double hypSq = pow(x, 2) + pow(y, 2);
+      double phi = acos((hypSq - pow(forearmLen,2) - pow(bicepLen,2)) / (-2 * forearmLen * bicepLen));
+      return phi / PI * 180;
+    }
+};
+
 class Motor
 {
   private:
@@ -75,9 +105,16 @@ class Motor
       this->msUntilNextStep = 0;
     }
 
+    void QueueRotation(double degrees, double degreesPerSecond)
+    {
+      bool isClockwise = degrees > 0;
+      degrees = degrees > 0 ? degrees : -degrees;
+      this->QueueRotation(isClockwise, degrees, degreesPerSecond);
+    }
+
     void ProcessRotation()
     {
-      if( this->stepsRemaining == 0 )
+      if( this->stepsRemaining <= 0 )
       {
         return;
       }
@@ -95,6 +132,7 @@ class Motor
     }
 };
 
+bool started = false;
 double clockDelayMs = 5;
 int shoulderMotorPins[4] = {13,12,11,10};
 int elbowMotorPins[4] = {9,8,7,6};
@@ -102,13 +140,31 @@ int wristMotorPins[4] = {5,4,3,2};
 Motor shoulderMotor(shoulderMotorPins, clockDelayMs);
 Motor elbowMotor(elbowMotorPins, clockDelayMs);
 Motor wristMotor(wristMotorPins, clockDelayMs);
+AngleSolver angleSolver(12.9, 18.7);
+
+double startingX = 13.7;
+double startingY = 13.5;
+double targetX = 25;
+double targetY = 7;
 
 //////////////////////////////////////////////////////////////////////////////
 void setup() {
-  //declare the motor pins as outputs
-  shoulderMotor.QueueRotation(false, 30, 5);
-  elbowMotor.QueueRotation(false, 30, 5);
-  wristMotor.QueueRotation(false, 30, 5);
+  double startingShoulder = angleSolver.GetShoulderAngle(startingX, startingY);
+  double startingElbow = angleSolver.GetElbowAngle(startingX, startingY);
+
+  double targetShoulder = angleSolver.GetShoulderAngle(targetX, targetY);
+  double targetElbow = angleSolver.GetElbowAngle(targetX, targetY);
+
+  Serial.println("start: " + String(startingShoulder) + "," + String(startingElbow));
+  Serial.println("target: " + String(targetShoulder) + "," + String(targetElbow));
+
+
+  shoulderMotor.QueueRotation(targetShoulder - startingShoulder, 2);
+  elbowMotor.QueueRotation(startingElbow - targetElbow, 2);
+  wristMotor.QueueRotation(false, 180, 1);
+
+  shoulderMotor.QueueRotation(0, 2);
+  elbowMotor.QueueRotation(90, 2);
 
   Serial.begin(9600);
   Serial.println("stepper");
@@ -116,11 +172,30 @@ void setup() {
 
 //////////////////////////////////////////////////////////////////////////////
 void loop(){
+  if (!started && Serial.available() == 0) {
+    return;
+  }
+  else
+  {
+    started = true;
+    // read the incoming byte:
+    int incomingByte = Serial.read();
+  }
+
   int startTime = millis();
   
-  shoulderMotor.ProcessRotation();
+  // shoulderMotor.ProcessRotation();
   // elbowMotor.ProcessRotation();
-  // wristMotor.ProcessRotation();
+  wristMotor.ProcessRotation();
+
+  // double startingShoulder = angleSolver.GetShoulderAngle(startingX, startingY);
+  // double startingElbow = angleSolver.GetElbowAngle(startingX, startingY);
+
+  // double targetShoulder = angleSolver.GetShoulderAngle(targetX, targetY);
+  // double targetElbow = angleSolver.GetElbowAngle(targetX, targetY);
+
+  // Serial.println("start: " + String(startingShoulder) + "," + String(startingElbow));
+  // Serial.println("target: " + String(targetShoulder) + "," + String(targetElbow));
 
   int endTime = millis();
   int deltaTime = endTime - startTime;
