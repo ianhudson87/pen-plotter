@@ -65,7 +65,7 @@ void setup() {
 
 
 
-  movementPlanner = new MovementPlanner(shoulderMotor, elbowMotor, wristMotor, angleSolver, coordinatesQueue, currentCoords, 10);
+  movementPlanner = new MovementPlanner(shoulderMotor, elbowMotor, wristMotor, angleSolver, coordinatesQueue, currentCoords, 10, 0.5);
 
 
   // Coordinates* test = coordinatesQueue->DequeueCoords();
