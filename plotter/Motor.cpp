@@ -1,10 +1,12 @@
+#include <Arduino.h>
+
 class Motor
 {
   private:
     int pins[4] = {0, 1, 2, 3};
     int currentStep = 0;
     const double stepSize = 5.625/64; // degrees per step
-    const int motorSeq[8] = {B01000, B01100, B00100, B00110, B00010, B00011, B00001, B01001};
+    const int motorSeq[8] = {0b01000, 0b01100, 0b00100, 0b00110, 0b00010, 0b00011, 0b00001, 0b01001};
     double clockDelayMs;
 
     // Queued rotation variables
@@ -77,6 +79,11 @@ class Motor
     bool IsDoneRotating()
     {
       return stepsRemaining <= 0;
+    }
+
+    int GetStepsRemaining()
+    {
+      return stepsRemaining;
     }
 
     void ProcessRotation()
