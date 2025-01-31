@@ -1,6 +1,7 @@
 #include "Motor.cpp"
 #include "AngleSolver.cpp"
 #include "Helpers.cpp"
+#include <Arduino.h>
 
 class MovementPlanner
 {
@@ -48,7 +49,7 @@ class MovementPlanner
       angleSolver(angleSolver), coordinatesQueue(coordinatesQueue), lastKnownCoordinates(currentCoordinates), targetCoordinates(currentCoordinates)
     {
       this->movementSpeed = movementSpeed;
-      this->CoordinatesQueue = Helpers.SplitUpCoordinatesQueue(targetPoints, movementIntervalSize)
+      this->coordinatesQueue = Helpers::SplitUpCoordinatesQueue(targetPoints, movementIntervalSize);
       // break up coordinates queue lines into multiple lines
     }
 

@@ -21,20 +21,20 @@ Motor wristMotor(wristMotorPins, clockDelayMs);
 AngleSolver angleSolver(12.9, 18.7);
 
 Coordinates c1(9,0);
-Coordinates c2(9,10);
-Coordinates c3(9,5);
-Coordinates c4(12,5);
-Coordinates c5(12,10);
-Coordinates c6(12,0);
-Coordinates c7(19,0);
-Coordinates c8(17,0);
-Coordinates c9(17,10);
-Coordinates c10(15,10);
-Coordinates c11(19,10);
-Coordinates c12(23,0);
+Coordinates c2(9,5);
+Coordinates c3(14,5);
+Coordinates c4(14,0);
+// Coordinates c5(12,10);
+// Coordinates c6(12,0);
+// Coordinates c7(19,0);
+// Coordinates c8(17,0);
+// Coordinates c9(17,10);
+// Coordinates c10(15,10);
+// Coordinates c11(19,10);
+Coordinates c12(14.5,0);
 CoordinatesQueue* coordinatesQueue;
 
-Coordinates* currentCoords = new Coordinates(22.5,0);
+Coordinates* currentCoords = new Coordinates(14.5,0);
 MovementPlanner* movementPlanner;
 
 bool plannedMovement = true;
@@ -47,25 +47,21 @@ bool plannedMovement = true;
 //////////////////////////////////////////////////////////////////////////////
 void setup() {
   Serial.begin(9600);
-  Serial.println("setup");
   coordinatesQueue = new CoordinatesQueue();
   coordinatesQueue->QueueCoords(&c1);
   coordinatesQueue->QueueCoords(&c2);
   coordinatesQueue->QueueCoords(&c3);
   coordinatesQueue->QueueCoords(&c4);
-  coordinatesQueue->QueueCoords(&c5);
-  coordinatesQueue->QueueCoords(&c6);
-  coordinatesQueue->QueueCoords(&c7);
-  coordinatesQueue->QueueCoords(&c8);
-  coordinatesQueue->QueueCoords(&c9);
-  coordinatesQueue->QueueCoords(&c10);
-  coordinatesQueue->QueueCoords(&c11);
+  // coordinatesQueue->QueueCoords(&c5);
+  // coordinatesQueue->QueueCoords(&c6);
+  // coordinatesQueue->QueueCoords(&c7);
+  // coordinatesQueue->QueueCoords(&c8);
+  // coordinatesQueue->QueueCoords(&c9);
+  // coordinatesQueue->QueueCoords(&c10);
+  // coordinatesQueue->QueueCoords(&c11);
   coordinatesQueue->QueueCoords(&c12);
 
-
-
-
-  movementPlanner = new MovementPlanner(shoulderMotor, elbowMotor, wristMotor, angleSolver, coordinatesQueue, currentCoords, 10, 0.5);
+  movementPlanner = new MovementPlanner(shoulderMotor, elbowMotor, wristMotor, angleSolver, coordinatesQueue, currentCoords, 3, 0.75);
 
 
   // Coordinates* test = coordinatesQueue->DequeueCoords();
@@ -114,10 +110,10 @@ void loop(){
   if (!started && digitalRead(buttonPin) == 0) {
     return;
   }
-  else
+  else if (!started && digitalRead(buttonPin) == 1)
   {
+    delay(3000);
     started = true;
-    // read the incoming byte:
   }
 
   int startTime = millis();
