@@ -1,6 +1,7 @@
 #include "Motor.cpp"
 #include "AngleSolver.cpp"
 #include "Helpers.cpp"
+#include <Arduino.h>
 
 class MovementPlanner
 {
@@ -43,11 +44,13 @@ class MovementPlanner
     }
 
   public:
-    MovementPlanner(Motor shoulderMotor, Motor elbowMotor, Motor wristMotor, AngleSolver angleSolver, CoordinatesQueue* coordinatesQueue, Coordinates* currentCoordinates, double movementSpeed)
+    MovementPlanner(Motor shoulderMotor, Motor elbowMotor, Motor wristMotor, AngleSolver angleSolver, CoordinatesQueue* targetPoints, Coordinates* currentCoordinates, double movementSpeed, double movementIntervalSize)
       : shoulderMotor(shoulderMotor), elbowMotor(elbowMotor), wristMotor(wristMotor),
       angleSolver(angleSolver), coordinatesQueue(coordinatesQueue), lastKnownCoordinates(currentCoordinates), targetCoordinates(currentCoordinates)
     {
       this->movementSpeed = movementSpeed;
+      this->coordinatesQueue = Helpers::SplitUpCoordinatesQueue(targetPoints, movementIntervalSize);
+      // break up coordinates queue lines into multiple lines
     }
 
     void ProcessMovement()
