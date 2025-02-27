@@ -18,22 +18,16 @@ int elbowPin = 3;
 Servo shoulderServo;
 Servo elbowServo;
 
-double xVel = -20.0;
+double xVel = 0.0;
 double yVel = 0.0;
 
 double a = 11.05;
 double b = 11.3;
 
-double theta = 45.0;
-double phi = 45.0;
+double theta = 90.0;
+double phi = 90.0;
 
 double clockPeriodMs = 200;
-
-bool started = false;
-bool finished = false;
-int startedTime = 0;
-int buttonPin = 14;
-int buttonState = 0;
 
 struct Matrix {
  double m11;
@@ -54,68 +48,13 @@ void setup() {
   shoulderServo.attach(shoulderPin);
 
   WriteMotorAngles(theta, phi);
-
-
-  Tuple pos = GetGlobalPos(theta, phi, a, b);
-  Serial.print("xVel: " + String(xVel));
-  Serial.print(" , ");
-  Serial.print("yVel: " + String(yVel));
-  Serial.print(" , ");
-  Serial.print("x: " + String(pos.x));
-  Serial.print(" , ");
-  Serial.print("y: " + String(pos.y));
-
-  // Matrix test = CalculateInverseJacobian(0, 90, 3, 2);
-  // Serial.println(test.m11);
-  // Serial.println(test.m12);
-  // Serial.println(test.m21);
-  // Serial.println(test.m22);
-
-  pinMode(buttonPin, INPUT);
 }
 
 void loop() {
   int startTime = millis();
 
-  // if(digitalRead(buttonPin) == 1 && buttonState == 0)
-  // {
-  //   theta += 10;
-  //   buttonState = 1;
-  //   Serial.println(theta);
-  //   WriteMotorAngles(theta, phi);
-  // }
-  // else if(digitalRead(buttonPin) == 0 && buttonState == 1)
-  // {
-  //   buttonState = 0;
-  // }
-
-  // return;
-
-  if(finished) { return; }
-
-  if (!started && digitalRead(buttonPin) == 0) {
-    return;
-  }
-  else if (!started && digitalRead(buttonPin) == 1)
-  {
-    delay(3000);
-    Serial.println("start" + String(millis()));
-    started = true;
-    startedTime = millis();
-  }
-
   //// START ////
-  SetDirection();
-
-  Tuple pos = GetGlobalPos(theta, phi, a, b);
-  Serial.print("xVel: " + String(xVel));
-  Serial.print(" , ");
-  Serial.print("yVel: " + String(yVel));
-  Serial.print(" , ");
-  Serial.print("x: " + String(pos.x));
-  Serial.print(" , ");
-  Serial.print("y: " + String(pos.y));
-  Serial.print(" , ");
+  ReadAndSetDirection();
 
   Matrix jInv = CalculateInverseJacobian(theta, phi, a, b);
 
@@ -125,21 +64,16 @@ void loop() {
   theta += thetaVel * clockPeriodMs / 1000.0;
   phi += phiVel * clockPeriodMs / 1000.0;
 
-  WriteMotorAngles(theta, phi);
-
-  Serial.print("theta: " + String(theta));
-  Serial.print(" , ");
-  Serial.print("phi: " + String(phi));
-  Serial.print(" , ");
-  Serial.print("thetaVel: " + String(thetaVel));
-  Serial.print(" , ");
-  Serial.println("phiVel: " + String(phiVel));
-
   if(theta > 180-SAFETY_DEG || theta < SAFETY_DEG || phi > 180-SAFETY_DEG || phi < SAFETY_DEG)
   {
-    finished = true;
+    theta -= thetaVel * clockPeriodMs / 1000.0;
+    phi -= phiVel * clockPeriodMs / 1000.0;
   }
 
+  WriteMotorAngles(theta, phi);
+
+  Tuple pos = GetGlobalPos(theta, phi, a, b);
+  SendGlobalPos(pos.x, pos.y);
 
   //// END ////
 
@@ -173,27 +107,25 @@ void WriteTrueMotorAngles(double shoulderAngle, double elbowAngle)
   // elbowServo.writeMicroseconds(((180.0 - elbowAngle) / 90.0 + 0.5) * 1000.0);
 }
 
-void SetDirection()
+void ReadAndSetDirection()
 {
-  if(millis() - startedTime < 10000)
+  if(Serial.available() > 0)
   {
-    xVel = -30.0;
-    yVel = 0;
-  }
-  else if(millis() - startedTime < 20000)
-  {
-    xVel = 0.0;
-    yVel = -30.0;
-  }
-  else if(millis() - startedTime < 30000)
-  {
-    xVel = 30.0;
-    yVel = 0.0;
-  }
-  else
-  {
-    xVel = 0;
-    yVel = 30.0;
+    float x = Serial.parseFloat();
+    float y = Serial.parseFloat();
+
+    xVel = double(x);
+    yVel = double(y);
+
+    Serial.println(String(x));
+    Serial.println(String(y));
+    Serial.println(String(xVel));
+    Serial.println(String(yVel));
+
+    while(Serial.available() > 0)
+    {
+      Serial.read();
+    }
   }
 }
 
@@ -209,6 +141,11 @@ Matrix CalculateInverseJacobian(double theta, double phi, double a, double b)
   double det = 1.0 / (-a * b * ( (sin(thetaRad) * cos(thetaRad + phiRad)) - (sin(thetaRad + phiRad) * cos(thetaRad)) ));
   Matrix result = {j11 * det, j12 * det, j21 * det, j22 * det};
   return result;
+}
+
+void SendGlobalPos(double x, double y)
+{
+  Serial.println("[pos] " + String(x) + " " + String(y));
 }
 
 Tuple GetGlobalPos(double theta, double phi, double a, double b)
