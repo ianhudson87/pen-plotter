@@ -12,11 +12,16 @@
 #define SHOULDER_CORRECTION_DEG 4.0
 #define ELBOW_CORRECTION_DEG -7.0
 
+#define LIFT_PLOTTER_UP_ANGLE 90
+#define LIFT_PLOTTER_DOWN_ANGLE 140
+
 int shoulderPin = 2;
 int elbowPin = 3;
+int lifterPin = 4;
 
 Servo shoulderServo;
 Servo elbowServo;
+Servo lifterServo;
 
 double xVel = 0.0;
 double yVel = 0.0;
@@ -26,6 +31,8 @@ double b = 11.3;
 
 double theta = 90.0;
 double phi = 90.0;
+
+bool isLiftedUp = true;
 
 double clockPeriodMs = 200;
 
@@ -46,15 +53,20 @@ void setup() {
 
   elbowServo.attach(elbowPin);
   shoulderServo.attach(shoulderPin);
+  lifterServo.attach(lifterPin);
 
-  WriteMotorAngles(theta, phi);
+
+  WriteJointMotorAngles(theta, phi);
+  WriteLifterMotorAngle(isLiftedUp);
 }
 
 void loop() {
   int startTime = millis();
 
   //// START ////
-  ReadAndSetDirection();
+  ReadDirectionAndLiftInstructions();
+
+  WriteLifterMotorAngle(isLiftedUp);
 
   Matrix jInv = CalculateInverseJacobian(theta, phi, a, b);
 
@@ -70,10 +82,10 @@ void loop() {
     phi -= phiVel * clockPeriodMs / 1000.0;
   }
 
-  WriteMotorAngles(theta, phi);
+  WriteJointMotorAngles(theta, phi);
 
   Tuple pos = GetGlobalPos(theta, phi, a, b);
-  SendGlobalPos(pos.x, pos.y);
+  SendGlobalPosAndLift(pos.x, pos.y, isLiftedUp);
 
   //// END ////
 
@@ -89,7 +101,7 @@ void loop() {
   }
 }
 
-void WriteMotorAngles(double shoulderAngle, double elbowAngle)
+void WriteJointMotorAngles(double shoulderAngle, double elbowAngle)
 {
   double correctedShoulderAngle = shoulderAngle + SHOULDER_CORRECTION_DEG;
   double correctedElbowAngle = 180.0 - elbowAngle + ELBOW_CORRECTION_DEG;
@@ -99,28 +111,39 @@ void WriteMotorAngles(double shoulderAngle, double elbowAngle)
   // elbowServo.writeMicroseconds(((correctedElbowAngle) / 90.0 + 0.5) * 1000.0);
 }
 
-void WriteTrueMotorAngles(double shoulderAngle, double elbowAngle)
+void WriteLifterMotorAngle(bool isLiftedUp)
 {
-  shoulderServo.write(shoulderAngle);
-  // shoulderServo.writeMicroseconds((shoulderAngle / 90.0 + 0.5) * 1000.0);
-  elbowServo.write(180.0 - elbowAngle);
-  // elbowServo.writeMicroseconds(((180.0 - elbowAngle) / 90.0 + 0.5) * 1000.0);
+  if(isLiftedUp)
+  {
+    lifterServo.write(LIFT_PLOTTER_UP_ANGLE);
+  }
+  else
+  {
+    lifterServo.write(LIFT_PLOTTER_DOWN_ANGLE);
+  }
 }
 
-void ReadAndSetDirection()
+void ReadDirectionAndLiftInstructions()
 {
   if(Serial.available() > 0)
   {
     float x = Serial.parseFloat();
     float y = Serial.parseFloat();
+    int isLiftedInt = Serial.parseInt();
 
     xVel = double(x);
     yVel = double(y);
 
-    Serial.println(String(x));
-    Serial.println(String(y));
-    Serial.println(String(xVel));
-    Serial.println(String(yVel));
+    if(isLiftedInt == 1)
+    {
+      isLiftedUp = true;
+    }
+    else if(isLiftedInt == 0)
+    {
+      isLiftedUp = false;
+    }
+
+    Serial.println("[vel] " + String(xVel) + " " + String(yVel) + " [isLifted]" + String(isLiftedInt));
 
     while(Serial.available() > 0)
     {
@@ -143,9 +166,9 @@ Matrix CalculateInverseJacobian(double theta, double phi, double a, double b)
   return result;
 }
 
-void SendGlobalPos(double x, double y)
+void SendGlobalPosAndLift(double x, double y, bool isLiftedUp)
 {
-  Serial.println("[pos] " + String(x) + " " + String(y));
+  Serial.println("[pos] " + String(x) + " " + String(y) + " isLifted: " + String(isLiftedUp));
 }
 
 Tuple GetGlobalPos(double theta, double phi, double a, double b)
