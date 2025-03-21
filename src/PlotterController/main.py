@@ -1,51 +1,12 @@
 from io import TextIOWrapper
 from math import sqrt
-from typing import Tuple
 from matplotlib.pyplot import draw
 import serial
 from enum import Enum
 import time
-
-class GCode():
-    index = 0
-    endOfFile = False
-
-    def __init__(self, filePath, scale: float, translationX: float, translationY: float, minStepSize: float = 1):
-        with open(filePath) as f:
-            self.lines = [line.rstrip('\n') for line in f]
-            print(self.lines)
-            self.scale = scale
-            self.translationX = translationX
-            self.translationY = translationY
-            self.minStepSize = minStepSize
-
-    # returns ((x,y), isLifted) or None if there is no instruction left
-    def getNextInstruction(self, currentX: float, currentY: float) -> Tuple:
-        if self.endOfFile: return None
-
-        foundValidLine = False
-        while(True):
-            words = self.lines[self.index].split()
-            self.index += 1
-
-            if(self.index >= len(self.lines)):
-                self.endOfFile = True
-                return None
-
-            instruction = words[0]
-            if instruction in ["G01", "G00"]:
-                x = float(words[1][1:])
-                y = float(words[2][1:])
-                (x, y) = self.__scaleAndTranslate(x,y)
-                # print(str(x) + ", " + str(y) + " , " + str(currentX) + " , " + str(currentY) + " , " + str(vecMagnitude(currentX - x, currentY -y)))
-                if(vecMagnitude(currentX - x, currentY - y) <= self.minStepSize or vecMagnitude(targetX - x, targetY - y) <= self.minStepSize):
-                    # print("skipping step" + str(x) + "," + str(y))
-                    continue
-                isLifted = (instruction == "G00")
-                return ((x, y), isLifted)
-
-    def __scaleAndTranslate(self, x: float, y: float) -> tuple:
-        return (x * self.scale + self.translationX, y * self.scale + self.translationY)
+from constants import Constants
+from GCodeParser import GCodeParser
+from helpers import vecMagnitude
 
 class State(Enum):
     waitingForInstruction = 1
@@ -58,7 +19,7 @@ class State(Enum):
 def parsePosData(data: str) -> tuple:
     words = data.split()
     if(len(words) > 0 and words[0] == "[pos]"):
-        print(data)
+        # print(data)
         return ((float(words[1]), float(words[2])))
     return None
 
@@ -66,7 +27,7 @@ def parsePosData(data: str) -> tuple:
 def parseVelData(data: str) -> tuple:
     words = data.split()
     if(len(words) > 0 and words[0] == "[vel]"):
-        print(data)
+        # print(data)
         return ((float(words[1]), float(words[2])))
     return None
 
@@ -75,10 +36,11 @@ def writeVelocityAndLift(ser: serial.Serial, xVel: float, yVel: float, isLifted:
     print("writing Velocity and Lift: " + output)
     ser.write(str.encode(output))
 
-def vecMagnitude(x: float, y: float) -> float:
-    return sqrt(pow(x, 2) + pow(y, 2))
+
 
 if __name__ == '__main__':
+    f = open("./trace.log",'w')
+
     prevX = 0
     prevY = 0
     currentX = 0
@@ -87,33 +49,47 @@ if __name__ == '__main__':
     targetY = 0
     currentState = State.waitingForInstruction
 
-    homePosX = -11.05
-    homePosY = 11.3
+    canvasWidth = 12
+    canvasHeight = 13.5
+    canvasCenterX = -6
+    canvasCenterY = 12.5
 
-    drawSpeed = 20
-    closenessDistance = 0.05
+    homePosX = -10.2
+    homePosY = 10.0
+
+    drawSpeed = 30
+    closenessDistance = 0.1
 
     ser = serial.Serial('COM3', 9600, timeout=0.1)
-    gcodeFile = "./gcodeFiles/cat.gcode"
-    gcode = GCode(gcodeFile, 1.0, -16, 5, 0.1)
+    gcodeFile = "./gcodeFiles/shapes.gcode"
+    gcode = GCodeParser(gcodeFile, canvasWidth, canvasHeight, canvasCenterX, canvasCenterY, minStepSize = 0.2)
 
-    time.sleep(10)
+    time.sleep(5) # wait for arduino to accept serial communication
 
     while True:
+        print("loop")
         if currentState == State.finished:
-            continue
+            print("DONE!")
+            break
 
-        data = ser.readline().decode().strip()
+        data = ser.readlines()
         if(data):
-            posData = parsePosData(data)
-            if(posData != None):
-                prevX = currentX
-                prevY = currentY
-                currentX = posData[0]
-                currentY = posData[1]
+            for dataLine in data:
+                try:
+                    dataLine = dataLine.decode().strip()
+                except:
+                    continue
+                print(dataLine)
+                f.write(dataLine + "\n")
+                posData = parsePosData(dataLine)
+                if(posData != None):
+                    prevX = currentX
+                    prevY = currentY
+                    currentX = posData[0]
+                    currentY = posData[1]
 
         if currentState == State.waitingForInstruction:
-            instruction = gcode.getNextInstruction(currentX, currentY)
+            instruction = gcode.getNextInstruction(currentX, currentY, targetX, targetY)
             if(instruction == None):
                 targetX = homePosX
                 targetY = homePosY
@@ -123,12 +99,15 @@ if __name__ == '__main__':
                 writeVelocityAndLift(ser, xDir / dirMagnitude * drawSpeed, yDir / dirMagnitude * drawSpeed, 1)
                 print("returning to home!")
 
+                prevX = currentX
+                prevY = currentY
                 currentState = State.returningToHome
             else:
                 targetX = instruction[0][0]
                 targetY = instruction[0][1]
                 isLifted = 1 if instruction[1] else 0
-                print("next coords:" + str(targetX) + "," + str(targetY) + " isLifted: " + str(isLifted))
+                print("nextCoords: " + str(targetX) + " " + str(targetY) + " isLifted: " + str(isLifted))
+                f.write("nextCoords: " + str(targetX) + " " + str(targetY) + " isLifted: " + str(isLifted) + "\n")
 
                 xDir = targetX - currentX
                 yDir = targetY - currentY
@@ -141,9 +120,15 @@ if __name__ == '__main__':
                 currentState = State.waitingForPlotterResponse
 
         elif currentState == State.waitingForPlotterResponse:
-            velData = parseVelData(data)
-            if(velData != None):
-                currentState = State.drawing
+            if(data):
+                for dataLine in data:
+                    dataLine = dataLine.decode().strip()
+                    velData = parseVelData(dataLine)
+                    if(velData != None):
+                        prevX = currentX
+                        prevY = currentY
+                        currentState = State.drawing
+                        continue
 
         elif currentState == State.returningToHome:
             prevDistanceToTarget = vecMagnitude(targetX - prevX, targetY - prevY)
@@ -155,8 +140,14 @@ if __name__ == '__main__':
         elif currentState == State.drawing:
             prevDistanceToTarget = vecMagnitude(targetX - prevX, targetY - prevY)
             currentDistanceToTarget = vecMagnitude(targetX - currentX, targetY - currentY)
+            distances = f"prevDist: {prevDistanceToTarget}, currentDist: {currentDistanceToTarget}"
+            print(distances)
+            f.write(distances + "\n")
             if(currentDistanceToTarget < closenessDistance or currentDistanceToTarget > prevDistanceToTarget):
                 currentState = State.waitingForInstruction
+
+
+    f.close()
 
         
 

@@ -11,7 +11,7 @@ def serve_html():
     return send_from_directory(HTML_DIR, "index.html")
 
 @app.route('/plot')
-def serve_html():
+def plot():
     print("Plotting!")
 
 if __name__ == '__main__':
