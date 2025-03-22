@@ -63,10 +63,13 @@ def plot(gcodeFile:str, traceFile: str = "./trace.log", serialPort: str = "COM3"
     ser = serial.Serial(serialPort, 9600, timeout=0.1)
     gcode = GCodeParser(gcodeFile, canvasWidth, canvasHeight, canvasCenterX, canvasCenterY, minStepSize = 0.2)
 
+    startTime = time.time()
+
     time.sleep(5) # wait for arduino to accept serial communication
 
     while True:
-        print("loop")
+        currentTime = time.time()
+        print("loop. time: " + str(currentTime - startTime) + " currentState: " + str(currentState))
         if currentState == State.finished:
             print("DONE!")
             break
