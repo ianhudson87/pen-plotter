@@ -131,6 +131,7 @@ def plot(gcodeFile:str, traceFile: str = "./trace.log", serialPort: str = "COM3"
         elif currentState == State.returningToHome:
             prevDistanceToTarget = vecMagnitude(targetX - prevX, targetY - prevY)
             currentDistanceToTarget = vecMagnitude(targetX - currentX, targetY - currentY)
+            distances = f"prevDist: {prevDistanceToTarget}, currentDist: {currentDistanceToTarget}"
             if(currentDistanceToTarget < closenessDistance or currentDistanceToTarget > prevDistanceToTarget):
                 currentState = State.finished
                 writeVelocityAndLift(ser, 0, 0, 1)
