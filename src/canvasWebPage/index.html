@@ -62,7 +62,7 @@
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ gcode })
             })
-            .then(response => response.json())
+            .then(response => {console.log(response); response.json()})
             .then(data => alert('G-code sent successfully!'))
             .catch(error => alert('Error sending G-code'));
         }
