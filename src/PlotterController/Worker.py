@@ -23,7 +23,8 @@ if __name__ == '__main__':
         if status == "queued":
             with open(opStatusFilePath, 'w') as opStatusFile:
                 opStatusFile.write("running")
-                PlotterController.plot(gcodeFilePath, serialPort=serialPort)
+            PlotterController.plot(gcodeFilePath, serialPort=serialPort)
+            with open(opStatusFilePath, 'w') as opStatusFile:
                 opStatusFile.write("waiting")
 
         time.sleep(2)
