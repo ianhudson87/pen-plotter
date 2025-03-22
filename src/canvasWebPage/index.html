@@ -62,11 +62,11 @@
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ gcode })
             })
-            .then(response => {console.log(response); response.json()})
+            .then(response => response.json()) // Ensure the JSON response is properly parsed
             .then(data => {
-                alert(data.message)
+                alert(data.message); // Use the parsed JSON to display the message
             })
-            .catch(error => alert('Error sending G-code'));
+            .catch(error => alert('Error sending G-code: ' + error.message)); // Include error details
         }
         
         canvas.addEventListener('mousedown', startDrawing);
