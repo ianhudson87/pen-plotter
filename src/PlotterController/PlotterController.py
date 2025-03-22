@@ -152,7 +152,10 @@ def plot(gcodeFile:str, traceFile: str = "./trace.log"):
 
 
 if __name__ == '__main__':
-    gcodeFile = sys.argv[1]
+    if(len(sys.argv) < 2):
+        print("Usage: PlotterController.py [gcodeFilePath]")
+
+    gcodeFilePath = sys.argv[1]
     # total arguments
     # n = len(sys.argv)
     # print("Total arguments passed:", n)
@@ -161,4 +164,4 @@ if __name__ == '__main__':
     # for i in range(1, n):
     #     print(sys.argv[i], end = " ")
         
-    plot(gcodeFile)
+    plot(gcodeFilePath)

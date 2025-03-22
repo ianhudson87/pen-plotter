@@ -3,8 +3,11 @@ import PlotterController
 import time
 
 if __name__ == '__main__':
+    if(len(sys.argv) < 3):
+        print("Usage: Worker.py [opStatusFilePath] [gcodeFilePath]")
+
     opStatusFilePath = sys.argv[1]
-    gcodeFile = sys.argv[2]
+    gcodeFilePath = sys.argv[2]
 
     print(opStatusFilePath)
 
@@ -17,7 +20,7 @@ if __name__ == '__main__':
             print(status)
             if status == "queued":
                 opStatusFile.write("running")
-                PlotterController.plot(gcodeFile)
+                PlotterController.plot(gcodeFilePath)
                 opStatusFile.write("waiting")
 
         time.sleep(2)

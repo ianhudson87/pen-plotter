@@ -3,9 +3,6 @@ import os
 import time
 import sys
 
-opStatusFilePath = sys.argv[1]
-gcodeFilePath = sys.argv[2]
-
 app = Flask(__name__)
 
 # Define the path to the directory containing the HTML file
@@ -34,4 +31,10 @@ def plot():
             return "Conflict. Job is already running", 409
 
 if __name__ == '__main__':
+    if(len(sys.argv) < 3):
+        print("Usage: server.py [opStatusFilePath] [gcodeFilePath]")
+
+    opStatusFilePath = sys.argv[1]
+    gcodeFilePath = sys.argv[2]
+
     app.run(debug=True, host='0.0.0.0', port=5000)
