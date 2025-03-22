@@ -3,7 +3,7 @@ import PlotterController
 import time
 
 if __name__ == '__main__':
-    if(len(sys.argv) < 3):
+    if(len(sys.argv) < 4):
         print("Usage: Worker.py [opStatusFilePath] [gcodeFilePath] [serialPort]")
 
     opStatusFilePath = sys.argv[1]
