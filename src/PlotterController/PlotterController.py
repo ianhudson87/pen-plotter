@@ -11,9 +11,10 @@ import sys
 class State(Enum):
     waitingForInstruction = 1
     waitingForPlotterResponse = 2
-    drawing = 3
-    returningToHome = 4
-    finished = 5
+    waitingForPlotterResponseForHome = 3
+    drawing = 4
+    returningToHome = 5
+    finished = 6
 
 # returns (xPos, yPos)
 def parsePosData(data: str) -> tuple:
@@ -99,7 +100,7 @@ def plot(gcodeFile:str, traceFile: str = "./trace.log", serialPort: str = "COM3"
 
                 prevX = currentX
                 prevY = currentY
-                currentState = State.returningToHome
+                currentState = State.waitingForPlotterResponseForHome
             else:
                 targetX = instruction[0][0]
                 targetY = instruction[0][1]
@@ -128,10 +129,23 @@ def plot(gcodeFile:str, traceFile: str = "./trace.log", serialPort: str = "COM3"
                         currentState = State.drawing
                         continue
 
+        elif currentState == State.waitingForPlotterResponseForHome:
+            if(data):
+                for dataLine in data:
+                    dataLine = dataLine.decode().strip()
+                    velData = parseVelData(dataLine)
+                    if(velData != None):
+                        prevX = currentX
+                        prevY = currentY
+                        currentState = State.returningToHome
+                        continue
+
         elif currentState == State.returningToHome:
             prevDistanceToTarget = vecMagnitude(targetX - prevX, targetY - prevY)
             currentDistanceToTarget = vecMagnitude(targetX - currentX, targetY - currentY)
             distances = f"prevDist: {prevDistanceToTarget}, currentDist: {currentDistanceToTarget}"
+            print(distances)
+            f.write(distances + "\n")
             if(currentDistanceToTarget < closenessDistance or currentDistanceToTarget > prevDistanceToTarget):
                 currentState = State.finished
                 writeVelocityAndLift(ser, 0, 0, 1)
