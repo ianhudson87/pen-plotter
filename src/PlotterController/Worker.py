@@ -16,10 +16,12 @@ if __name__ == '__main__':
         opStatusFile.write("waiting")
 
     while(True):
-        with open(opStatusFilePath, 'r+') as opStatusFile:
+        with open(opStatusFilePath, 'r') as opStatusFile:
             status = opStatusFile.read()
-            print(status)
-            if status == "queued":
+            print(f"Status: {status}")
+
+        if status == "queued":
+            with open(opStatusFilePath, 'w') as opStatusFile:
                 opStatusFile.write("running")
                 PlotterController.plot(gcodeFilePath, serialPort=serialPort)
                 opStatusFile.write("waiting")
