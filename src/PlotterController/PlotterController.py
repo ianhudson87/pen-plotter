@@ -36,7 +36,7 @@ def writeVelocityAndLift(ser: serial.Serial, xVel: float, yVel: float, isLifted:
     print("writing Velocity and Lift: " + output)
     ser.write(str.encode(output))
 
-def plot(gcodeFile:str, traceFile: str = "./trace.log"):
+def plot(gcodeFile:str, traceFile: str = "./trace.log", serialPort: str = "COM3"):
 
     f = open(traceFile,'w')
 
