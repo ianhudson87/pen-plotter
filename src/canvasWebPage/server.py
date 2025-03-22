@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory, request
+from flask import Flask, send_from_directory, request, jsonify
 import os
 import time
 import sys
@@ -26,11 +26,13 @@ def plot():
             gcodeFile.write(request.json['gcode'])
         with open(opStatusFilePath, 'w') as opStatusFile:
             opStatusFile.write("queued")
-        return "Plotting request accepted", 202
-        # return job accepted
+
+        data = {'message': 'Plotting request accepted'}
+        return jsonify(data), 202
     else:
         # another job is already queued. return conflict
-        return "Conflict. Job is already running", 409
+        data = {'message': 'Conflict. Job is already running'}
+        return jsonify(data), 409
 
 if __name__ == '__main__':
     if(len(sys.argv) < 3):
