@@ -1,6 +1,5 @@
 from io import TextIOWrapper
 from math import sqrt
-from matplotlib.pyplot import draw
 import serial
 from enum import Enum
 import time
