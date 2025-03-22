@@ -59,7 +59,7 @@ def plot(gcodeFile:str, traceFile: str = "./trace.log", serialPort: str = "COM3"
     drawSpeed = 30
     closenessDistance = 0.1
 
-    ser = serial.Serial('COM3', 9600, timeout=0.1)
+    ser = serial.Serial(serialPort, 9600, timeout=0.1)
     gcode = GCodeParser(gcodeFile, canvasWidth, canvasHeight, canvasCenterX, canvasCenterY, minStepSize = 0.2)
 
     time.sleep(5) # wait for arduino to accept serial communication
