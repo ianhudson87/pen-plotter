@@ -16,19 +16,21 @@ def serve_html():
 def plot():
     print("plot requested")
     print(request.json)
-    with open(opStatusFilePath, 'r+') as opStatusFile:
+    with open(opStatusFilePath, 'r') as opStatusFile:
         status = opStatusFile.read()
-        print(status)
-        if status == "waiting":
-            # write gcodefile
-            with open(gcodeFilePath, 'r+') as gcodeFile:
-                gcodeFile.write
+
+    print(f"Current status: {status}")
+
+    if status == "waiting":
+        with open(gcodeFilePath, 'w') as gcodeFile:
+            gcodeFile.write(request.json['gcode'])
+        with open(opStatusFilePath, 'w') as opStatusFile:
             opStatusFile.write("queued")
-            return "Plotting request accepted", 202
-            # return job accepted
-        else:
-            # another job is already queued. return conflict
-            return "Conflict. Job is already running", 409
+        return "Plotting request accepted", 202
+        # return job accepted
+    else:
+        # another job is already queued. return conflict
+        return "Conflict. Job is already running", 409
 
 if __name__ == '__main__':
     if(len(sys.argv) < 3):
