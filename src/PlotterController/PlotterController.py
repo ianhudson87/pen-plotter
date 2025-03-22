@@ -48,8 +48,8 @@ def plot(gcodeFile:str, traceFile: str = "./trace.log", serialPort: str = "COM3"
     targetY = 0
     currentState = State.waitingForInstruction
 
-    canvasWidth = 12
-    canvasHeight = 13.5
+    canvasWidth = 11
+    canvasHeight = 11.5
     canvasCenterX = -6
     canvasCenterY = 12.5
 
