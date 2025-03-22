@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-traceFile="trace.log"
+traceFile="./traceLogs/trace.log"
 
 with open(traceFile) as f:
     lines = [line.rstrip('\n') for line in f]

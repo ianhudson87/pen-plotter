@@ -7,6 +7,7 @@ import time
 from constants import Constants
 from GCodeParser import GCodeParser
 from helpers import vecMagnitude
+import sys
 
 class State(Enum):
     waitingForInstruction = 1
@@ -36,10 +37,9 @@ def writeVelocityAndLift(ser: serial.Serial, xVel: float, yVel: float, isLifted:
     print("writing Velocity and Lift: " + output)
     ser.write(str.encode(output))
 
+def plot(gcodeFile:str, traceFile: str = "./trace.log"):
 
-
-if __name__ == '__main__':
-    f = open("./trace.log",'w')
+    f = open(traceFile,'w')
 
     prevX = 0
     prevY = 0
@@ -61,7 +61,6 @@ if __name__ == '__main__':
     closenessDistance = 0.1
 
     ser = serial.Serial('COM3', 9600, timeout=0.1)
-    gcodeFile = "./gcodeFiles/shapes.gcode"
     gcode = GCodeParser(gcodeFile, canvasWidth, canvasHeight, canvasCenterX, canvasCenterY, minStepSize = 0.2)
 
     time.sleep(5) # wait for arduino to accept serial communication
@@ -151,3 +150,15 @@ if __name__ == '__main__':
 
         
 
+
+if __name__ == '__main__':
+    gcodeFile = sys.argv[1]
+    # total arguments
+    # n = len(sys.argv)
+    # print("Total arguments passed:", n)
+
+    # print("\nArguments passed:", end = " ")
+    # for i in range(1, n):
+    #     print(sys.argv[i], end = " ")
+        
+    plot(gcodeFile)
