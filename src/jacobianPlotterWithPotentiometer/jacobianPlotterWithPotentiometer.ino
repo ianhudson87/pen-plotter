@@ -107,6 +107,8 @@ void loop() {
   {
     Serial.println("missed timing by" + String(deltaTime - clockPeriodMs, 10));
   }
+
+  Serial.flush();
 }
 
 void WriteJointMotorAngles(double shoulderAngle, double elbowAngle)
