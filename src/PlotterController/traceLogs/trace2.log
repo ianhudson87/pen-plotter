@@ -1,0 +1,4062 @@
+t[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+[angles] theta: 90.00, Phi: 90.00
+[pos] -10.20 10.00 isLifted: 1
+nextCoords: -2.8197838651789695 14.749262662115271 isLifted: 1
+[vel] 25.23 16.23 [isLifted]1
+[angles] theta: 89.50, Phi: 90.19
+[pos] -10.11 10.06 isLifted: 1
+missed timing by834.0000000000
+[angles] theta: 88.99, Phi: 90.37
+[pos] -10.02 10.11 isLifted: 1
+[angles] theta: 88.49, Phi: 90.54
+[pos] -9.94 10.17 isLifted: 1
+[angles] theta: 87.99, Phi: 90.71
+[pos] -9.85 10.23 isLifted: 1
+prevDist: 8.46564376377891, currentDist: 8.357492082645795
+[angles] theta: 87.50, Phi: 90.87
+[pos] -9.76 10.28 isLifted: 1
+prevDist: 8.357492082645795, currentDist: 8.254750677095453
+[angles] theta: 87.00, Phi: 91.03
+[pos] -9.67 10.34 isLifted: 1
+prevDist: 8.254750677095453, currentDist: 8.14659795971829
+[angles] theta: 86.51, Phi: 91.17
+[pos] -9.58 10.39 isLifted: 1
+prevDist: 8.14659795971829, currentDist: 8.043860587230917
+[angles] theta: 86.02, Phi: 91.32
+[pos] -9.49 10.45 isLifted: 1
+prevDist: 8.043860587230917, currentDist: 7.935706819375657
+[angles] theta: 85.53, Phi: 91.45
+[pos] -9.41 10.51 isLifted: 1
+prevDist: 7.935706819375657, currentDist: 7.835961754759916
+[angles] theta: 85.04, Phi: 91.59
+[pos] -9.32 10.56 isLifted: 1
+prevDist: 7.835961754759916, currentDist: 7.733222578691291
+[angles] theta: 84.56, Phi: 91.71
+[pos] -9.23 10.62 isLifted: 1
+prevDist: 7.733222578691291, currentDist: 7.625069247414031
+[angles] theta: 84.07, Phi: 91.83
+[pos] -9.14 10.68 isLifted: 1
+prevDist: 7.625069247414031, currentDist: 7.51691629620402
+[angles] theta: 83.59, Phi: 91.94
+[pos] -9.05 10.73 isLifted: 1
+prevDist: 7.51691629620402, currentDist: 7.414180024362656
+[angles] theta: 83.11, Phi: 92.05
+[pos] -8.96 10.79 isLifted: 1
+prevDist: 7.414180024362656, currentDist: 7.306025938219535
+[angles] theta: 82.64, Phi: 92.15
+[pos] -8.88 10.84 isLifted: 1
+prevDist: 7.306025938219535, currentDist: 7.211695650965432
+[angles] theta: 82.17, Phi: 92.24
+[pos] -8.79 10.90 isLifted: 1
+prevDist: 7.211695650965432, currentDist: 7.103541633469328
+[angles] theta: 81.69, Phi: 92.33
+[pos] -8.70 10.96 isLifted: 1
+prevDist: 7.103541633469328, currentDist: 6.995388003156829
+[angles] theta: 81.23, Phi: 92.41
+[pos] -8.61 11.01 isLifted: 1
+prevDist: 6.995388003156829, currentDist: 6.892654651455502
+[angles] theta: 80.76, Phi: 92.49
+[pos] -8.52 11.07 isLifted: 1
+prevDist: 6.892654651455502, currentDist: 6.784499813583132
+[angles] theta: 80.30, Phi: 92.56
+[pos] -8.44 11.13 isLifted: 1
+prevDist: 6.784499813583132, currentDist: 6.684750677436246
+[angles] theta: 79.84, Phi: 92.62
+[pos] -8.35 11.18 isLifted: 1
+prevDist: 6.684750677436246, currentDist: 6.582015378970567
+[angles] theta: 79.38, Phi: 92.68
+[pos] -8.26 11.24 isLifted: 1
+prevDist: 6.582015378970567, currentDist: 6.473860982851225
+[angles] theta: 78.92, Phi: 92.73
+[pos] -8.17 11.29 isLifted: 1
+prevDist: 6.473860982851225, currentDist: 6.371131049884637
+[angles] theta: 78.47, Phi: 92.77
+[pos] -8.08 11.35 isLifted: 1
+prevDist: 6.371131049884637, currentDist: 6.262975365677443
+[angles] theta: 78.02, Phi: 92.81
+[pos] -7.99 11.41 isLifted: 1
+prevDist: 6.262975365677443, currentDist: 6.154820062955609
+[angles] theta: 77.57, Phi: 92.84
+[pos] -7.91 11.46 isLifted: 1
+prevDist: 6.154820062955609, currentDist: 6.060490834872864
+[angles] theta: 77.13, Phi: 92.87
+[pos] -7.82 11.52 isLifted: 1
+prevDist: 6.060490834872864, currentDist: 5.952335569829407
+[angles] theta: 76.69, Phi: 92.89
+[pos] -7.73 11.58 isLifted: 1
+prevDist: 5.952335569829407, currentDist: 5.844180722063167
+[angles] theta: 76.25, Phi: 92.90
+[pos] -7.64 11.63 isLifted: 1
+prevDist: 5.844180722063167, currentDist: 5.7414530514196
+[angles] theta: 75.82, Phi: 92.91
+[pos] -7.55 11.69 isLifted: 1
+prevDist: 5.7414530514196, currentDist: 5.63329678944167
+[angles] theta: 75.38, Phi: 92.91
+[pos] -7.46 11.75 isLifted: 1
+prevDist: 5.63329678944167, currentDist: 5.52514092980552
+[angles] theta: 74.96, Phi: 92.91
+[pos] -7.38 11.80 isLifted: 1
+prevDist: 5.52514092980552, currentDist: 5.430812227137789
+[angles] theta: 74.53, Phi: 92.90
+[pos] -7.29 11.86 isLifted: 1
+prevDist: 5.430812227137789, currentDist: 5.3226563878112305
+[angles] theta: 74.11, Phi: 92.88
+[pos] -7.20 11.91 isLifted: 1
+prevDist: 5.3226563878112305, currentDist: 5.219933510326389
+[angles] theta: 73.69, Phi: 92.86
+[pos] -7.11 11.97 isLifted: 1
+prevDist: 5.219933510326389, currentDist: 5.111776152034317
+[angles] theta: 73.27, Phi: 92.83
+[pos] -7.02 12.03 isLifted: 1
+prevDist: 5.111776152034317, currentDist: 5.003619190624437
+[angles] theta: 72.86, Phi: 92.79
+[pos] -6.93 12.08 isLifted: 1
+prevDist: 5.003619190624437, currentDist: 4.900901940898821
+[angles] theta: 72.45, Phi: 92.75
+[pos] -6.85 12.14 isLifted: 1
+prevDist: 4.900901940898821, currentDist: 4.801134629780822
+[angles] theta: 72.05, Phi: 92.70
+[pos] -6.76 12.20 isLifted: 1
+prevDist: 4.801134629780822, currentDist: 4.69297808534826
+[angles] theta: 71.64, Phi: 92.65
+[pos] -6.67 12.25 isLifted: 1
+prevDist: 4.69297808534826, currentDist: 4.590259049234554
+[angles] theta: 71.25, Phi: 92.59
+[pos] -6.58 12.31 isLifted: 1
+prevDist: 4.590259049234554, currentDist: 4.482100814948063
+[angles] theta: 70.85, Phi: 92.52
+[pos] -6.49 12.37 isLifted: 1
+prevDist: 4.482100814948063, currentDist: 4.37394299135648
+[angles] theta: 70.46, Phi: 92.45
+[pos] -6.40 12.42 isLifted: 1
+prevDist: 4.37394299135648, currentDist: 4.271230750165246
+[angles] theta: 70.07, Phi: 92.37
+[pos] -6.32 12.48 isLifted: 1
+prevDist: 4.271230750165246, currentDist: 4.1714585003487645
+[angles] theta: 69.69, Phi: 92.29
+[pos] -6.23 12.53 isLifted: 1
+prevDist: 4.1714585003487645, currentDist: 4.0687468402018645
+[angles] theta: 69.31, Phi: 92.19
+[pos] -6.14 12.59 isLifted: 1
+prevDist: 4.0687468402018645, currentDist: 3.960587131465615
+[angles] theta: 68.93, Phi: 92.10
+[pos] -6.05 12.65 isLifted: 1
+prevDist: 3.960587131465615, currentDist: 3.852427806229392
+[angles] theta: 68.56, Phi: 91.99
+[pos] -5.96 12.70 isLifted: 1
+prevDist: 3.852427806229392, currentDist: 3.749724634120498
+[angles] theta: 68.19, Phi: 91.89
+[pos] -5.88 12.76 isLifted: 1
+prevDist: 3.749724634120498, currentDist: 3.6499436613055964
+[angles] theta: 67.83, Phi: 91.77
+[pos] -5.79 12.82 isLifted: 1
+prevDist: 3.6499436613055964, currentDist: 3.5417846217667277
+[angles] theta: 67.47, Phi: 91.65
+[pos] -5.70 12.87 isLifted: 1
+prevDist: 3.5417846217667277, currentDist: 3.4390802747978966
+[angles] theta: 67.11, Phi: 91.52
+[pos] -5.61 12.93 isLifted: 1
+prevDist: 3.4390802747978966, currentDist: 3.3309191993776066
+[angles] theta: 66.76, Phi: 91.39
+[pos] -5.52 12.99 isLifted: 1
+prevDist: 3.3309191993776066, currentDist: 3.222758490650631
+[angles] theta: 66.42, Phi: 91.25
+[pos] -5.43 13.04 isLifted: 1
+prevDist: 3.222758490650631, currentDist: 3.1200652426802593
+[angles] theta: 66.07, Phi: 91.10
+[pos] -5.35 13.10 isLifted: 1
+prevDist: 3.1200652426802593, currentDist: 3.0202749903868398
+[angles] theta: 65.73, Phi: 90.95
+[pos] -5.26 13.15 isLifted: 1
+prevDist: 3.0202749903868398, currentDist: 2.9175839057475126
+[angles] theta: 65.40, Phi: 90.79
+[pos] -5.17 13.21 isLifted: 1
+prevDist: 2.9175839057475126, currentDist: 2.809420834149859
+[angles] theta: 65.07, Phi: 90.62
+[pos] -5.08 13.27 isLifted: 1
+prevDist: 2.809420834149859, currentDist: 2.7012580401793675
+[angles] theta: 64.74, Phi: 90.45
+[pos] -4.99 13.32 isLifted: 1
+prevDist: 2.7012580401793675, currentDist: 2.5985822729239043
+[angles] theta: 64.42, Phi: 90.27
+[pos] -4.90 13.38 isLifted: 1
+prevDist: 2.5985822729239043, currentDist: 2.4904175162877302
+[angles] theta: 64.10, Phi: 90.09
+[pos] -4.82 13.44 isLifted: 1
+prevDist: 2.4904175162877302, currentDist: 2.390613583247521
+[angles] theta: 63.79, Phi: 89.90
+[pos] -4.73 13.49 isLifted: 1
+prevDist: 2.390613583247521, currentDist: 2.287939713787983
+[angles] theta: 63.48, Phi: 89.71
+[pos] -4.64 13.55 isLifted: 1
+prevDist: 2.287939713787983, currentDist: 2.179774692532835
+[angles] theta: 63.18, Phi: 89.50
+[pos] -4.55 13.61 isLifted: 1
+prevDist: 2.179774692532835, currentDist: 2.0716098296940477
+[angles] theta: 62.88, Phi: 89.30
+[pos] -4.46 13.66 isLifted: 1
+prevDist: 2.0716098296940477, currentDist: 1.9689596532193563
+[angles] theta: 62.58, Phi: 89.08
+[pos] -4.37 13.72 isLifted: 1
+prevDist: 1.9689596532193563, currentDist: 1.8607932964958973
+[angles] theta: 62.29, Phi: 88.86
+[pos] -4.28 13.77 isLifted: 1
+prevDist: 1.8607932964958973, currentDist: 1.7581770450682033
+[angles] theta: 62.01, Phi: 88.64
+[pos] -4.20 13.83 isLifted: 1
+prevDist: 1.7581770450682033, currentDist: 1.6583245824565107
+[angles] theta: 61.73, Phi: 88.40
+[pos] -4.11 13.89 isLifted: 1
+prevDist: 1.6583245824565107, currentDist: 1.5501580555085155
+[angles] theta: 61.45, Phi: 88.16
+[pos] -4.02 13.94 isLifted: 1
+prevDist: 1.5501580555085155, currentDist: 1.4475582290804847
+[angles] theta: 61.18, Phi: 87.92
+[pos] -3.93 14.00 isLifted: 1
+prevDist: 1.4475582290804847, currentDist: 1.3393932965552022
+[angles] theta: 60.91, Phi: 87.67
+[pos] -3.84 14.06 isLifted: 1
+prevDist: 1.3393932965552022, currentDist: 1.2312286461642257
+[angles] theta: 60.65, Phi: 87.41
+[pos] -3.75 14.11 isLifted: 1
+prevDist: 1.2312286461642257, currentDist: 1.1286978376235517
+[angles] theta: 60.40, Phi: 87.15
+[pos] -3.67 14.17 isLifted: 1
+prevDist: 1.1286978376235517, currentDist: 1.0287918679844252
+[angles] theta: 60.14, Phi: 86.88
+[pos] -3.58 14.23 isLifted: 1
+prevDist: 1.0287918679844252, currentDist: 0.9206314593306406
+[angles] theta: 59.90, Phi: 86.60
+[pos] -3.49 14.28 isLifted: 1
+prevDist: 0.9206314593306406, currentDist: 0.8181669227180683
+[angles] theta: 59.65, Phi: 86.32
+[pos] -3.40 14.34 isLifted: 1
+prevDist: 0.8181669227180683, currentDist: 0.7100328793149896
+[angles] theta: 59.42, Phi: 86.03
+[pos] -3.31 14.39 isLifted: 1
+prevDist: 0.7100328793149896, currentDist: 0.6077676523384753
+[angles] theta: 59.19, Phi: 85.73
+[pos] -3.22 14.45 isLifted: 1
+prevDist: 0.6077676523384753, currentDist: 0.4997310231588636
+[angles] theta: 58.96, Phi: 85.43
+[pos] -3.14 14.51 isLifted: 1
+prevDist: 0.4997310231588636, currentDist: 0.3997311527542066
+[angles] theta: 58.74, Phi: 85.12
+[pos] -3.05 14.56 isLifted: 1
+prevDist: 0.3997311527542066, currentDist: 0.2980265491577786
+[angles] theta: 58.52, Phi: 84.81
+[pos] -2.96 14.62 isLifted: 1
+prevDist: 0.2980265491577786, currentDist: 0.19070763036983154
+[angles] theta: 58.31, Phi: 84.49
+[pos] -2.87 14.68 isLifted: 1
+prevDist: 0.19070763036983154, currentDist: 0.08555101729177829
+[angles] theta: 58.10, Phi: 84.16
+[pos] -2.78 14.73 isLifted: 1
+nextCoords: -2.8197838651789713 17.169202769333538 isLifted: 0
+[vel] -0.49 30.00 [isLifted]0
+[angles] theta: 58.48, Phi: 83.29
+[pos] -2.78 14.84 isLifted: 0
+missed timing by835.0000000000
+[angles] theta: 58.86, Phi: 82.41
+[pos] -2.79 14.94 isLifted: 0
+[angles] theta: 59.25, Phi: 81.52
+[pos] -2.79 15.05 isLifted: 0
+[angles] theta: 59.64, Phi: 80.62
+[pos] -2.79 15.15 isLifted: 0
+prevDist: 2.119412054362231, currentDist: 2.019422417997093
+[angles] theta: 60.03, Phi: 79.72
+[pos] -2.79 15.25 isLifted: 0
+prevDist: 2.019422417997093, currentDist: 1.919433861440013
+[angles] theta: 60.44, Phi: 78.80
+[pos] -2.79 15.36 isLifted: 0
+prevDist: 1.919433861440013, currentDist: 1.8094479100513345
+[angles] theta: 60.84, Phi: 77.88
+[pos] -2.79 15.46 isLifted: 0
+prevDist: 1.8094479100513345, currentDist: 1.7094622503355932
+[angles] theta: 61.26, Phi: 76.95
+[pos] -2.79 15.57 isLifted: 0
+prevDist: 1.7094622503355932, currentDist: 1.5994800955526312
+[angles] theta: 61.67, Phi: 76.00
+[pos] -2.80 15.67 isLifted: 0
+prevDist: 1.5994800955526312, currentDist: 1.4993333001366869
+[angles] theta: 62.10, Phi: 75.05
+[pos] -2.80 15.77 isLifted: 0
+prevDist: 1.4993333001366869, currentDist: 1.3993426281765526
+[angles] theta: 62.53, Phi: 74.09
+[pos] -2.80 15.88 isLifted: 0
+prevDist: 1.3993426281765526, currentDist: 1.2893545601496432
+[angles] theta: 62.96, Phi: 73.11
+[pos] -2.80 15.98 isLifted: 0
+prevDist: 1.2893545601496432, currentDist: 1.1893673225341168
+[angles] theta: 63.40, Phi: 72.13
+[pos] -2.80 16.09 isLifted: 0
+prevDist: 1.1893673225341168, currentDist: 1.079384092276052
+[angles] theta: 63.85, Phi: 71.13
+[pos] -2.80 16.19 isLifted: 0
+prevDist: 1.079384092276052, currentDist: 0.979402606077749
+[angles] theta: 64.31, Phi: 70.12
+[pos] -2.81 16.30 isLifted: 0
+prevDist: 0.979402606077749, currentDist: 0.8692578318513616
+[angles] theta: 64.77, Phi: 69.10
+[pos] -2.81 16.40 isLifted: 0
+prevDist: 0.8692578318513616, currentDist: 0.7692649896935555
+[angles] theta: 65.24, Phi: 68.06
+[pos] -2.81 16.50 isLifted: 0
+prevDist: 0.7692649896935555, currentDist: 0.6692742864487745
+[angles] theta: 65.72, Phi: 67.02
+[pos] -2.81 16.61 isLifted: 0
+prevDist: 0.6692742864487745, currentDist: 0.559288352505341
+[angles] theta: 66.21, Phi: 65.95
+[pos] -2.81 16.71 isLifted: 0
+prevDist: 0.559288352505341, currentDist: 0.45930698599240755
+[angles] theta: 66.70, Phi: 64.87
+[pos] -2.81 16.82 isLifted: 0
+prevDist: 0.45930698599240755, currentDist: 0.34933980324041514
+[angles] theta: 67.20, Phi: 63.78
+[pos] -2.81 16.92 isLifted: 0
+prevDist: 0.34933980324041514, currentDist: 0.24939475588180235
+[angles] theta: 67.72, Phi: 62.66
+[pos] -2.82 17.02 isLifted: 0
+prevDist: 0.24939475588180235, currentDist: 0.1492029258796818
+[angles] theta: 68.24, Phi: 61.53
+[pos] -2.82 17.13 isLifted: 0
+prevDist: 0.1492029258796818, currentDist: 0.03920336513208396
+[angles] theta: 68.77, Phi: 60.39
+[pos] -2.82 17.23 isLifted: 0
+nextCoords: -8.362436243624362 17.169202769333538 isLifted: 0
+[vel] -30.00 -0.33 [isLifted]0
+[angles] theta: 69.20, Phi: 60.21
+[pos] -2.92 17.23 isLifted: 0
+missed timing by848.0000000000
+[angles] theta: 69.63, Phi: 60.02
+[pos] -3.03 17.23 isLifted: 0
+[angles] theta: 70.07, Phi: 59.83
+[pos] -3.13 17.23 isLifted: 0
+[angles] theta: 70.51, Phi: 59.63
+[pos] -3.24 17.22 isLifted: 0
+prevDist: 5.23278944224307, currentDist: 5.122688105735098
+[angles] theta: 70.95, Phi: 59.42
+[pos] -3.34 17.22 isLifted: 0
+prevDist: 5.122688105735098, currentDist: 5.0226931202209615
+[angles] theta: 71.39, Phi: 59.21
+[pos] -3.45 17.22 isLifted: 0
+prevDist: 5.0226931202209615, currentDist: 4.91269887193563
+[angles] theta: 71.84, Phi: 58.98
+[pos] -3.55 17.22 isLifted: 0
+prevDist: 4.91269887193563, currentDist: 4.812704328918695
+[angles] theta: 72.30, Phi: 58.75
+[pos] -3.66 17.22 isLifted: 0
+prevDist: 4.812704328918695, currentDist: 4.702710599643081
+[angles] theta: 72.75, Phi: 58.51
+[pos] -3.76 17.22 isLifted: 0
+prevDist: 4.702710599643081, currentDist: 4.602716560388062
+[angles] theta: 73.21, Phi: 58.27
+[pos] -3.87 17.22 isLifted: 0
+prevDist: 4.602716560388062, currentDist: 4.49272342367891
+[angles] theta: 73.67, Phi: 58.01
+[pos] -3.97 17.21 isLifted: 0
+prevDist: 4.49272342367891, currentDist: 4.392625703191082
+[angles] theta: 74.13, Phi: 57.75
+[pos] -4.08 17.21 isLifted: 0
+prevDist: 4.392625703191082, currentDist: 4.282630569490858
+[angles] theta: 74.60, Phi: 57.48
+[pos] -4.18 17.21 isLifted: 0
+prevDist: 4.282630569490858, currentDist: 4.182635215508606
+[angles] theta: 75.07, Phi: 57.20
+[pos] -4.29 17.21 isLifted: 0
+prevDist: 4.182635215508606, currentDist: 4.072640589643942
+[angles] theta: 75.55, Phi: 56.91
+[pos] -4.39 17.21 isLifted: 0
+prevDist: 4.072640589643942, currentDist: 3.9726457334741654
+[angles] theta: 76.03, Phi: 56.62
+[pos] -4.50 17.21 isLifted: 0
+prevDist: 3.9726457334741654, currentDist: 3.86265169929844
+[angles] theta: 76.51, Phi: 56.32
+[pos] -4.60 17.21 isLifted: 0
+prevDist: 3.86265169929844, currentDist: 3.7626574254598646
+[angles] theta: 76.99, Phi: 56.00
+[pos] -4.70 17.20 isLifted: 0
+prevDist: 3.7626574254598646, currentDist: 3.662565727468935
+[angles] theta: 77.48, Phi: 55.68
+[pos] -4.81 17.20 isLifted: 0
+prevDist: 3.662565727468935, currentDist: 3.552569736744473
+[angles] theta: 77.97, Phi: 55.35
+[pos] -4.91 17.20 isLifted: 0
+prevDist: 3.552569736744473, currentDist: 3.452573603228151
+[angles] theta: 78.46, Phi: 55.02
+[pos] -5.02 17.20 isLifted: 0
+prevDist: 3.452573603228151, currentDist: 3.342578123561282
+[angles] theta: 78.96, Phi: 54.67
+[pos] -5.12 17.20 isLifted: 0
+prevDist: 3.342578123561282, currentDist: 3.242582499087045
+[angles] theta: 79.46, Phi: 54.31
+[pos] -5.23 17.20 isLifted: 0
+prevDist: 3.242582499087045, currentDist: 3.132587634813785
+[angles] theta: 79.97, Phi: 53.95
+[pos] -5.33 17.19 isLifted: 0
+prevDist: 3.132587634813785, currentDist: 3.0325075591744244
+[angles] theta: 80.48, Phi: 53.58
+[pos] -5.44 17.19 isLifted: 0
+prevDist: 3.0325075591744244, currentDist: 2.9225102434127863
+[angles] theta: 80.99, Phi: 53.19
+[pos] -5.54 17.19 isLifted: 0
+prevDist: 2.9225102434127863, currentDist: 2.8225128651837523
+[angles] theta: 81.51, Phi: 52.80
+[pos] -5.65 17.19 isLifted: 0
+prevDist: 2.8225128651837523, currentDist: 2.71251597240098
+[angles] theta: 82.03, Phi: 52.39
+[pos] -5.75 17.19 isLifted: 0
+prevDist: 2.71251597240098, currentDist: 2.6125190241997402
+[angles] theta: 82.55, Phi: 51.98
+[pos] -5.86 17.19 isLifted: 0
+prevDist: 2.6125190241997402, currentDist: 2.502522662876043
+[angles] theta: 83.08, Phi: 51.56
+[pos] -5.96 17.19 isLifted: 0
+prevDist: 2.502522662876043, currentDist: 2.402526259894641
+[angles] theta: 83.61, Phi: 51.12
+[pos] -6.07 17.18 isLifted: 0
+prevDist: 2.402526259894641, currentDist: 2.2924616706223553
+[angles] theta: 84.15, Phi: 50.68
+[pos] -6.17 17.18 isLifted: 0
+prevDist: 2.2924616706223553, currentDist: 2.192462830368572
+[angles] theta: 84.69, Phi: 50.23
+[pos] -6.28 17.18 isLifted: 0
+prevDist: 2.192462830368572, currentDist: 2.082464234734995
+[angles] theta: 85.23, Phi: 49.76
+[pos] -6.38 17.18 isLifted: 0
+prevDist: 2.082464234734995, currentDist: 1.9824656466697061
+[angles] theta: 85.78, Phi: 49.28
+[pos] -6.49 17.18 isLifted: 0
+prevDist: 1.9824656466697061, currentDist: 1.8724673739823015
+[angles] theta: 86.34, Phi: 48.79
+[pos] -6.59 17.18 isLifted: 0
+prevDist: 1.8724673739823015, currentDist: 1.7724691303103997
+[angles] theta: 86.90, Phi: 48.29
+[pos] -6.69 17.17 isLifted: 0
+prevDist: 1.7724691303103997, currentDist: 1.6724364336395872
+[angles] theta: 87.46, Phi: 47.78
+[pos] -6.80 17.17 isLifted: 0
+prevDist: 1.6724364336395872, currentDist: 1.5624364470172039
+[angles] theta: 88.03, Phi: 47.26
+[pos] -6.90 17.17 isLifted: 0
+prevDist: 1.5624364470172039, currentDist: 1.4624364609250105
+[angles] theta: 88.60, Phi: 46.72
+[pos] -7.01 17.17 isLifted: 0
+prevDist: 1.4624364609250105, currentDist: 1.3524364785990917
+[angles] theta: 89.18, Phi: 46.17
+[pos] -7.11 17.17 isLifted: 0
+prevDist: 1.3524364785990917, currentDist: 1.2524364973605
+[angles] theta: 89.77, Phi: 45.60
+[pos] -7.22 17.17 isLifted: 0
+prevDist: 1.2524364973605, currentDist: 1.1424365217915957
+[angles] theta: 90.36, Phi: 45.02
+[pos] -7.32 17.16 isLifted: 0
+prevDist: 1.1424365217915957, currentDist: 1.042476864484328
+[angles] theta: 90.96, Phi: 44.43
+[pos] -7.43 17.16 isLifted: 0
+prevDist: 1.042476864484328, currentDist: 0.9324816563277359
+[angles] theta: 91.56, Phi: 43.82
+[pos] -7.53 17.16 isLifted: 0
+prevDist: 0.9324816563277359, currentDist: 0.8324871114094466
+[angles] theta: 92.17, Phi: 43.20
+[pos] -7.64 17.16 isLifted: 0
+prevDist: 0.8324871114094466, currentDist: 0.7224948560823707
+[angles] theta: 92.79, Phi: 42.56
+[pos] -7.74 17.16 isLifted: 0
+prevDist: 0.7224948560823707, currentDist: 0.6225042717448712
+[angles] theta: 93.41, Phi: 41.90
+[pos] -7.85 17.16 isLifted: 0
+prevDist: 0.6225042717448712, currentDist: 0.5125188725727603
+[angles] theta: 94.04, Phi: 41.23
+[pos] -7.95 17.15 isLifted: 0
+prevDist: 0.5125188725727603, currentDist: 0.412883035986042
+[angles] theta: 94.68, Phi: 40.53
+[pos] -8.06 17.15 isLifted: 0
+prevDist: 0.412883035986042, currentDist: 0.30304525702886587
+[angles] theta: 95.33, Phi: 39.82
+[pos] -8.16 17.15 isLifted: 0
+prevDist: 0.30304525702886587, currentDist: 0.20334497555341557
+[angles] theta: 95.99, Phi: 39.09
+[pos] -8.27 17.15 isLifted: 0
+prevDist: 0.20334497555341557, currentDist: 0.09440977431103006
+[angles] theta: 96.65, Phi: 38.34
+[pos] -8.37 17.15 isLifted: 0
+nextCoords: -8.362436243624362 14.645939122214108 isLifted: 0
+[vel] 0.09 -30.00 [isLifted]0
+[angles] theta: 95.97, Phi: 39.96
+[pos] -8.37 17.04 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 95.32, Phi: 41.53
+[pos] -8.37 16.93 isLifted: 0
+[angles] theta: 94.70, Phi: 43.03
+[pos] -8.37 16.83 isLifted: 0
+[angles] theta: 94.10, Phi: 44.48
+[pos] -8.36 16.72 isLifted: 0
+prevDist: 2.1840739750029954, currentDist: 2.0740623086216528
+[angles] theta: 93.53, Phi: 45.89
+[pos] -8.36 16.62 isLifted: 0
+prevDist: 2.0740623086216528, currentDist: 1.9740623811034466
+[angles] theta: 92.99, Phi: 47.25
+[pos] -8.36 16.51 isLifted: 0
+prevDist: 1.9740623811034466, currentDist: 1.864062469815568
+[angles] theta: 92.46, Phi: 48.58
+[pos] -8.36 16.40 isLifted: 0
+prevDist: 1.864062469815568, currentDist: 1.754062569654232
+[angles] theta: 91.96, Phi: 49.87
+[pos] -8.36 16.30 isLifted: 0
+prevDist: 1.754062569654232, currentDist: 1.6540626719398621
+[angles] theta: 91.47, Phi: 51.12
+[pos] -8.36 16.19 isLifted: 0
+prevDist: 1.6540626719398621, currentDist: 1.5440627997565195
+[angles] theta: 91.00, Phi: 52.35
+[pos] -8.36 16.09 isLifted: 0
+prevDist: 1.5440627997565195, currentDist: 1.4440629328511825
+[angles] theta: 90.55, Phi: 53.55
+[pos] -8.36 15.98 isLifted: 0
+prevDist: 1.4440629328511825, currentDist: 1.3340631023013358
+[angles] theta: 90.11, Phi: 54.72
+[pos] -8.36 15.88 isLifted: 0
+prevDist: 1.3340631023013358, currentDist: 1.2340632825607796
+[angles] theta: 89.68, Phi: 55.86
+[pos] -8.36 15.77 isLifted: 0
+prevDist: 1.2340632825607796, currentDist: 1.1240635178902425
+[angles] theta: 89.27, Phi: 56.98
+[pos] -8.35 15.67 isLifted: 0
+prevDist: 1.1240635178902425, currentDist: 1.024136388166682
+[angles] theta: 88.87, Phi: 58.09
+[pos] -8.35 15.56 isLifted: 0
+prevDist: 1.024136388166682, currentDist: 0.9141454744482421
+[angles] theta: 88.48, Phi: 59.17
+[pos] -8.35 15.45 isLifted: 0
+prevDist: 0.9141454744482421, currentDist: 0.8041570464413672
+[angles] theta: 88.11, Phi: 60.23
+[pos] -8.35 15.35 isLifted: 0
+prevDist: 0.8041570464413672, currentDist: 0.7041707035826792
+[angles] theta: 87.74, Phi: 61.27
+[pos] -8.35 15.24 isLifted: 0
+prevDist: 0.7041707035826792, currentDist: 0.5941910355022447
+[angles] theta: 87.39, Phi: 62.29
+[pos] -8.35 15.14 isLifted: 0
+prevDist: 0.5941910355022447, currentDist: 0.49421737233129676
+[angles] theta: 87.05, Phi: 63.30
+[pos] -8.35 15.03 isLifted: 0
+prevDist: 0.49421737233129676, currentDist: 0.3842621735236949
+[angles] theta: 86.71, Phi: 64.29
+[pos] -8.35 14.93 isLifted: 0
+prevDist: 0.3842621735236949, currentDist: 0.2843329781154062
+[angles] theta: 86.39, Phi: 65.27
+[pos] -8.35 14.82 isLifted: 0
+prevDist: 0.2843329781154062, currentDist: 0.17450458255037313
+[angles] theta: 86.07, Phi: 66.23
+[pos] -8.35 14.72 isLifted: 0
+prevDist: 0.17450458255037313, currentDist: 0.07509776144401038
+[angles] theta: 85.77, Phi: 67.18
+[pos] -8.35 14.61 isLifted: 0
+nextCoords: -8.549270021341755 14.96963186884726 isLifted: 0
+[vel] -14.54 26.24 [isLifted]0
+[angles] theta: 86.31, Phi: 66.10
+[pos] -8.40 14.70 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 86.85, Phi: 65.01
+[pos] -8.45 14.79 isLifted: 0
+[angles] theta: 87.41, Phi: 63.91
+[pos] -8.50 14.89 isLifted: 0
+[angles] theta: 87.97, Phi: 62.79
+[pos] -8.55 14.98 isLifted: 0
+prevDist: 0.09364170833087249, currentDist: 0.010393796825121732
+[angles] theta: 88.55, Phi: 61.65
+[pos] -8.60 15.07 isLifted: 0
+nextCoords: -12.0 8.992807771343173 isLifted: 0
+[vel] -14.65 -26.18 [isLifted]0
+[angles] theta: 88.54, Phi: 62.24
+[pos] -8.65 14.98 isLifted: 0
+missed timing by836.0000000000
+[angles] theta: 88.54, Phi: 62.83
+[pos] -8.70 14.88 isLifted: 0
+[angles] theta: 88.55, Phi: 63.41
+[pos] -8.75 14.79 isLifted: 0
+[angles] theta: 88.56, Phi: 63.98
+[pos] -8.80 14.70 isLifted: 0
+prevDist: 6.646046775038458, currentDist: 6.543091252217171
+[angles] theta: 88.58, Phi: 64.54
+[pos] -8.85 14.61 isLifted: 0
+prevDist: 6.543091252217171, currentDist: 6.440135754289862
+[angles] theta: 88.61, Phi: 65.09
+[pos] -8.90 14.52 isLifted: 0
+prevDist: 6.440135754289862, currentDist: 6.337180282469832
+[angles] theta: 88.64, Phi: 65.63
+[pos] -8.95 14.43 isLifted: 0
+prevDist: 6.337180282469832, currentDist: 6.234224838050533
+[angles] theta: 88.68, Phi: 66.16
+[pos] -9.00 14.33 isLifted: 0
+prevDist: 6.234224838050533, currentDist: 6.122550194619463
+[angles] theta: 88.73, Phi: 66.68
+[pos] -9.05 14.24 isLifted: 0
+prevDist: 6.122550194619463, currentDist: 6.019595192741502
+[angles] theta: 88.78, Phi: 67.19
+[pos] -9.10 14.15 isLifted: 0
+prevDist: 6.019595192741502, currentDist: 5.916640236089936
+[angles] theta: 88.84, Phi: 67.70
+[pos] -9.15 14.06 isLifted: 0
+prevDist: 5.916640236089936, currentDist: 5.813685327067517
+[angles] theta: 88.91, Phi: 68.19
+[pos] -9.21 13.97 isLifted: 0
+prevDist: 5.813685327067517, currentDist: 5.705834074086094
+[angles] theta: 88.98, Phi: 68.68
+[pos] -9.26 13.88 isLifted: 0
+prevDist: 5.705834074086094, currentDist: 5.602878535167766
+[angles] theta: 89.05, Phi: 69.16
+[pos] -9.31 13.78 isLifted: 0
+prevDist: 5.602878535167766, currentDist: 5.491202913216038
+[angles] theta: 89.14, Phi: 69.63
+[pos] -9.36 13.69 isLifted: 0
+prevDist: 5.491202913216038, currentDist: 5.388247844425318
+[angles] theta: 89.23, Phi: 70.09
+[pos] -9.41 13.60 isLifted: 0
+prevDist: 5.388247844425318, currentDist: 5.28529282365659
+[angles] theta: 89.32, Phi: 70.55
+[pos] -9.46 13.51 isLifted: 0
+prevDist: 5.28529282365659, currentDist: 5.182337853771946
+[angles] theta: 89.42, Phi: 70.99
+[pos] -9.51 13.42 isLifted: 0
+prevDist: 5.182337853771946, currentDist: 5.079382937865524
+[angles] theta: 89.53, Phi: 71.43
+[pos] -9.56 13.33 isLifted: 0
+prevDist: 5.079382937865524, currentDist: 4.976428079287509
+[angles] theta: 89.64, Phi: 71.87
+[pos] -9.61 13.24 isLifted: 0
+prevDist: 4.976428079287509, currentDist: 4.873473281671189
+[angles] theta: 89.76, Phi: 72.29
+[pos] -9.66 13.14 isLifted: 0
+prevDist: 4.873473281671189, currentDist: 4.761806734993723
+[angles] theta: 89.88, Phi: 72.71
+[pos] -9.71 13.05 isLifted: 0
+prevDist: 4.761806734993723, currentDist: 4.658852732194199
+[angles] theta: 90.01, Phi: 73.12
+[pos] -9.76 12.96 isLifted: 0
+prevDist: 4.658852732194199, currentDist: 4.555898833283629
+[angles] theta: 90.14, Phi: 73.52
+[pos] -9.81 12.87 isLifted: 0
+prevDist: 4.555898833283629, currentDist: 4.452945045467874
+[angles] theta: 90.28, Phi: 73.91
+[pos] -9.86 12.78 isLifted: 0
+prevDist: 4.452945045467874, currentDist: 4.349991376634977
+[angles] theta: 90.43, Phi: 74.30
+[pos] -9.91 12.69 isLifted: 0
+prevDist: 4.349991376634977, currentDist: 4.247037835437828
+[angles] theta: 90.58, Phi: 74.68
+[pos] -9.97 12.59 isLifted: 0
+prevDist: 4.247037835437828, currentDist: 4.130459045906285
+[angles] theta: 90.73, Phi: 75.06
+[pos] -10.02 12.50 isLifted: 0
+prevDist: 4.130459045906285, currentDist: 4.027505099779619
+[angles] theta: 90.90, Phi: 75.42
+[pos] -10.07 12.41 isLifted: 0
+prevDist: 4.027505099779619, currentDist: 3.9245512772280873
+[angles] theta: 91.06, Phi: 75.78
+[pos] -10.12 12.32 isLifted: 0
+prevDist: 3.9245512772280873, currentDist: 3.8215975882390323
+[angles] theta: 91.23, Phi: 76.14
+[pos] -10.17 12.23 isLifted: 0
+prevDist: 3.8215975882390323, currentDist: 3.71864404390581
+[angles] theta: 91.41, Phi: 76.48
+[pos] -10.22 12.14 isLifted: 0
+prevDist: 3.71864404390581, currentDist: 3.6156906565852567
+[angles] theta: 91.59, Phi: 76.82
+[pos] -10.27 12.05 isLifted: 0
+prevDist: 3.6156906565852567, currentDist: 3.5127374400828337
+[angles] theta: 91.78, Phi: 77.15
+[pos] -10.32 11.95 isLifted: 0
+prevDist: 3.5127374400828337, currentDist: 3.4010859849801394
+[angles] theta: 91.97, Phi: 77.48
+[pos] -10.37 11.86 isLifted: 0
+prevDist: 3.4010859849801394, currentDist: 3.2981345145506267
+[angles] theta: 92.17, Phi: 77.80
+[pos] -10.42 11.77 isLifted: 0
+prevDist: 3.2981345145506267, currentDist: 3.195183355444859
+[angles] theta: 92.37, Phi: 78.11
+[pos] -10.47 11.68 isLifted: 0
+prevDist: 3.195183355444859, currentDist: 3.0922325387579828
+[angles] theta: 92.58, Phi: 78.41
+[pos] -10.52 11.59 isLifted: 0
+prevDist: 3.0922325387579828, currentDist: 2.9892820998686984
+[angles] theta: 92.79, Phi: 78.71
+[pos] -10.57 11.50 isLifted: 0
+prevDist: 2.9892820998686984, currentDist: 2.886332079203151
+[angles] theta: 93.00, Phi: 79.00
+[pos] -10.62 11.40 isLifted: 0
+prevDist: 2.886332079203151, currentDist: 2.7747025832881302
+[angles] theta: 93.22, Phi: 79.29
+[pos] -10.68 11.31 isLifted: 0
+prevDist: 2.7747025832881302, currentDist: 2.6667920474884417
+[angles] theta: 93.45, Phi: 79.57
+[pos] -10.73 11.22 isLifted: 0
+prevDist: 2.6667920474884417, currentDist: 2.563841887361497
+[angles] theta: 93.68, Phi: 79.84
+[pos] -10.78 11.13 isLifted: 0
+prevDist: 2.563841887361497, currentDist: 2.460892241084753
+[angles] theta: 93.92, Phi: 80.11
+[pos] -10.83 11.04 isLifted: 0
+prevDist: 2.460892241084753, currentDist: 2.3579431759635137
+[angles] theta: 94.16, Phi: 80.37
+[pos] -10.88 10.95 isLifted: 0
+prevDist: 2.3579431759635137, currentDist: 2.2549947715936445
+[angles] theta: 94.40, Phi: 80.62
+[pos] -10.93 10.86 isLifted: 0
+prevDist: 2.2549947715936445, currentDist: 2.1520471228010893
+[angles] theta: 94.65, Phi: 80.87
+[pos] -10.98 10.76 isLifted: 0
+prevDist: 2.1520471228010893, currentDist: 2.040433378727441
+[angles] theta: 94.91, Phi: 81.11
+[pos] -11.03 10.67 isLifted: 0
+prevDist: 2.040433378727441, currentDist: 1.9374916185281563
+[angles] theta: 95.17, Phi: 81.34
+[pos] -11.08 10.58 isLifted: 0
+prevDist: 1.9374916185281563, currentDist: 1.8345514903399753
+[angles] theta: 95.43, Phi: 81.57
+[pos] -11.13 10.49 isLifted: 0
+prevDist: 1.8345514903399753, currentDist: 1.7316132852199981
+[angles] theta: 95.70, Phi: 81.79
+[pos] -11.18 10.40 isLifted: 0
+prevDist: 1.7316132852199981, currentDist: 1.628677367802527
+[angles] theta: 95.97, Phi: 82.00
+[pos] -11.23 10.31 isLifted: 0
+prevDist: 1.628677367802527, currentDist: 1.5257442011143083
+[angles] theta: 96.25, Phi: 82.21
+[pos] -11.28 10.21 isLifted: 0
+prevDist: 1.5257442011143083, currentDist: 1.4141983317422544
+[angles] theta: 96.53, Phi: 82.41
+[pos] -11.34 10.12 isLifted: 0
+prevDist: 1.4141983317422544, currentDist: 1.306201485355281
+[angles] theta: 96.81, Phi: 82.61
+[pos] -11.39 10.03 isLifted: 0
+prevDist: 1.306201485355281, currentDist: 1.2032737507259572
+[angles] theta: 97.10, Phi: 82.80
+[pos] -11.44 9.94 isLifted: 0
+prevDist: 1.2032737507259572, currentDist: 1.100351361169643
+[angles] theta: 97.40, Phi: 82.98
+[pos] -11.49 9.85 isLifted: 0
+prevDist: 1.100351361169643, currentDist: 0.9974359713132751
+[angles] theta: 97.70, Phi: 83.16
+[pos] -11.54 9.76 isLifted: 0
+prevDist: 0.9974359713132751, currentDist: 0.894529997099834
+[angles] theta: 98.00, Phi: 83.33
+[pos] -11.59 9.67 isLifted: 0
+prevDist: 0.894529997099834, currentDist: 0.7916371103941502
+[angles] theta: 98.31, Phi: 83.50
+[pos] -11.64 9.57 isLifted: 0
+prevDist: 0.7916371103941502, currentDist: 0.6802579428583208
+[angles] theta: 98.62, Phi: 83.65
+[pos] -11.69 9.48 isLifted: 0
+prevDist: 0.6802579428583208, currentDist: 0.5774567236283654
+[angles] theta: 98.93, Phi: 83.81
+[pos] -11.74 9.39 isLifted: 0
+prevDist: 0.5774567236283654, currentDist: 0.47472272592048637
+[angles] theta: 99.25, Phi: 83.95
+[pos] -11.79 9.30 isLifted: 0
+prevDist: 0.47472272592048637, currentDist: 0.37211163022290616
+[angles] theta: 99.58, Phi: 84.09
+[pos] -11.84 9.21 isLifted: 0
+prevDist: 0.37211163022290616, currentDist: 0.2697637191857343
+[angles] theta: 99.91, Phi: 84.22
+[pos] -11.89 9.12 isLifted: 0
+prevDist: 0.2697637191857343, currentDist: 0.16816023022905907
+[angles] theta: 100.24, Phi: 84.35
+[pos] -11.94 9.02 isLifted: 0
+prevDist: 0.16816023022905907, currentDist: 0.06587425369084027
+[angles] theta: 100.57, Phi: 84.47
+[pos] -12.00 8.93 isLifted: 0
+nextCoords: -6.090541129584655 8.992807771343172 isLifted: 0
+[vel] 30.00 0.32 [isLifted]0
+[angles] theta: 99.97, Phi: 85.18
+[pos] -11.89 8.93 isLifted: 0
+missed timing by840.0000000000
+[angles] theta: 99.37, Phi: 85.87
+[pos] -11.79 8.93 isLifted: 0
+[angles] theta: 98.77, Phi: 86.56
+[pos] -11.68 8.94 isLifted: 0
+[angles] theta: 98.17, Phi: 87.24
+[pos] -11.58 8.94 isLifted: 0
+prevDist: 5.589708321977008, currentDist: 5.489712865960837
+[angles] theta: 97.57, Phi: 87.92
+[pos] -11.47 8.94 isLifted: 0
+prevDist: 5.489712865960837, currentDist: 5.379718059452984
+[angles] theta: 96.98, Phi: 88.59
+[pos] -11.37 8.94 isLifted: 0
+prevDist: 5.379718059452984, currentDist: 5.279722968596126
+[angles] theta: 96.38, Phi: 89.25
+[pos] -11.26 8.94 isLifted: 0
+prevDist: 5.279722968596126, currentDist: 5.169728588004416
+[angles] theta: 95.78, Phi: 89.91
+[pos] -11.16 8.94 isLifted: 0
+prevDist: 5.169728588004416, currentDist: 5.0697339081599795
+[angles] theta: 95.18, Phi: 90.56
+[pos] -11.05 8.94 isLifted: 0
+prevDist: 5.0697339081599795, currentDist: 4.959740008110878
+[angles] theta: 94.58, Phi: 91.20
+[pos] -10.95 8.94 isLifted: 0
+prevDist: 4.959740008110878, currentDist: 4.859745793143157
+[angles] theta: 93.99, Phi: 91.84
+[pos] -10.84 8.94 isLifted: 0
+prevDist: 4.859745793143157, currentDist: 4.749752438020453
+[angles] theta: 93.39, Phi: 92.48
+[pos] -10.74 8.94 isLifted: 0
+prevDist: 4.749752438020453, currentDist: 4.6497587516341286
+[angles] theta: 92.79, Phi: 93.10
+[pos] -10.63 8.94 isLifted: 0
+prevDist: 4.6497587516341286, currentDist: 4.539766017858938
+[angles] theta: 92.19, Phi: 93.72
+[pos] -10.53 8.94 isLifted: 0
+prevDist: 4.539766017858938, currentDist: 4.4397729359533376
+[angles] theta: 91.59, Phi: 94.34
+[pos] -10.42 8.94 isLifted: 0
+prevDist: 4.4397729359533376, currentDist: 4.329780914934651
+[angles] theta: 91.00, Phi: 94.95
+[pos] -10.32 8.94 isLifted: 0
+prevDist: 4.329780914934651, currentDist: 4.229788528667749
+[angles] theta: 90.40, Phi: 95.55
+[pos] -10.21 8.94 isLifted: 0
+prevDist: 4.229788528667749, currentDist: 4.119797330665419
+[angles] theta: 89.80, Phi: 96.15
+[pos] -10.11 8.94 isLifted: 0
+prevDist: 4.119797330665419, currentDist: 4.019805750490294
+[angles] theta: 89.19, Phi: 96.74
+[pos] -10.00 8.94 isLifted: 0
+prevDist: 4.019805750490294, currentDist: 3.9098155097374425
+[angles] theta: 88.59, Phi: 97.33
+[pos] -9.90 8.94 isLifted: 0
+prevDist: 3.9098155097374425, currentDist: 3.8098248707913585
+[angles] theta: 87.99, Phi: 97.91
+[pos] -9.80 8.95 isLifted: 0
+prevDist: 3.8098248707913585, currentDist: 3.7097058665870617
+[angles] theta: 87.39, Phi: 98.49
+[pos] -9.69 8.95 isLifted: 0
+prevDist: 3.7097058665870617, currentDist: 3.5997134143010716
+[angles] theta: 86.78, Phi: 99.06
+[pos] -9.59 8.95 isLifted: 0
+prevDist: 3.5997134143010716, currentDist: 3.4997206875715112
+[angles] theta: 86.18, Phi: 99.62
+[pos] -9.48 8.95 isLifted: 0
+prevDist: 3.4997206875715112, currentDist: 3.3897291838028356
+[angles] theta: 85.57, Phi: 100.18
+[pos] -9.38 8.95 isLifted: 0
+prevDist: 3.3897291838028356, currentDist: 3.289737400681333
+[angles] theta: 84.97, Phi: 100.74
+[pos] -9.27 8.95 isLifted: 0
+prevDist: 3.289737400681333, currentDist: 3.1797470361571514
+[angles] theta: 84.36, Phi: 101.29
+[pos] -9.17 8.95 isLifted: 0
+prevDist: 3.1797470361571514, currentDist: 3.0797563929420004
+[angles] theta: 83.75, Phi: 101.83
+[pos] -9.06 8.95 isLifted: 0
+prevDist: 3.0797563929420004, currentDist: 2.9697674131783027
+[angles] theta: 83.14, Phi: 102.37
+[pos] -8.96 8.95 isLifted: 0
+prevDist: 2.9697674131783027, currentDist: 2.86977816464839
+[angles] theta: 82.52, Phi: 102.90
+[pos] -8.85 8.95 isLifted: 0
+prevDist: 2.86977816464839, currentDist: 2.759790891136736
+[angles] theta: 81.91, Phi: 103.43
+[pos] -8.75 8.95 isLifted: 0
+prevDist: 2.759790891136736, currentDist: 2.659803374070766
+[angles] theta: 81.30, Phi: 103.95
+[pos] -8.64 8.95 isLifted: 0
+prevDist: 2.659803374070766, currentDist: 2.549818236115441
+[angles] theta: 80.68, Phi: 104.47
+[pos] -8.54 8.95 isLifted: 0
+prevDist: 2.549818236115441, currentDist: 2.44983290514757
+[angles] theta: 80.06, Phi: 104.99
+[pos] -8.43 8.95 isLifted: 0
+prevDist: 2.44983290514757, currentDist: 2.339850489166436
+[angles] theta: 79.44, Phi: 105.49
+[pos] -8.33 8.95 isLifted: 0
+prevDist: 2.339850489166436, currentDist: 2.2398679732451514
+[angles] theta: 78.82, Phi: 106.00
+[pos] -8.23 8.95 isLifted: 0
+prevDist: 2.2398679732451514, currentDist: 2.1398870912939016
+[angles] theta: 78.20, Phi: 106.49
+[pos] -8.12 8.95 isLifted: 0
+prevDist: 2.1398870912939016, currentDist: 2.0299102965389615
+[angles] theta: 77.58, Phi: 106.99
+[pos] -8.02 8.95 isLifted: 0
+prevDist: 2.0299102965389615, currentDist: 1.929933687438982
+[angles] theta: 76.95, Phi: 107.47
+[pos] -7.91 8.96 isLifted: 0
+prevDist: 1.929933687438982, currentDist: 1.8197546348322868
+[angles] theta: 76.32, Phi: 107.95
+[pos] -7.81 8.96 isLifted: 0
+prevDist: 1.8197546348322868, currentDist: 1.719771832805305
+[angles] theta: 75.69, Phi: 108.43
+[pos] -7.70 8.96 isLifted: 0
+prevDist: 1.719771832805305, currentDist: 1.6097932182175276
+[angles] theta: 75.06, Phi: 108.90
+[pos] -7.60 8.96 isLifted: 0
+prevDist: 1.6097932182175276, currentDist: 1.5098153633262823
+[angles] theta: 74.43, Phi: 109.37
+[pos] -7.49 8.96 isLifted: 0
+prevDist: 1.5098153633262823, currentDist: 1.3998433768978227
+[angles] theta: 73.79, Phi: 109.83
+[pos] -7.39 8.96 isLifted: 0
+prevDist: 1.3998433768978227, currentDist: 1.2998729575468633
+[angles] theta: 73.16, Phi: 110.29
+[pos] -7.28 8.96 isLifted: 0
+prevDist: 1.2998729575468633, currentDist: 1.1899112379796466
+[angles] theta: 72.52, Phi: 110.74
+[pos] -7.18 8.96 isLifted: 0
+prevDist: 1.1899112379796466, currentDist: 1.0899527421806803
+[angles] theta: 71.88, Phi: 111.18
+[pos] -7.07 8.96 isLifted: 0
+prevDist: 1.0899527421806803, currentDist: 0.9800081778719042
+[angles] theta: 71.23, Phi: 111.62
+[pos] -6.97 8.96 isLifted: 0
+prevDist: 0.9800081778719042, currentDist: 0.8800705963800517
+[angles] theta: 70.59, Phi: 112.06
+[pos] -6.87 8.96 isLifted: 0
+prevDist: 0.8800705963800517, currentDist: 0.7801490117469044
+[angles] theta: 69.94, Phi: 112.49
+[pos] -6.76 8.96 isLifted: 0
+prevDist: 0.7801490117469044, currentDist: 0.6702622837653146
+[angles] theta: 69.29, Phi: 112.91
+[pos] -6.66 8.96 isLifted: 0
+prevDist: 0.6702622837653146, currentDist: 0.5704031512493831
+[angles] theta: 68.64, Phi: 113.33
+[pos] -6.55 8.96 isLifted: 0
+prevDist: 0.5704031512493831, currentDist: 0.46062870455916055
+[angles] theta: 67.99, Phi: 113.74
+[pos] -6.45 8.96 isLifted: 0
+prevDist: 0.46062870455916055, currentDist: 0.36095294621429774
+[angles] theta: 67.33, Phi: 114.15
+[pos] -6.34 8.96 isLifted: 0
+prevDist: 0.36095294621429774, currentDist: 0.25160699093905475
+[angles] theta: 66.68, Phi: 114.56
+[pos] -6.24 8.96 isLifted: 0
+prevDist: 0.25160699093905475, currentDist: 0.15301733171878515
+[angles] theta: 66.02, Phi: 114.95
+[pos] -6.13 8.96 isLifted: 0
+prevDist: 0.15301733171878515, currentDist: 0.05131619934251517
+[angles] theta: 65.35, Phi: 115.34
+[pos] -6.03 8.96 isLifted: 0
+nextCoords: -5.893336941842319 8.790202647125039 isLifted: 0
+[vel] 18.81 -23.37 [isLifted]0
+[angles] theta: 64.94, Phi: 116.05
+[pos] -5.96 8.88 isLifted: 0
+missed timing by838.0000000000
+[angles] theta: 64.53, Phi: 116.74
+[pos] -5.90 8.80 isLifted: 0
+[angles] theta: 64.13, Phi: 117.44
+[pos] -5.83 8.72 isLifted: 0
+[angles] theta: 63.72, Phi: 118.13
+[pos] -5.77 8.64 isLifted: 0
+prevDist: 0.0945514667538265, currentDist: 0.194352351224225
+[angles] theta: 63.31, Phi: 118.82
+[pos] -5.70 8.56 isLifted: 0
+nextCoords: -5.496539094887293 8.465685498918528 isLifted: 0
+[angles] theta: 62.90, Phi: 119.51
+[pos] -5.64 8.47 isLifted: 0
+[vel] 27.22 -12.62 [isLifted]0
+[angles] theta: 62.28, Phi: 120.10
+[pos] -5.54 8.43 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 61.67, Phi: 120.68
+[pos] -5.45 8.38 isLifted: 0
+[angles] theta: 61.05, Phi: 121.26
+[pos] -5.35 8.34 isLifted: 0
+[angles] theta: 60.42, Phi: 121.83
+[pos] -5.26 8.30 isLifted: 0
+prevDist: 0.1930558234521471, currentDist: 0.2887947852056566
+[angles] theta: 59.79, Phi: 122.40
+[pos] -5.16 8.25 isLifted: 0
+nextCoords: -4.9767566755358805 8.163612127117558 isLifted: 0
+[vel] 27.14 -12.79 [isLifted]0
+[angles] theta: 59.16, Phi: 122.97
+[pos] -5.07 8.21 isLifted: 0
+missed timing by841.0000000000
+[angles] theta: 58.53, Phi: 123.54
+[pos] -4.97 8.16 isLifted: 0
+[angles] theta: 57.89, Phi: 124.10
+[pos] -4.88 8.12 isLifted: 0
+[angles] theta: 57.25, Phi: 124.66
+[pos] -4.78 8.07 isLifted: 0
+prevDist: 0.10613138976039926, currentDist: 0.2178908435694475
+[angles] theta: 56.60, Phi: 125.22
+[pos] -4.69 8.02 isLifted: 0
+nextCoords: -4.4585109091112365 7.967868073057561 isLifted: 0
+[vel] 29.27 -6.59 [isLifted]0
+[angles] theta: 55.88, Phi: 125.68
+[pos] -4.59 8.00 isLifted: 0
+missed timing by838.0000000000
+[angles] theta: 55.17, Phi: 126.13
+[pos] -4.49 7.98 isLifted: 0
+[angles] theta: 54.45, Phi: 126.57
+[pos] -4.38 7.95 isLifted: 0
+[angles] theta: 53.72, Phi: 127.01
+[pos] -4.28 7.93 isLifted: 0
+prevDist: 0.08051851268039659, currentDist: 0.18248324752922623
+[angles] theta: 52.99, Phi: 127.45
+[pos] -4.18 7.91 isLifted: 0
+nextCoords: -3.95948841751483 7.862356517375167 isLifted: 0
+[vel] 29.32 -6.34 [isLifted]0
+[angles] theta: 52.25, Phi: 127.88
+[pos] -4.08 7.88 isLifted: 0
+missed timing by833.0000000000
+[angles] theta: 51.51, Phi: 128.30
+[pos] -3.98 7.86 isLifted: 0
+[angles] theta: 50.76, Phi: 128.71
+[pos] -3.87 7.84 isLifted: 0
+[angles] theta: 50.01, Phi: 129.12
+[pos] -3.77 7.82 isLifted: 0
+prevDist: 0.09223877025662627, currentDist: 0.19416471084218
+[angles] theta: 49.25, Phi: 129.53
+[pos] -3.67 7.79 isLifted: 0
+nextCoords: -3.4428956303756237 7.831143845121391 isLifted: 0
+[vel] 29.52 5.35 [isLifted]0
+[angles] theta: 48.49, Phi: 129.70
+[pos] -3.57 7.81 isLifted: 0
+missed timing by840.0000000000
+[angles] theta: 47.73, Phi: 129.86
+[pos] -3.46 7.83 isLifted: 0
+[angles] theta: 46.96, Phi: 130.01
+[pos] -3.36 7.85 isLifted: 0
+[angles] theta: 46.20, Phi: 130.16
+[pos] -3.26 7.86 isLifted: 0
+prevDist: 0.08501317610922524, currentDist: 0.18515801166807547
+[angles] theta: 45.44, Phi: 130.30
+[pos] -3.16 7.88 isLifted: 0
+nextCoords: -2.9594634456422995 7.871394674654004 isLifted: 0
+[vel] 29.97 -1.29 [isLifted]0
+[angles] theta: 44.65, Phi: 130.57
+[pos] -3.05 7.88 isLifted: 0
+missed timing by835.0000000000
+[angles] theta: 43.86, Phi: 130.83
+[pos] -2.95 7.87 isLifted: 0
+[angles] theta: 43.07, Phi: 131.09
+[pos] -2.84 7.87 isLifted: 0
+[angles] theta: 42.28, Phi: 131.33
+[pos] -2.74 7.86 isLifted: 0
+prevDist: 0.11947158642171449, currentDist: 0.21975905574892934
+[angles] theta: 41.48, Phi: 131.58
+[pos] -2.63 7.86 isLifted: 0
+nextCoords: -2.4519055398949128 7.98905401034056 isLifted: 0
+[vel] 24.29 17.60 [isLifted]0
+[angles] theta: 40.89, Phi: 131.38
+[pos] -2.55 7.92 isLifted: 0
+missed timing by840.0000000000
+[angles] theta: 40.31, Phi: 131.18
+[pos] -2.46 7.98 isLifted: 0
+[angles] theta: 39.75, Phi: 130.97
+[pos] -2.38 8.04 isLifted: 0
+[angles] theta: 39.19, Phi: 130.75
+[pos] -2.29 8.10 isLifted: 0
+prevDist: 0.08812434697606902, currentDist: 0.1962712828464106
+[angles] theta: 38.64, Phi: 130.53
+[pos] -2.21 8.16 isLifted: 0
+nextCoords: -1.9755702102847437 8.177692301606424 isLifted: 0
+[vel] 29.92 2.26 [isLifted]0
+[angles] theta: 37.87, Phi: 130.65
+[pos] -2.10 8.17 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 37.11, Phi: 130.76
+[pos] -2.00 8.18 isLifted: 0
+[angles] theta: 36.35, Phi: 130.87
+[pos] -1.89 8.18 isLifted: 0
+[angles] theta: 35.59, Phi: 130.97
+[pos] -1.79 8.19 isLifted: 0
+prevDist: 0.08560132218634815, currentDist: 0.18597790832480937
+[angles] theta: 34.84, Phi: 131.06
+[pos] -1.68 8.20 isLifted: 0
+nextCoords: -1.57454129412044 8.405749179066994 isLifted: 0
+[vel] 13.68 26.70 [isLifted]0
+[angles] theta: 34.66, Phi: 130.55
+[pos] -1.64 8.29 isLifted: 0
+missed timing by833.0000000000
+[angles] theta: 34.49, Phi: 130.04
+[pos] -1.59 8.38 isLifted: 0
+[angles] theta: 34.33, Phi: 129.52
+[pos] -1.54 8.48 isLifted: 0
+[angles] theta: 34.18, Phi: 129.00
+[pos] -1.49 8.57 isLifted: 0
+prevDist: 0.08189191296300316, currentDist: 0.18473105474912752
+[angles] theta: 34.04, Phi: 128.47
+[pos] -1.44 8.66 isLifted: 0
+nextCoords: -1.2086578559465249 8.68302814425384 isLifted: 0
+[vel] 29.85 2.97 [isLifted]0
+[angles] theta: 33.34, Phi: 128.52
+[pos] -1.34 8.67 isLifted: 0
+missed timing by842.0000000000
+[angles] theta: 32.64, Phi: 128.55
+[pos] -1.23 8.68 isLifted: 0
+[angles] theta: 31.94, Phi: 128.58
+[pos] -1.13 8.69 isLifted: 0
+[angles] theta: 31.25, Phi: 128.60
+[pos] -1.03 8.70 isLifted: 0
+prevDist: 0.07896622743077916, currentDist: 0.1794621781292027
+[angles] theta: 30.55, Phi: 128.61
+[pos] -0.92 8.71 isLifted: 0
+nextCoords: -0.9758830157927392 8.903990955146998 isLifted: 0
+[vel] -8.30 28.83 [isLifted]0
+[angles] theta: 31.02, Phi: 127.96
+[pos] -0.95 8.81 isLifted: 0
+missed timing by844.0000000000
+[angles] theta: 31.47, Phi: 127.31
+[pos] -0.98 8.91 isLifted: 0
+[angles] theta: 31.93, Phi: 126.66
+[pos] -1.01 9.01 isLifted: 0
+[angles] theta: 32.39, Phi: 126.00
+[pos] -1.04 9.11 isLifted: 0
+prevDist: 0.11136375623174795, currentDist: 0.2157561452776722
+[angles] theta: 32.84, Phi: 125.34
+[pos] -1.07 9.21 isLifted: 0
+nextCoords: -0.8223799618324108 9.074377411807609 isLifted: 0
+[vel] 26.31 -14.41 [isLifted]0
+[angles] theta: 32.11, Phi: 125.73
+[pos] -0.98 9.16 isLifted: 0
+missed timing by844.0000000000
+[angles] theta: 31.38, Phi: 126.11
+[pos] -0.88 9.11 isLifted: 0
+[angles] theta: 30.64, Phi: 126.49
+[pos] -0.79 9.06 isLifted: 0
+[angles] theta: 29.89, Phi: 126.86
+[pos] -0.70 9.01 isLifted: 0
+prevDist: 0.0354284052499393, currentDist: 0.13827981128548297
+[angles] theta: 29.15, Phi: 127.22
+[pos] -0.61 8.96 isLifted: 0
+nextCoords: -0.6801868514520848 9.254546793780033 isLifted: 0
+[vel] -6.95 29.18 [isLifted]0
+[angles] theta: 29.60, Phi: 126.56
+[pos] -0.64 9.06 isLifted: 0
+missed timing by833.0000000000
+[angles] theta: 30.05, Phi: 125.91
+[pos] -0.66 9.16 isLifted: 0
+[angles] theta: 30.50, Phi: 125.25
+[pos] -0.68 9.26 isLifted: 0
+[angles] theta: 30.95, Phi: 124.59
+[pos] -0.71 9.37 isLifted: 0
+prevDist: 0.005456406467871365, currentDist: 0.11924037341777347
+[angles] theta: 31.40, Phi: 123.93
+[pos] -0.73 9.47 isLifted: 0
+nextCoords: -0.525246641272112 9.482900215215773 isLifted: 0
+[angles] theta: 31.85, Phi: 123.26
+[pos] -0.76 9.57 isLifted: 0
+[vel] 29.94 1.89 [isLifted]0
+[angles] theta: 31.22, Phi: 123.27
+[pos] -0.65 9.58 isLifted: 0
+missed timing by831.0000000000
+[angles] theta: 30.59, Phi: 123.28
+[pos] -0.55 9.58 isLifted: 0
+[angles] theta: 29.97, Phi: 123.27
+[pos] -0.44 9.59 isLifted: 0
+[angles] theta: 29.35, Phi: 123.26
+[pos] -0.34 9.59 isLifted: 0
+prevDist: 0.13688445400776464, currentDist: 0.2139782278724315
+[angles] theta: 28.73, Phi: 123.24
+[pos] -0.24 9.60 isLifted: 0
+nextCoords: -0.3673172962354663 9.76489591671574 isLifted: 0
+[vel] -18.33 23.75 [isLifted]0
+[angles] theta: 29.39, Phi: 122.70
+[pos] -0.30 9.68 isLifted: 0
+missed timing by835.0000000000
+[angles] theta: 30.03, Phi: 122.15
+[pos] -0.36 9.76 isLifted: 0
+[angles] theta: 30.68, Phi: 121.60
+[pos] -0.43 9.85 isLifted: 0
+[angles] theta: 31.32, Phi: 121.04
+[pos] -0.49 9.93 isLifted: 0
+prevDist: 0.10569686061036233, currentDist: 0.2056949297384645
+[angles] theta: 31.96, Phi: 120.48
+[pos] -0.56 10.01 isLifted: 0
+nextCoords: -0.27042255355858025 9.975707110644699 isLifted: 0
+[vel] 29.79 -3.53 [isLifted]0
+[angles] theta: 31.31, Phi: 120.60
+[pos] -0.45 10.00 isLifted: 0
+missed timing by836.0000000000
+[angles] theta: 30.66, Phi: 120.71
+[pos] -0.35 9.99 isLifted: 0
+[angles] theta: 30.01, Phi: 120.81
+[pos] -0.25 9.97 isLifted: 0
+[angles] theta: 29.36, Phi: 120.91
+[pos] -0.14 9.96 isLifted: 0
+prevDist: 0.02120499483055593, currentDist: 0.13136497174492714
+[angles] theta: 28.72, Phi: 121.00
+[pos] -0.04 9.95 isLifted: 0
+nextCoords: -0.18742658206336493 10.19367867096501 isLifted: 0
+[vel] -15.53 25.67 [isLifted]0
+[angles] theta: 29.33, Phi: 120.42
+[pos] -0.09 10.04 isLifted: 0
+missed timing by847.0000000000
+[angles] theta: 29.94, Phi: 119.83
+[pos] -0.15 10.13 isLifted: 0
+[angles] theta: 30.55, Phi: 119.23
+[pos] -0.20 10.22 isLifted: 0
+[angles] theta: 31.16, Phi: 118.64
+[pos] -0.26 10.31 isLifted: 0
+prevDist: 0.029170245127141756, currentDist: 0.13710416689317662
+[angles] theta: 31.76, Phi: 118.04
+[pos] -0.31 10.39 isLifted: 0
+nextCoords: -0.10684220919923604 10.46435419600221 isLifted: 0
+[vel] 28.17 10.31 [isLifted]0
+[angles] theta: 31.32, Phi: 117.82
+[pos] -0.21 10.43 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 30.89, Phi: 117.59
+[pos] -0.11 10.47 isLifted: 0
+[angles] theta: 30.47, Phi: 117.36
+[pos] -0.02 10.50 isLifted: 0
+[angles] theta: 30.06, Phi: 117.12
+[pos] 0.08 10.54 isLifted: 0
+prevDist: 0.0938732796979669, currentDist: 0.20157454899099486
+[angles] theta: 29.65, Phi: 116.88
+[pos] 0.18 10.57 isLifted: 0
+nextCoords: -0.056452936498473605 10.695830729508959 isLifted: 0
+[vel] -26.48 14.09 [isLifted]0
+[angles] theta: 30.32, Phi: 116.56
+[pos] 0.09 10.62 isLifted: 0
+missed timing by849.0000000000
+[angles] theta: 30.99, Phi: 116.24
+[pos] -0.00 10.67 isLifted: 0
+[angles] theta: 31.66, Phi: 115.91
+[pos] -0.10 10.72 isLifted: 0
+[angles] theta: 32.32, Phi: 115.58
+[pos] -0.19 10.77 isLifted: 0
+prevDist: 0.049804622031244354, currentDist: 0.1527609205754334
+[angles] theta: 32.99, Phi: 115.23
+[pos] -0.28 10.82 isLifted: 0
+nextCoords: -0.021613619147197838 10.933423851922925 isLifted: 0
+[vel] 27.47 12.06 [isLifted]0
+[angles] theta: 32.61, Phi: 114.97
+[pos] -0.19 10.86 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 32.24, Phi: 114.70
+[pos] -0.09 10.90 isLifted: 0
+[angles] theta: 31.88, Phi: 114.42
+[pos] 0.01 10.94 isLifted: 0
+[angles] theta: 31.52, Phi: 114.13
+[pos] 0.10 10.98 isLifted: 0
+prevDist: 0.032290349008886395, currentDist: 0.13022753138940085
+[angles] theta: 31.18, Phi: 113.84
+[pos] 0.20 11.02 isLifted: 0
+nextCoords: -0.003095304852497094 11.175241341571574 isLifted: 0
+[vel] -23.84 18.22 [isLifted]0
+[angles] theta: 31.83, Phi: 113.42
+[pos] 0.11 11.09 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 32.49, Phi: 113.00
+[pos] 0.03 11.15 isLifted: 0
+[angles] theta: 33.14, Phi: 112.57
+[pos] -0.05 11.21 isLifted: 0
+[angles] theta: 33.79, Phi: 112.13
+[pos] -0.14 11.28 isLifted: 0
+prevDist: 0.05837991745989547, currentDist: 0.17238698346787712
+[angles] theta: 34.43, Phi: 111.69
+[pos] -0.22 11.34 isLifted: 0
+nextCoords: -0.0014389580991203132 11.424864835498383 isLifted: 0
+[angles] theta: 35.08, Phi: 111.24
+[pos] -0.30 11.40 isLifted: 0
+[vel] 27.97 10.86 [isLifted]0
+[angles] theta: 34.71, Phi: 111.00
+[pos] -0.21 11.44 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 34.34, Phi: 110.75
+[pos] -0.11 11.48 isLifted: 0
+[angles] theta: 33.98, Phi: 110.49
+[pos] -0.01 11.52 isLifted: 0
+[angles] theta: 33.63, Phi: 110.23
+[pos] 0.09 11.55 isLifted: 0
+prevDist: 0.09551958418658603, currentDist: 0.1549835231664955
+[angles] theta: 33.29, Phi: 109.97
+[pos] 0.19 11.59 isLifted: 0
+nextCoords: -0.012868239123571712 11.625265513139098 isLifted: 0
+[vel] -29.56 5.14 [isLifted]0
+[angles] theta: 33.86, Phi: 109.85
+[pos] 0.08 11.61 isLifted: 0
+missed timing by845.0000000000
+[angles] theta: 34.43, Phi: 109.73
+[pos] -0.02 11.63 isLifted: 0
+[angles] theta: 35.00, Phi: 109.61
+[pos] -0.12 11.64 isLifted: 0
+[angles] theta: 35.58, Phi: 109.48
+[pos] -0.23 11.66 isLifted: 0
+prevDist: 0.10814027599159491, currentDist: 0.21989244225027066
+[angles] theta: 36.15, Phi: 109.34
+[pos] -0.33 11.68 isLifted: 0
+nextCoords: -0.04277347999055969 11.871387025095597 isLifted: 0
+[vel] 24.97 16.64 [isLifted]0
+[angles] theta: 35.92, Phi: 108.95
+[pos] -0.24 11.74 isLifted: 0
+missed timing by835.0000000000
+[angles] theta: 35.69, Phi: 108.56
+[pos] -0.16 11.79 isLifted: 0
+[angles] theta: 35.47, Phi: 108.16
+[pos] -0.07 11.85 isLifted: 0
+[angles] theta: 35.25, Phi: 107.76
+[pos] 0.02 11.91 isLifted: 0
+prevDist: 0.03462207726674077, currentDist: 0.0736985184457141
+[angles] theta: 35.04, Phi: 107.35
+[pos] 0.11 11.97 isLifted: 0
+nextCoords: -0.08954736934717467 12.112460002271213 isLifted: 0
+[vel] -24.42 17.43 [isLifted]0
+[angles] theta: 35.67, Phi: 106.93
+[pos] 0.02 12.03 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 36.30, Phi: 106.50
+[pos] -0.06 12.09 isLifted: 0
+[angles] theta: 36.92, Phi: 106.06
+[pos] -0.15 12.15 isLifted: 0
+[angles] theta: 37.55, Phi: 105.62
+[pos] -0.24 12.21 isLifted: 0
+prevDist: 0.07116018537303198, currentDist: 0.17930433688923259
+[angles] theta: 38.17, Phi: 105.18
+[pos] -0.32 12.27 isLifted: 0
+nextCoords: -0.1823083613765739 12.440061081001392 isLifted: 0
+[angles] theta: 38.79, Phi: 104.73
+[pos] -0.41 12.33 isLifted: 0
+[vel] 18.88 23.32 [isLifted]0
+[angles] theta: 38.76, Phi: 104.16
+[pos] -0.34 12.41 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 38.74, Phi: 103.59
+[pos] -0.27 12.49 isLifted: 0
+[angles] theta: 38.73, Phi: 103.01
+[pos] -0.21 12.57 isLifted: 0
+[angles] theta: 38.72, Phi: 102.43
+[pos] -0.14 12.65 isLifted: 0
+prevDist: 0.13285687607413188, currentDist: 0.21415963007223113
+[angles] theta: 38.72, Phi: 101.84
+[pos] -0.08 12.73 isLifted: 0
+nextCoords: -0.2860235919237013 12.710196444337168 isLifted: 0
+[vel] -29.86 -2.87 [isLifted]0
+[angles] theta: 39.15, Phi: 101.91
+[pos] -0.18 12.72 isLifted: 0
+missed timing by839.0000000000
+[angles] theta: 39.59, Phi: 101.97
+[pos] -0.28 12.71 isLifted: 0
+[angles] theta: 40.03, Phi: 102.03
+[pos] -0.39 12.70 isLifted: 0
+[angles] theta: 40.48, Phi: 102.08
+[pos] -0.49 12.69 isLifted: 0
+prevDist: 0.10447516888509906, currentDist: 0.20497383105063208
+[angles] theta: 40.93, Phi: 102.12
+[pos] -0.60 12.68 isLifted: 0
+nextCoords: -0.38882920568889645 12.927054722552349 isLifted: 0
+[vel] 19.49 22.81 [isLifted]0
+[angles] theta: 40.89, Phi: 101.57
+[pos] -0.53 12.76 isLifted: 0
+missed timing by843.0000000000
+[angles] theta: 40.86, Phi: 101.00
+[pos] -0.46 12.84 isLifted: 0
+[angles] theta: 40.83, Phi: 100.44
+[pos] -0.39 12.92 isLifted: 0
+[angles] theta: 40.81, Phi: 99.87
+[pos] -0.32 13.00 isLifted: 0
+prevDist: 0.007151214554852226, currentDist: 0.10029193914607118
+[angles] theta: 40.80, Phi: 99.29
+[pos] -0.25 13.08 isLifted: 0
+nextCoords: -0.5059305779756205 13.135683485371201 isLifted: 0
+[vel] -29.31 6.38 [isLifted]0
+[angles] theta: 41.34, Phi: 99.11
+[pos] -0.36 13.10 isLifted: 0
+missed timing by841.0000000000
+[angles] theta: 41.88, Phi: 98.92
+[pos] -0.46 13.12 isLifted: 0
+[angles] theta: 42.42, Phi: 98.73
+[pos] -0.56 13.14 isLifted: 0
+[angles] theta: 42.96, Phi: 98.53
+[pos] -0.66 13.17 isLifted: 0
+prevDist: 0.05424144814245931, currentDist: 0.15784489215427572
+[angles] theta: 43.51, Phi: 98.32
+[pos] -0.77 13.19 isLifted: 0
+nextCoords: -0.6644487932342269 13.374092838596479 isLifted: 0
+[vel] 14.92 26.03 [isLifted]0
+[angles] theta: 43.60, Phi: 97.67
+[pos] -0.71 13.28 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 43.69, Phi: 97.00
+[pos] -0.66 13.37 isLifted: 0
+[angles] theta: 43.79, Phi: 96.34
+[pos] -0.61 13.46 isLifted: 0
+[angles] theta: 43.89, Phi: 95.66
+[pos] -0.56 13.55 isLifted: 0
+prevDist: 0.10170895469463062, currentDist: 0.20457976400692973
+[angles] theta: 44.01, Phi: 94.98
+[pos] -0.50 13.64 isLifted: 0
+nextCoords: -0.8109719469671415 13.562156748044835 isLifted: 0
+[vel] -29.10 -7.29 [isLifted]0
+[angles] theta: 44.35, Phi: 95.15
+[pos] -0.61 13.61 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 44.70, Phi: 95.31
+[pos] -0.71 13.59 isLifted: 0
+[angles] theta: 45.05, Phi: 95.47
+[pos] -0.81 13.56 isLifted: 0
+[angles] theta: 45.41, Phi: 95.61
+[pos] -0.91 13.54 isLifted: 0
+prevDist: 0.002365637976494328, currentDist: 0.10147648383443811
+[angles] theta: 45.77, Phi: 95.76
+[pos] -1.01 13.51 isLifted: 0
+nextCoords: -0.969966671075218 13.739792304025851 isLifted: 0
+[vel] 5.15 29.56 [isLifted]0
+[angles] theta: 46.06, Phi: 94.98
+[pos] -0.99 13.61 isLifted: 0
+missed timing by831.0000000000
+[angles] theta: 46.36, Phi: 94.20
+[pos] -0.97 13.72 isLifted: 0
+[angles] theta: 46.65, Phi: 93.41
+[pos] -0.96 13.82 isLifted: 0
+[angles] theta: 46.95, Phi: 92.62
+[pos] -0.94 13.92 isLifted: 0
+prevDist: 0.08082455707149358, currentDist: 0.18268227900823203
+[angles] theta: 47.26, Phi: 91.82
+[pos] -0.92 14.03 isLifted: 0
+nextCoords: -1.1408223238724204 13.906285772250346 isLifted: 0
+[vel] -26.17 -14.66 [isLifted]0
+[angles] theta: 47.46, Phi: 92.18
+[pos] -1.01 13.97 isLifted: 0
+missed timing by835.0000000000
+[angles] theta: 47.67, Phi: 92.53
+[pos] -1.10 13.92 isLifted: 0
+[angles] theta: 47.89, Phi: 92.87
+[pos] -1.19 13.87 isLifted: 0
+[angles] theta: 48.11, Phi: 93.21
+[pos] -1.28 13.82 isLifted: 0
+prevDist: 0.0611154734671436, currentDist: 0.16375487786662096
+[angles] theta: 48.33, Phi: 93.54
+[pos] -1.38 13.77 isLifted: 0
+nextCoords: -1.3230800397153626 14.061065855356212 isLifted: 0
+[vel] 5.76 29.44 [isLifted]0
+[angles] theta: 48.60, Phi: 92.76
+[pos] -1.36 13.87 isLifted: 0
+missed timing by832.0000000000
+[angles] theta: 48.88, Phi: 91.97
+[pos] -1.33 13.97 isLifted: 0
+[angles] theta: 49.17, Phi: 91.18
+[pos] -1.31 14.08 isLifted: 0
+[angles] theta: 49.45, Phi: 90.38
+[pos] -1.29 14.18 isLifted: 0
+prevDist: 0.02301280670295038, currentDist: 0.12344885495507617
+[angles] theta: 49.74, Phi: 89.58
+[pos] -1.27 14.28 isLifted: 0
+nextCoords: -1.5160856996741892 14.203379605845747 isLifted: 0
+[vel] -28.64 -8.92 [isLifted]0
+[angles] theta: 50.06, Phi: 89.76
+[pos] -1.37 14.25 isLifted: 0
+missed timing by845.0000000000
+[angles] theta: 50.39, Phi: 89.93
+[pos] -1.47 14.22 isLifted: 0
+[angles] theta: 50.71, Phi: 90.10
+[pos] -1.57 14.19 isLifted: 0
+[angles] theta: 51.04, Phi: 90.26
+[pos] -1.67 14.15 isLifted: 0
+prevDist: 0.05554966815570811, currentDist: 0.1629079315596117
+[angles] theta: 51.38, Phi: 90.41
+[pos] -1.77 14.12 isLifted: 0
+nextCoords: -1.7192828268764746 14.332570486876362 isLifted: 0
+[vel] 6.96 29.18 [isLifted]0
+[angles] theta: 51.63, Phi: 89.62
+[pos] -1.75 14.22 isLifted: 0
+missed timing by842.0000000000
+[angles] theta: 51.89, Phi: 88.83
+[pos] -1.72 14.33 isLifted: 0
+[angles] theta: 52.15, Phi: 88.04
+[pos] -1.70 14.43 isLifted: 0
+[angles] theta: 52.42, Phi: 87.24
+[pos] -1.67 14.53 isLifted: 0
+prevDist: 0.09931937091956031, currentDist: 0.2034876155375877
+[angles] theta: 52.69, Phi: 86.43
+[pos] -1.65 14.63 isLifted: 0
+nextCoords: -1.932300820892662 14.448070573808323 isLifted: 0
+[vel] -25.22 -16.25 [isLifted]0
+[angles] theta: 52.86, Phi: 86.81
+[pos] -1.74 14.57 isLifted: 0
+missed timing by844.0000000000
+[angles] theta: 53.03, Phi: 87.19
+[pos] -1.83 14.52 isLifted: 0
+[angles] theta: 53.21, Phi: 87.56
+[pos] -1.91 14.46 isLifted: 0
+[angles] theta: 53.40, Phi: 87.93
+[pos] -2.00 14.40 isLifted: 0
+prevDist: 0.025291062092155814, currentDist: 0.0830298676264682
+[angles] theta: 53.59, Phi: 88.29
+[pos] -2.09 14.34 isLifted: 0
+nextCoords: -2.1540809548136597 14.548961616260538 isLifted: 0
+[vel] -8.80 28.68 [isLifted]0
+[angles] theta: 54.08, Phi: 87.45
+[pos] -2.12 14.44 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 54.58, Phi: 86.60
+[pos] -2.15 14.54 isLifted: 0
+[angles] theta: 55.07, Phi: 85.74
+[pos] -2.18 14.64 isLifted: 0
+[angles] theta: 55.57, Phi: 84.88
+[pos] -2.21 14.74 isLifted: 0
+prevDist: 0.09465613671212875, currentDist: 0.19905427319286065
+[angles] theta: 56.08, Phi: 84.01
+[pos] -2.24 14.84 isLifted: 0
+nextCoords: -2.3850331392097566 14.634978123643421 isLifted: 0
+[vel] -17.33 -24.49 [isLifted]0
+[angles] theta: 56.03, Phi: 84.65
+[pos] -2.30 14.76 isLifted: 0
+missed timing by836.0000000000
+[angles] theta: 55.98, Phi: 85.28
+[pos] -2.36 14.67 isLifted: 0
+[angles] theta: 55.95, Phi: 85.91
+[pos] -2.42 14.59 isLifted: 0
+[angles] theta: 55.92, Phi: 86.53
+[pos] -2.48 14.50 isLifted: 0
+prevDist: 0.056971159019341945, currentDist: 0.16503877880865497
+[angles] theta: 55.89, Phi: 87.14
+[pos] -2.54 14.41 isLifted: 0
+nextCoords: -2.6230021456303323 14.704891667114948 isLifted: 0
+[vel] -8.13 28.88 [isLifted]0
+[angles] theta: 56.37, Phi: 86.28
+[pos] -2.57 14.51 isLifted: 0
+missed timing by832.0000000000
+[angles] theta: 56.85, Phi: 85.42
+[pos] -2.60 14.61 isLifted: 0
+[angles] theta: 57.34, Phi: 84.54
+[pos] -2.63 14.71 isLifted: 0
+[angles] theta: 57.82, Phi: 83.67
+[pos] -2.66 14.82 isLifted: 0
+prevDist: 0.008664007770286638, currentDist: 0.12090810364708866
+[angles] theta: 58.31, Phi: 82.78
+[pos] -2.68 14.92 isLifted: 0
+nextCoords: -2.8197838651789695 14.749262662115271 isLifted: 0
+[vel] -19.00 -23.21 [isLifted]0
+[angles] theta: 58.32, Phi: 83.36
+[pos] -2.75 14.83 isLifted: 0
+missed timing by835.0000000000
+[angles] theta: 58.33, Phi: 83.94
+[pos] -2.82 14.75 isLifted: 0
+[angles] theta: 58.34, Phi: 84.51
+[pos] -2.88 14.67 isLifted: 0
+[angles] theta: 58.37, Phi: 85.07
+[pos] -2.95 14.59 isLifted: 0
+prevDist: 0.09954171235408865, currentDist: 0.20572028901343647
+[angles] theta: 58.40, Phi: 85.63
+[pos] -3.01 14.51 isLifted: 0
+nextCoords: -8.549292665115567 14.137767550339941 isLifted: 1
+[vel] -29.93 -2.01 [isLifted]1
+[angles] theta: 58.86, Phi: 85.51
+[pos] -3.12 14.50 isLifted: 1
+missed timing by847.0000000000
+[angles] theta: 59.32, Phi: 85.38
+[pos] -3.22 14.49 isLifted: 1
+[angles] theta: 59.79, Phi: 85.25
+[pos] -3.33 14.49 isLifted: 1
+[angles] theta: 60.26, Phi: 85.11
+[pos] -3.43 14.48 isLifted: 1
+prevDist: 5.231164652610611, currentDist: 5.130719290772628
+[angles] theta: 60.73, Phi: 84.97
+[pos] -3.54 14.47 isLifted: 1
+prevDist: 5.130719290772628, currentDist: 5.020297939902347
+[angles] theta: 61.20, Phi: 84.82
+[pos] -3.64 14.46 isLifted: 1
+prevDist: 5.020297939902347, currentDist: 4.9198565246734
+[angles] theta: 61.68, Phi: 84.66
+[pos] -3.75 14.46 isLifted: 1
+prevDist: 4.9198565246734, currentDist: 4.810098110958446
+[angles] theta: 62.16, Phi: 84.49
+[pos] -3.85 14.45 isLifted: 1
+prevDist: 4.810098110958446, currentDist: 4.709653984639391
+[angles] theta: 62.64, Phi: 84.32
+[pos] -3.95 14.44 isLifted: 1
+prevDist: 4.709653984639391, currentDist: 4.609212239961768
+[angles] theta: 63.12, Phi: 84.15
+[pos] -4.06 14.43 isLifted: 1
+prevDist: 4.609212239961768, currentDist: 4.498794109280259
+[angles] theta: 63.60, Phi: 83.97
+[pos] -4.16 14.43 isLifted: 1
+prevDist: 4.498794109280259, currentDist: 4.399010105088602
+[angles] theta: 64.09, Phi: 83.78
+[pos] -4.27 14.42 isLifted: 1
+prevDist: 4.399010105088602, currentDist: 4.288589613072463
+[angles] theta: 64.58, Phi: 83.58
+[pos] -4.37 14.41 isLifted: 1
+prevDist: 4.288589613072463, currentDist: 4.18814967346401
+[angles] theta: 65.07, Phi: 83.38
+[pos] -4.48 14.41 isLifted: 1
+prevDist: 4.18814967346401, currentDist: 4.078388566702696
+[angles] theta: 65.56, Phi: 83.17
+[pos] -4.58 14.40 isLifted: 1
+prevDist: 4.078388566702696, currentDist: 3.977945464557673
+[angles] theta: 66.06, Phi: 82.96
+[pos] -4.69 14.39 isLifted: 1
+prevDist: 3.977945464557673, currentDist: 3.8675264813154584
+[angles] theta: 66.55, Phi: 82.74
+[pos] -4.79 14.38 isLifted: 1
+prevDist: 3.8675264813154584, currentDist: 3.7670887833524733
+[angles] theta: 67.05, Phi: 82.51
+[pos] -4.90 14.38 isLifted: 1
+prevDist: 3.7670887833524733, currentDist: 3.6573232719209536
+[angles] theta: 67.55, Phi: 82.28
+[pos] -5.00 14.37 isLifted: 1
+prevDist: 3.6573232719209536, currentDist: 3.556882108436865
+[angles] theta: 68.05, Phi: 82.04
+[pos] -5.10 14.36 isLifted: 1
+prevDist: 3.556882108436865, currentDist: 3.4564442930997696
+[angles] theta: 68.56, Phi: 81.80
+[pos] -5.21 14.35 isLifted: 1
+prevDist: 3.4564442930997696, currentDist: 3.346030202491206
+[angles] theta: 69.06, Phi: 81.55
+[pos] -5.31 14.35 isLifted: 1
+prevDist: 3.346030202491206, currentDist: 3.246237758230322
+[angles] theta: 69.57, Phi: 81.29
+[pos] -5.42 14.34 isLifted: 1
+prevDist: 3.246237758230322, currentDist: 3.1358205541200217
+[angles] theta: 70.08, Phi: 81.02
+[pos] -5.52 14.33 isLifted: 1
+prevDist: 3.1358205541200217, currentDist: 3.0353858676658043
+[angles] theta: 70.59, Phi: 80.75
+[pos] -5.63 14.32 isLifted: 1
+prevDist: 3.0353858676658043, currentDist: 2.924974928150096
+[angles] theta: 71.10, Phi: 80.48
+[pos] -5.73 14.32 isLifted: 1
+prevDist: 2.924974928150096, currentDist: 2.8251760648291535
+[angles] theta: 71.62, Phi: 80.19
+[pos] -5.84 14.31 isLifted: 1
+prevDist: 2.8251760648291535, currentDist: 2.714761639990686
+[angles] theta: 72.13, Phi: 79.90
+[pos] -5.94 14.30 isLifted: 1
+prevDist: 2.714761639990686, currentDist: 2.6143311917101477
+[angles] theta: 72.65, Phi: 79.60
+[pos] -6.05 14.29 isLifted: 1
+prevDist: 2.6143311917101477, currentDist: 2.5039246283844045
+[angles] theta: 73.17, Phi: 79.30
+[pos] -6.15 14.29 isLifted: 1
+prevDist: 2.5039246283844045, currentDist: 2.404117304044639
+[angles] theta: 73.69, Phi: 78.99
+[pos] -6.25 14.28 isLifted: 1
+prevDist: 2.404117304044639, currentDist: 2.3036876588614503
+[angles] theta: 74.21, Phi: 78.67
+[pos] -6.36 14.27 isLifted: 1
+prevDist: 2.3036876588614503, currentDist: 2.1932824246484817
+[angles] theta: 74.74, Phi: 78.35
+[pos] -6.46 14.26 isLifted: 1
+prevDist: 2.1932824246484817, currentDist: 2.092865168197801
+[angles] theta: 75.27, Phi: 78.02
+[pos] -6.57 14.26 isLifted: 1
+prevDist: 2.092865168197801, currentDist: 1.9830633439026055
+[angles] theta: 75.79, Phi: 77.68
+[pos] -6.67 14.25 isLifted: 1
+prevDist: 1.9830633439026055, currentDist: 1.8826409758405531
+[angles] theta: 76.32, Phi: 77.34
+[pos] -6.78 14.24 isLifted: 1
+prevDist: 1.8826409758405531, currentDist: 1.7722437779818112
+[angles] theta: 76.85, Phi: 76.99
+[pos] -6.88 14.23 isLifted: 1
+prevDist: 1.7722437779818112, currentDist: 1.6718387561541124
+[angles] theta: 77.39, Phi: 76.63
+[pos] -6.99 14.23 isLifted: 1
+prevDist: 1.6718387561541124, currentDist: 1.5620180665579715
+[angles] theta: 77.92, Phi: 76.27
+[pos] -7.09 14.22 isLifted: 1
+prevDist: 1.5620180665579715, currentDist: 1.4616077648388401
+[angles] theta: 78.46, Phi: 75.90
+[pos] -7.20 14.21 isLifted: 1
+prevDist: 1.4616077648388401, currentDist: 1.3512247122216805
+[angles] theta: 79.00, Phi: 75.52
+[pos] -7.30 14.20 isLifted: 1
+prevDist: 1.3512247122216805, currentDist: 1.2508417329551527
+[angles] theta: 79.54, Phi: 75.14
+[pos] -7.40 14.20 isLifted: 1
+prevDist: 1.2508417329551527, currentDist: 1.1509763281141514
+[angles] theta: 80.08, Phi: 74.75
+[pos] -7.51 14.19 isLifted: 1
+prevDist: 1.1509763281141514, currentDist: 1.04060437850343
+[angles] theta: 80.62, Phi: 74.35
+[pos] -7.61 14.18 isLifted: 1
+prevDist: 1.04060437850343, currentDist: 0.940241612855012
+[angles] theta: 81.17, Phi: 73.94
+[pos] -7.72 14.17 isLifted: 1
+prevDist: 0.940241612855012, currentDist: 0.8299188244795808
+[angles] theta: 81.72, Phi: 73.53
+[pos] -7.82 14.17 isLifted: 1
+prevDist: 0.8299188244795808, currentDist: 0.7300046042337369
+[angles] theta: 82.27, Phi: 73.11
+[pos] -7.93 14.16 isLifted: 1
+prevDist: 0.7300046042337369, currentDist: 0.6196916062718857
+[angles] theta: 82.82, Phi: 72.68
+[pos] -8.03 14.15 isLifted: 1
+prevDist: 0.6196916062718857, currentDist: 0.5194367188286898
+[angles] theta: 83.37, Phi: 72.24
+[pos] -8.14 14.14 isLifted: 1
+prevDist: 0.5194367188286898, currentDist: 0.40929875341721755
+[angles] theta: 83.93, Phi: 71.80
+[pos] -8.24 14.14 isLifted: 1
+prevDist: 0.40929875341721755, currentDist: 0.30930072183196583
+[angles] theta: 84.48, Phi: 71.35
+[pos] -8.34 14.13 isLifted: 1
+prevDist: 0.30930072183196583, currentDist: 0.209436755392793
+[angles] theta: 85.04, Phi: 70.89
+[pos] -8.45 14.12 isLifted: 1
+prevDist: 0.209436755392793, currentDist: 0.10086981308020115
+[angles] theta: 85.60, Phi: 70.43
+[pos] -8.55 14.11 isLifted: 1
+prevDist: 0.10086981308020115, currentDist: 0.027776558003466182
+[angles] theta: 86.17, Phi: 69.95
+[pos] -8.66 14.11 isLifted: 1
+nextCoords: -8.362458887398173 13.814255953897277 isLifted: 0
+[vel] 21.28 -21.15 [isLifted]0
+[angles] theta: 85.57, Phi: 70.96
+[pos] -8.58 14.03 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 84.98, Phi: 71.96
+[pos] -8.51 13.96 isLifted: 0
+[angles] theta: 84.39, Phi: 72.94
+[pos] -8.43 13.88 isLifted: 0
+[angles] theta: 83.81, Phi: 73.91
+[pos] -8.36 13.81 isLifted: 0
+prevDist: 0.09425540562455681, currentDist: 0.004915208114885718
+[angles] theta: 83.24, Phi: 74.87
+[pos] -8.29 13.73 isLifted: 0
+nextCoords: -8.362458887398173 11.626527747114332 isLifted: 0
+[vel] -1.03 -29.98 [isLifted]0
+[angles] theta: 83.02, Phi: 75.69
+[pos] -8.29 13.63 isLifted: 0
+missed timing by844.0000000000
+[angles] theta: 82.82, Phi: 76.50
+[pos] -8.29 13.52 isLifted: 0
+[angles] theta: 82.62, Phi: 77.30
+[pos] -8.30 13.42 isLifted: 0
+[angles] theta: 82.43, Phi: 78.09
+[pos] -8.30 13.31 isLifted: 0
+prevDist: 1.7945595098758385, currentDist: 1.6846305051408053
+[angles] theta: 82.24, Phi: 78.87
+[pos] -8.30 13.21 isLifted: 0
+prevDist: 1.6846305051408053, currentDist: 1.584703596346595
+[angles] theta: 82.07, Phi: 79.64
+[pos] -8.30 13.11 isLifted: 0
+prevDist: 1.584703596346595, currentDist: 1.48478652933568
+[angles] theta: 81.90, Phi: 80.41
+[pos] -8.31 13.00 isLifted: 0
+prevDist: 1.48478652933568, currentDist: 1.374473704482514
+[angles] theta: 81.73, Phi: 81.17
+[pos] -8.31 12.90 isLifted: 0
+prevDist: 1.374473704482514, currentDist: 1.2745522797189421
+[angles] theta: 81.57, Phi: 81.92
+[pos] -8.31 12.79 isLifted: 0
+prevDist: 1.2745522797189421, currentDist: 1.1646542912392084
+[angles] theta: 81.42, Phi: 82.66
+[pos] -8.32 12.69 isLifted: 0
+prevDist: 1.1646542912392084, currentDist: 1.0643194960991773
+[angles] theta: 81.27, Phi: 83.40
+[pos] -8.32 12.58 isLifted: 0
+prevDist: 1.0643194960991773, currentDist: 0.9544171489144363
+[angles] theta: 81.13, Phi: 84.12
+[pos] -8.32 12.48 isLifted: 0
+prevDist: 0.9544171489144363, currentDist: 0.8545277313024009
+[angles] theta: 81.00, Phi: 84.84
+[pos] -8.33 12.37 isLifted: 0
+prevDist: 0.8545277313024009, currentDist: 0.7441804688259536
+[angles] theta: 80.87, Phi: 85.56
+[pos] -8.33 12.27 isLifted: 0
+prevDist: 0.7441804688259536, currentDist: 0.6442904000564367
+[angles] theta: 80.75, Phi: 86.26
+[pos] -8.33 12.16 isLifted: 0
+prevDist: 0.6442904000564367, currentDist: 0.5344588141008033
+[angles] theta: 80.64, Phi: 86.96
+[pos] -8.34 12.06 isLifted: 0
+prevDist: 0.5344588141008033, currentDist: 0.43405367829905595
+[angles] theta: 80.53, Phi: 87.66
+[pos] -8.34 11.95 isLifted: 0
+prevDist: 0.43405367829905595, currentDist: 0.3242509830518523
+[angles] theta: 80.43, Phi: 88.34
+[pos] -8.34 11.85 isLifted: 0
+prevDist: 0.3242509830518523, currentDist: 0.22459797290483144
+[angles] theta: 80.33, Phi: 89.02
+[pos] -8.34 11.74 isLifted: 0
+prevDist: 0.22459797290483144, currentDist: 0.11567347923406104
+[angles] theta: 80.24, Phi: 89.70
+[pos] -8.35 11.64 isLifted: 0
+prevDist: 0.11567347923406104, currentDist: 0.01835008100842481
+[angles] theta: 80.16, Phi: 90.36
+[pos] -8.35 11.53 isLifted: 0
+nextCoords: -7.0993891842014385 11.62652774711433 isLifted: 0
+[vel] 29.91 2.31 [isLifted]0
+[angles] theta: 79.57, Phi: 90.80
+[pos] -8.25 11.54 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 78.99, Phi: 91.23
+[pos] -8.14 11.55 isLifted: 0
+[angles] theta: 78.41, Phi: 91.66
+[pos] -8.04 11.56 isLifted: 0
+[angles] theta: 77.83, Phi: 92.08
+[pos] -7.93 11.56 isLifted: 0
+prevDist: 0.9429605760228484, currentDist: 0.8332708253969172
+[angles] theta: 77.25, Phi: 92.49
+[pos] -7.83 11.57 isLifted: 0
+prevDist: 0.8332708253969172, currentDist: 0.7327943438343812
+[angles] theta: 76.67, Phi: 92.90
+[pos] -7.72 11.58 isLifted: 0
+prevDist: 0.7327943438343812, currentDist: 0.6223524852828105
+[angles] theta: 76.08, Phi: 93.30
+[pos] -7.62 11.59 isLifted: 0
+prevDist: 0.6223524852828105, currentDist: 0.5218906952951856
+[angles] theta: 75.50, Phi: 93.69
+[pos] -7.52 11.59 isLifted: 0
+prevDist: 0.5218906952951856, currentDist: 0.4221939538600471
+[angles] theta: 74.92, Phi: 94.08
+[pos] -7.41 11.60 isLifted: 0
+prevDist: 0.4221939538600471, currentDist: 0.3117415600429463
+[angles] theta: 74.34, Phi: 94.47
+[pos] -7.31 11.61 isLifted: 0
+prevDist: 0.3117415600429463, currentDist: 0.2112583303825218
+[angles] theta: 73.76, Phi: 94.84
+[pos] -7.20 11.62 isLifted: 0
+prevDist: 0.2112583303825218, currentDist: 0.10082235733229397
+[angles] theta: 73.19, Phi: 95.21
+[pos] -7.10 11.62 isLifted: 0
+prevDist: 0.10082235733229397, currentDist: 0.006556262527418698
+[angles] theta: 72.61, Phi: 95.58
+[pos] -6.99 11.63 isLifted: 0
+nextCoords: -6.981415122644339 11.422031825824087 isLifted: 0
+[vel] 1.24 -29.97 [isLifted]0
+[angles] theta: 72.46, Phi: 96.28
+[pos] -6.99 11.53 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 72.32, Phi: 96.98
+[pos] -6.98 11.42 isLifted: 0
+[angles] theta: 72.18, Phi: 97.68
+[pos] -6.98 11.32 isLifted: 0
+[angles] theta: 72.05, Phi: 98.36
+[pos] -6.98 11.21 isLifted: 0
+prevDist: 0.10204163882011734, currentDist: 0.21203654810997585
+[angles] theta: 71.92, Phi: 99.05
+[pos] -6.97 11.11 isLifted: 0
+nextCoords: -6.9558530173555315 10.871028811903686 isLifted: 0
+[vel] 1.77 -29.95 [isLifted]0
+[angles] theta: 71.79, Phi: 99.73
+[pos] -6.96 11.00 isLifted: 0
+missed timing by843.0000000000
+[angles] theta: 71.67, Phi: 100.41
+[pos] -6.96 10.90 isLifted: 0
+[angles] theta: 71.55, Phi: 101.09
+[pos] -6.95 10.79 isLifted: 0
+[angles] theta: 71.43, Phi: 101.76
+[pos] -6.94 10.69 isLifted: 0
+prevDist: 0.08123992965707985, currentDist: 0.18172162474107265
+[angles] theta: 71.33, Phi: 102.42
+[pos] -6.94 10.58 isLifted: 0
+nextCoords: -6.85766492813077 10.387350679578653 isLifted: 0
+[vel] 11.79 -27.59 [isLifted]0
+[angles] theta: 71.02, Phi: 103.17
+[pos] -6.90 10.49 isLifted: 0
+missed timing by836.0000000000
+[angles] theta: 70.73, Phi: 103.92
+[pos] -6.85 10.39 isLifted: 0
+[angles] theta: 70.43, Phi: 104.66
+[pos] -6.81 10.29 isLifted: 0
+[angles] theta: 70.14, Phi: 105.40
+[pos] -6.77 10.20 isLifted: 0
+prevDist: 0.1083932663413054, currentDist: 0.20684636028404363
+[angles] theta: 69.85, Phi: 106.14
+[pos] -6.73 10.10 isLifted: 0
+nextCoords: -6.673545660026568 9.882713031859765 isLifted: 0
+[vel] 7.54 -29.04 [isLifted]0
+[angles] theta: 69.65, Phi: 106.84
+[pos] -6.70 10.00 isLifted: 0
+missed timing by841.0000000000
+[angles] theta: 69.46, Phi: 107.54
+[pos] -6.68 9.90 isLifted: 0
+[angles] theta: 69.27, Phi: 108.23
+[pos] -6.65 9.80 isLifted: 0
+[angles] theta: 69.08, Phi: 108.92
+[pos] -6.62 9.70 isLifted: 0
+prevDist: 0.08599909153892943, currentDist: 0.19039745197630328
+[angles] theta: 68.90, Phi: 109.61
+[pos] -6.60 9.59 isLifted: 0
+nextCoords: -6.43597243915531 9.446907183463631 isLifted: 0
+[vel] 22.61 -19.72 [isLifted]0
+[angles] theta: 68.41, Phi: 110.31
+[pos] -6.52 9.53 isLifted: 0
+missed timing by840.0000000000
+[angles] theta: 67.92, Phi: 111.01
+[pos] -6.44 9.46 isLifted: 0
+[angles] theta: 67.43, Phi: 111.71
+[pos] -6.36 9.39 isLifted: 0
+[angles] theta: 66.93, Phi: 112.41
+[pos] -6.28 9.32 isLifted: 0
+prevDist: 0.09492227894952034, currentDist: 0.20107917592512778
+[angles] theta: 66.44, Phi: 113.10
+[pos] -6.20 9.25 isLifted: 0
+nextCoords: -11.279520404870675 9.40866067738848 isLifted: 0
+[vel] -29.99 0.94 [isLifted]0
+[angles] theta: 67.09, Phi: 112.68
+[pos] -6.31 9.25 isLifted: 0
+missed timing by833.0000000000
+[angles] theta: 67.74, Phi: 112.26
+[pos] -6.41 9.25 isLifted: 0
+[angles] theta: 68.39, Phi: 111.84
+[pos] -6.52 9.26 isLifted: 0
+[angles] theta: 69.04, Phi: 111.40
+[pos] -6.62 9.26 isLifted: 0
+prevDist: 4.76184150107728, currentDist: 4.66189129006756
+[angles] theta: 69.68, Phi: 110.97
+[pos] -6.73 9.26 isLifted: 0
+prevDist: 4.66189129006756, currentDist: 4.551948583995236
+[angles] theta: 70.32, Phi: 110.53
+[pos] -6.83 9.27 isLifted: 0
+prevDist: 4.551948583995236, currentDist: 4.4516804261777745
+[angles] theta: 70.96, Phi: 110.08
+[pos] -6.94 9.27 isLifted: 0
+prevDist: 4.4516804261777745, currentDist: 4.341735151727104
+[angles] theta: 71.60, Phi: 109.63
+[pos] -7.04 9.27 isLifted: 0
+prevDist: 4.341735151727104, currentDist: 4.241787364633999
+[angles] theta: 72.24, Phi: 109.17
+[pos] -7.15 9.27 isLifted: 0
+prevDist: 4.241787364633999, currentDist: 4.131847717147511
+[angles] theta: 72.87, Phi: 108.71
+[pos] -7.25 9.28 isLifted: 0
+prevDist: 4.131847717147511, currentDist: 4.031573918852932
+[angles] theta: 73.50, Phi: 108.24
+[pos] -7.36 9.28 isLifted: 0
+prevDist: 4.031573918852932, currentDist: 3.9216315194193916
+[angles] theta: 74.13, Phi: 107.76
+[pos] -7.46 9.28 isLifted: 0
+prevDist: 3.9216315194193916, currentDist: 3.8216867602054347
+[angles] theta: 74.76, Phi: 107.29
+[pos] -7.57 9.28 isLifted: 0
+prevDist: 3.8216867602054347, currentDist: 3.711750962020211
+[angles] theta: 75.39, Phi: 106.80
+[pos] -7.67 9.29 isLifted: 0
+prevDist: 3.711750962020211, currentDist: 3.611470325163431
+[angles] theta: 76.01, Phi: 106.31
+[pos] -7.77 9.29 isLifted: 0
+prevDist: 3.611470325163431, currentDist: 3.5115258547477515
+[angles] theta: 76.64, Phi: 105.82
+[pos] -7.88 9.29 isLifted: 0
+prevDist: 3.5115258547477515, currentDist: 3.4015907072266023
+[angles] theta: 77.26, Phi: 105.32
+[pos] -7.98 9.29 isLifted: 0
+prevDist: 3.4015907072266023, currentDist: 3.30165341283973
+[angles] theta: 77.88, Phi: 104.82
+[pos] -8.09 9.30 isLifted: 0
+prevDist: 3.30165341283973, currentDist: 3.191370795739179
+[angles] theta: 78.50, Phi: 104.31
+[pos] -8.19 9.30 isLifted: 0
+prevDist: 3.191370795739179, currentDist: 3.0914306518055343
+[angles] theta: 79.12, Phi: 103.79
+[pos] -8.30 9.30 isLifted: 0
+prevDist: 3.0914306518055343, currentDist: 2.981501129607573
+[angles] theta: 79.73, Phi: 103.27
+[pos] -8.40 9.31 isLifted: 0
+prevDist: 2.981501129607573, currentDist: 2.8812101088482476
+[angles] theta: 80.35, Phi: 102.75
+[pos] -8.51 9.31 isLifted: 0
+prevDist: 2.8812101088482476, currentDist: 2.771277178893837
+[angles] theta: 80.96, Phi: 102.22
+[pos] -8.61 9.31 isLifted: 0
+prevDist: 2.771277178893837, currentDist: 2.6713429434057416
+[angles] theta: 81.57, Phi: 101.68
+[pos] -8.72 9.31 isLifted: 0
+prevDist: 2.6713429434057416, currentDist: 2.561421213352481
+[angles] theta: 82.18, Phi: 101.14
+[pos] -8.82 9.32 isLifted: 0
+prevDist: 2.561421213352481, currentDist: 2.4611179040611186
+[angles] theta: 82.79, Phi: 100.59
+[pos] -8.93 9.32 isLifted: 0
+prevDist: 2.4611179040611186, currentDist: 2.3511926438764323
+[angles] theta: 83.40, Phi: 100.04
+[pos] -9.03 9.32 isLifted: 0
+prevDist: 2.3511926438764323, currentDist: 2.2512669250101185
+[angles] theta: 84.00, Phi: 99.49
+[pos] -9.14 9.32 isLifted: 0
+prevDist: 2.2512669250101185, currentDist: 2.1413566444132934
+[angles] theta: 84.61, Phi: 98.92
+[pos] -9.24 9.33 isLifted: 0
+prevDist: 2.1413566444132934, currentDist: 2.0410367424549363
+[angles] theta: 85.21, Phi: 98.36
+[pos] -9.35 9.33 isLifted: 0
+prevDist: 2.0410367424549363, currentDist: 1.9311231175094745
+[angles] theta: 85.82, Phi: 97.78
+[pos] -9.45 9.33 isLifted: 0
+prevDist: 1.9311231175094745, currentDist: 1.8312106416262923
+[angles] theta: 86.42, Phi: 97.21
+[pos] -9.56 9.34 isLifted: 0
+prevDist: 1.8312106416262923, currentDist: 1.7208906738622458
+[angles] theta: 87.02, Phi: 96.62
+[pos] -9.66 9.34 isLifted: 0
+prevDist: 1.7208906738622458, currentDist: 1.6209752096845655
+[angles] theta: 87.62, Phi: 96.03
+[pos] -9.76 9.34 isLifted: 0
+prevDist: 1.6209752096845655, currentDist: 1.5210708561529234
+[angles] theta: 88.23, Phi: 95.44
+[pos] -9.87 9.34 isLifted: 0
+prevDist: 1.5210708561529234, currentDist: 1.4111917163752912
+[angles] theta: 88.83, Phi: 94.84
+[pos] -9.97 9.35 isLifted: 0
+prevDist: 1.4111917163752912, currentDist: 1.310833614859007
+[angles] theta: 89.42, Phi: 94.23
+[pos] -10.08 9.35 isLifted: 0
+prevDist: 1.310833614859007, currentDist: 1.2009539028508898
+[angles] theta: 90.02, Phi: 93.62
+[pos] -10.18 9.35 isLifted: 0
+prevDist: 1.2009539028508898, currentDist: 1.1010841002387828
+[angles] theta: 90.62, Phi: 93.00
+[pos] -10.29 9.35 isLifted: 0
+prevDist: 1.1010841002387828, currentDist: 0.9912576389249681
+[angles] theta: 91.22, Phi: 92.38
+[pos] -10.39 9.36 isLifted: 0
+prevDist: 0.9912576389249681, currentDist: 0.8908503871050375
+[angles] theta: 91.82, Phi: 91.75
+[pos] -10.50 9.36 isLifted: 0
+prevDist: 0.8908503871050375, currentDist: 0.7810377219658776
+[angles] theta: 92.42, Phi: 91.12
+[pos] -10.60 9.36 isLifted: 0
+prevDist: 0.7810377219658776, currentDist: 0.6812604804034306
+[angles] theta: 93.01, Phi: 90.48
+[pos] -10.71 9.37 isLifted: 0
+prevDist: 0.6812604804034306, currentDist: 0.5708310954566099
+[angles] theta: 93.61, Phi: 89.83
+[pos] -10.81 9.37 isLifted: 0
+prevDist: 0.5708310954566099, currentDist: 0.47110939129469576
+[angles] theta: 94.21, Phi: 89.18
+[pos] -10.92 9.37 isLifted: 0
+prevDist: 0.47110939129469576, currentDist: 0.3615930993458126
+[angles] theta: 94.81, Phi: 88.52
+[pos] -11.02 9.37 isLifted: 0
+prevDist: 0.3615930993458126, currentDist: 0.2623842383230665
+[angles] theta: 95.40, Phi: 87.85
+[pos] -11.13 9.38 isLifted: 0
+prevDist: 0.2623842383230665, currentDist: 0.1522425233010048
+[angles] theta: 96.00, Phi: 87.18
+[pos] -11.23 9.38 isLifted: 0
+prevDist: 0.1522425233010048, currentDist: 0.05721629948644087
+[angles] theta: 96.60, Phi: 86.50
+[pos] -11.33 9.38 isLifted: 0
+nextCoords: -8.549292665115567 14.137767550339941 isLifted: 0
+[vel] 15.14 25.90 [isLifted]0
+[angles] theta: 96.27, Phi: 86.36
+[pos] -11.28 9.47 isLifted: 0
+missed timing by845.0000000000
+[angles] theta: 95.94, Phi: 86.22
+[pos] -11.23 9.56 isLifted: 0
+[angles] theta: 95.62, Phi: 86.06
+[pos] -11.17 9.65 isLifted: 0
+[angles] theta: 95.30, Phi: 85.90
+[pos] -11.12 9.74 isLifted: 0
+prevDist: 5.196937994723548, currentDist: 5.094005852808925
+[angles] theta: 94.99, Phi: 85.74
+[pos] -11.07 9.83 isLifted: 0
+prevDist: 5.094005852808925, currentDist: 4.991074707505584
+[angles] theta: 94.68, Phi: 85.57
+[pos] -11.02 9.92 isLifted: 0
+prevDist: 4.991074707505584, currentDist: 4.888144621771365
+[angles] theta: 94.37, Phi: 85.39
+[pos] -10.96 10.01 isLifted: 0
+prevDist: 4.888144621771365, currentDist: 4.780164725624527
+[angles] theta: 94.07, Phi: 85.21
+[pos] -10.91 10.10 isLifted: 0
+prevDist: 4.780164725624527, currentDist: 4.677232719413839
+[angles] theta: 93.77, Phi: 85.02
+[pos] -10.86 10.19 isLifted: 0
+prevDist: 4.677232719413839, currentDist: 4.5743018067247965
+[angles] theta: 93.48, Phi: 84.82
+[pos] -10.80 10.28 isLifted: 0
+prevDist: 4.5743018067247965, currentDist: 4.466324437359922
+[angles] theta: 93.19, Phi: 84.62
+[pos] -10.75 10.37 isLifted: 0
+prevDist: 4.466324437359922, currentDist: 4.363391466188747
+[angles] theta: 92.91, Phi: 84.41
+[pos] -10.70 10.46 isLifted: 0
+prevDist: 4.363391466188747, currentDist: 4.260459622465532
+[angles] theta: 92.63, Phi: 84.19
+[pos] -10.64 10.56 isLifted: 0
+prevDist: 4.260459622465532, currentDist: 4.143848187905178
+[angles] theta: 92.35, Phi: 83.97
+[pos] -10.59 10.65 isLifted: 0
+prevDist: 4.143848187905178, currentDist: 4.040916840502337
+[angles] theta: 92.08, Phi: 83.75
+[pos] -10.54 10.74 isLifted: 0
+prevDist: 4.040916840502337, currentDist: 3.9379867977566603
+[angles] theta: 91.82, Phi: 83.51
+[pos] -10.48 10.83 isLifted: 0
+prevDist: 3.9379867977566603, currentDist: 3.8300074386427037
+[angles] theta: 91.55, Phi: 83.27
+[pos] -10.43 10.92 isLifted: 0
+prevDist: 3.8300074386427037, currentDist: 3.727075004277323
+[angles] theta: 91.30, Phi: 83.02
+[pos] -10.38 11.01 isLifted: 0
+prevDist: 3.727075004277323, currentDist: 3.6241439258063664
+[angles] theta: 91.05, Phi: 82.77
+[pos] -10.32 11.10 isLifted: 0
+prevDist: 3.6241439258063664, currentDist: 3.516167822461246
+[angles] theta: 90.80, Phi: 82.51
+[pos] -10.27 11.19 isLifted: 0
+prevDist: 3.516167822461246, currentDist: 3.413234135415006
+[angles] theta: 90.56, Phi: 82.25
+[pos] -10.22 11.28 isLifted: 0
+prevDist: 3.413234135415006, currentDist: 3.310301854908793
+[angles] theta: 90.32, Phi: 81.97
+[pos] -10.16 11.37 isLifted: 0
+prevDist: 3.310301854908793, currentDist: 3.2023296724986445
+[angles] theta: 90.09, Phi: 81.70
+[pos] -10.11 11.46 isLifted: 0
+prevDist: 3.2023296724986445, currentDist: 3.0993945277772608
+[angles] theta: 89.86, Phi: 81.41
+[pos] -10.06 11.55 isLifted: 0
+prevDist: 3.0993945277772608, currentDist: 2.996460836764933
+[angles] theta: 89.63, Phi: 81.12
+[pos] -10.00 11.64 isLifted: 0
+prevDist: 2.996460836764933, currentDist: 2.8884934666740514
+[angles] theta: 89.42, Phi: 80.82
+[pos] -9.95 11.73 isLifted: 0
+prevDist: 2.8884934666740514, currentDist: 2.785556607658341
+[angles] theta: 89.20, Phi: 80.52
+[pos] -9.90 11.82 isLifted: 0
+prevDist: 2.785556607658341, currentDist: 2.68262124086115
+[angles] theta: 88.99, Phi: 80.21
+[pos] -9.84 11.91 isLifted: 0
+prevDist: 2.68262124086115, currentDist: 2.574659915925227
+[angles] theta: 88.79, Phi: 79.89
+[pos] -9.79 12.00 isLifted: 0
+prevDist: 2.574659915925227, currentDist: 2.471721017858298
+[angles] theta: 88.59, Phi: 79.57
+[pos] -9.74 12.09 isLifted: 0
+prevDist: 2.471721017858298, currentDist: 2.3687836324942877
+[angles] theta: 88.40, Phi: 79.24
+[pos] -9.68 12.18 isLifted: 0
+prevDist: 2.3687836324942877, currentDist: 2.260830125932842
+[angles] theta: 88.21, Phi: 78.90
+[pos] -9.63 12.27 isLifted: 0
+prevDist: 2.260830125932842, currentDist: 2.1578887751169846
+[angles] theta: 88.03, Phi: 78.56
+[pos] -9.58 12.36 isLifted: 0
+prevDist: 2.1578887751169846, currentDist: 2.0549489222913175
+[angles] theta: 87.85, Phi: 78.21
+[pos] -9.52 12.45 isLifted: 0
+prevDist: 2.0549489222913175, currentDist: 1.9470059152398393
+[angles] theta: 87.68, Phi: 77.85
+[pos] -9.47 12.54 isLifted: 0
+prevDist: 1.9470059152398393, currentDist: 1.844061588296143
+[angles] theta: 87.51, Phi: 77.48
+[pos] -9.42 12.63 isLifted: 0
+prevDist: 1.844061588296143, currentDist: 1.7411186774254233
+[angles] theta: 87.35, Phi: 77.11
+[pos] -9.36 12.72 isLifted: 0
+prevDist: 1.7411186774254233, currentDist: 1.6331905001047287
+[angles] theta: 87.19, Phi: 76.74
+[pos] -9.31 12.81 isLifted: 0
+prevDist: 1.6331905001047287, currentDist: 1.5302425680534126
+[angles] theta: 87.04, Phi: 76.35
+[pos] -9.26 12.90 isLifted: 0
+prevDist: 1.5302425680534126, currentDist: 1.4272958433811367
+[angles] theta: 86.89, Phi: 75.96
+[pos] -9.20 12.99 isLifted: 0
+prevDist: 1.4272958433811367, currentDist: 1.319390156582104
+[angles] theta: 86.75, Phi: 75.56
+[pos] -9.15 13.08 isLifted: 0
+prevDist: 1.319390156582104, currentDist: 1.2164380348937291
+[angles] theta: 86.62, Phi: 75.16
+[pos] -9.10 13.17 isLifted: 0
+prevDist: 1.2164380348937291, currentDist: 1.113486686128974
+[angles] theta: 86.49, Phi: 74.74
+[pos] -9.05 13.26 isLifted: 0
+prevDist: 1.113486686128974, currentDist: 1.010536346519438
+[angles] theta: 86.36, Phi: 74.32
+[pos] -8.99 13.35 isLifted: 0
+prevDist: 1.010536346519438, currentDist: 0.9026630979438184
+[angles] theta: 86.25, Phi: 73.90
+[pos] -8.94 13.44 isLifted: 0
+prevDist: 0.9026630979438184, currentDist: 0.7997073063564559
+[angles] theta: 86.13, Phi: 73.46
+[pos] -8.89 13.53 isLifted: 0
+prevDist: 0.7997073063564559, currentDist: 0.6967516654377416
+[angles] theta: 86.02, Phi: 73.02
+[pos] -8.83 13.62 isLifted: 0
+prevDist: 0.6967516654377416, currentDist: 0.5889650618185641
+[angles] theta: 85.92, Phi: 72.57
+[pos] -8.78 13.71 isLifted: 0
+prevDist: 0.5889650618185641, currentDist: 0.4860153819513438
+[angles] theta: 85.83, Phi: 72.11
+[pos] -8.73 13.80 isLifted: 0
+prevDist: 0.4860153819513438, currentDist: 0.3830692612879278
+[angles] theta: 85.74, Phi: 71.65
+[pos] -8.67 13.89 isLifted: 0
+prevDist: 0.3830692612879278, currentDist: 0.27560663942720504
+[angles] theta: 85.65, Phi: 71.18
+[pos] -8.62 13.98 isLifted: 0
+prevDist: 0.27560663942720504, currentDist: 0.17288761420855125
+[angles] theta: 85.57, Phi: 70.70
+[pos] -8.57 14.08 isLifted: 0
+prevDist: 0.17288761420855125, currentDist: 0.06136679550289107
+[angles] theta: 85.50, Phi: 70.21
+[pos] -8.51 14.17 isLifted: 0
+nextCoords: -3.2357726338671586 16.753281931966782 isLifted: 1
+[vel] 26.94 13.20 [isLifted]1
+[angles] theta: 85.09, Phi: 70.30
+[pos] -8.42 14.21 isLifted: 1
+missed timing by833.0000000000
+[angles] theta: 84.69, Phi: 70.38
+[pos] -8.32 14.26 isLifted: 1
+[angles] theta: 84.29, Phi: 70.45
+[pos] -8.23 14.30 isLifted: 1
+[angles] theta: 83.89, Phi: 70.52
+[pos] -8.14 14.35 isLifted: 1
+prevDist: 5.564251901410004, currentDist: 5.4614293095529725
+[angles] theta: 83.50, Phi: 70.58
+[pos] -8.04 14.39 isLifted: 1
+prevDist: 5.4614293095529725, currentDist: 5.354036054740417
+[angles] theta: 83.11, Phi: 70.64
+[pos] -7.95 14.44 isLifted: 1
+prevDist: 5.354036054740417, currentDist: 5.251210618167944
+[angles] theta: 82.72, Phi: 70.69
+[pos] -7.85 14.49 isLifted: 1
+prevDist: 5.251210618167944, currentDist: 5.139410402948621
+[angles] theta: 82.33, Phi: 70.73
+[pos] -7.76 14.53 isLifted: 1
+prevDist: 5.139410402948621, currentDist: 5.0409935339648335
+[angles] theta: 81.95, Phi: 70.77
+[pos] -7.66 14.58 isLifted: 1
+prevDist: 5.0409935339648335, currentDist: 4.929192849042529
+[angles] theta: 81.57, Phi: 70.80
+[pos] -7.57 14.62 isLifted: 1
+prevDist: 4.929192849042529, currentDist: 4.830778266758966
+[angles] theta: 81.19, Phi: 70.82
+[pos] -7.48 14.67 isLifted: 1
+prevDist: 4.830778266758966, currentDist: 4.727951939634134
+[angles] theta: 80.82, Phi: 70.84
+[pos] -7.38 14.71 isLifted: 1
+prevDist: 4.727951939634134, currentDist: 4.620565064546353
+[angles] theta: 80.45, Phi: 70.85
+[pos] -7.29 14.76 isLifted: 1
+prevDist: 4.620565064546353, currentDist: 4.517735317236466
+[angles] theta: 80.09, Phi: 70.85
+[pos] -7.19 14.81 isLifted: 1
+prevDist: 4.517735317236466, currentDist: 4.405934490001233
+[angles] theta: 79.72, Phi: 70.85
+[pos] -7.10 14.85 isLifted: 1
+prevDist: 4.405934490001233, currentDist: 4.307520777630812
+[angles] theta: 79.36, Phi: 70.84
+[pos] -7.01 14.90 isLifted: 1
+prevDist: 4.307520777630812, currentDist: 4.204693345610423
+[angles] theta: 79.01, Phi: 70.82
+[pos] -6.91 14.94 isLifted: 1
+prevDist: 4.204693345610423, currentDist: 4.097308641393355
+[angles] theta: 78.65, Phi: 70.80
+[pos] -6.82 14.99 isLifted: 1
+prevDist: 4.097308641393355, currentDist: 3.994477310454532
+[angles] theta: 78.31, Phi: 70.77
+[pos] -6.72 15.03 isLifted: 1
+prevDist: 3.994477310454532, currentDist: 3.8870992984424984
+[angles] theta: 77.96, Phi: 70.73
+[pos] -6.63 15.08 isLifted: 1
+prevDist: 3.8870992984424984, currentDist: 3.784263711325041
+[angles] theta: 77.62, Phi: 70.69
+[pos] -6.53 15.13 isLifted: 1
+prevDist: 3.784263711325041, currentDist: 3.672462140094616
+[angles] theta: 77.28, Phi: 70.64
+[pos] -6.44 15.17 isLifted: 1
+prevDist: 3.672462140094616, currentDist: 3.574052978058254
+[angles] theta: 76.94, Phi: 70.58
+[pos] -6.35 15.22 isLifted: 1
+prevDist: 3.574052978058254, currentDist: 3.471219608562166
+[angles] theta: 76.61, Phi: 70.52
+[pos] -6.25 15.26 isLifted: 1
+prevDist: 3.471219608562166, currentDist: 3.363845647927766
+[angles] theta: 76.28, Phi: 70.45
+[pos] -6.16 15.31 isLifted: 1
+prevDist: 3.363845647927766, currentDist: 3.2610072713782747
+[angles] theta: 75.96, Phi: 70.38
+[pos] -6.06 15.36 isLifted: 1
+prevDist: 3.2610072713782747, currentDist: 3.1492054168565655
+[angles] theta: 75.64, Phi: 70.30
+[pos] -5.97 15.40 isLifted: 1
+prevDist: 3.1492054168565655, currentDist: 3.050798465500053
+[angles] theta: 75.32, Phi: 70.21
+[pos] -5.87 15.45 isLifted: 1
+prevDist: 3.050798465500053, currentDist: 2.9389960208673704
+[angles] theta: 75.01, Phi: 70.11
+[pos] -5.78 15.49 isLifted: 1
+prevDist: 2.9389960208673704, currentDist: 2.8405939748955644
+[angles] theta: 74.70, Phi: 70.01
+[pos] -5.69 15.54 isLifted: 1
+prevDist: 2.8405939748955644, currentDist: 2.7377518169316217
+[angles] theta: 74.39, Phi: 69.90
+[pos] -5.59 15.58 isLifted: 1
+prevDist: 2.7377518169316217, currentDist: 2.6303948341130234
+[angles] theta: 74.09, Phi: 69.79
+[pos] -5.50 15.63 isLifted: 1
+prevDist: 2.6303948341130234, currentDist: 2.5275458184230586
+[angles] theta: 73.79, Phi: 69.67
+[pos] -5.40 15.68 isLifted: 1
+prevDist: 2.5275458184230586, currentDist: 2.415742990842496
+[angles] theta: 73.50, Phi: 69.54
+[pos] -5.31 15.72 isLifted: 1
+prevDist: 2.415742990842496, currentDist: 2.317345618880228
+[angles] theta: 73.21, Phi: 69.40
+[pos] -5.22 15.77 isLifted: 1
+prevDist: 2.317345618880228, currentDist: 2.2144980465655872
+[angles] theta: 72.92, Phi: 69.26
+[pos] -5.12 15.81 isLifted: 1
+prevDist: 2.2144980465655872, currentDist: 2.107152953740874
+[angles] theta: 72.64, Phi: 69.12
+[pos] -5.03 15.86 isLifted: 1
+prevDist: 2.107152953740874, currentDist: 2.0042964978660973
+[angles] theta: 72.36, Phi: 68.96
+[pos] -4.93 15.90 isLifted: 1
+prevDist: 2.0042964978660973, currentDist: 1.8969703275418905
+[angles] theta: 72.09, Phi: 68.80
+[pos] -4.84 15.95 isLifted: 1
+prevDist: 1.8969703275418905, currentDist: 1.79410348209734
+[angles] theta: 71.82, Phi: 68.63
+[pos] -4.74 16.00 isLifted: 1
+prevDist: 1.79410348209734, currentDist: 1.6823001034448501
+[angles] theta: 71.55, Phi: 68.45
+[pos] -4.65 16.04 isLifted: 1
+prevDist: 1.6823001034448501, currentDist: 1.583922396327958
+[angles] theta: 71.29, Phi: 68.27
+[pos] -4.56 16.09 isLifted: 1
+prevDist: 1.583922396327958, currentDist: 1.4810540295643198
+[angles] theta: 71.03, Phi: 68.08
+[pos] -4.46 16.13 isLifted: 1
+prevDist: 1.4810540295643198, currentDist: 1.3737587163344223
+[angles] theta: 70.78, Phi: 67.89
+[pos] -4.37 16.18 isLifted: 1
+prevDist: 1.3737587163344223, currentDist: 1.2708752462788035
+[angles] theta: 70.53, Phi: 67.68
+[pos] -4.27 16.22 isLifted: 1
+prevDist: 1.2708752462788035, currentDist: 1.1636218732132437
+[angles] theta: 70.29, Phi: 67.47
+[pos] -4.18 16.27 isLifted: 1
+prevDist: 1.1636218732132437, currentDist: 1.0607199181309401
+[angles] theta: 70.05, Phi: 67.26
+[pos] -4.08 16.32 isLifted: 1
+prevDist: 1.0607199181309401, currentDist: 0.948922061233936
+[angles] theta: 69.81, Phi: 67.03
+[pos] -3.99 16.36 isLifted: 1
+prevDist: 0.948922061233936, currentDist: 0.8506054301703044
+[angles] theta: 69.58, Phi: 66.80
+[pos] -3.90 16.41 isLifted: 1
+prevDist: 0.8506054301703044, currentDist: 0.7476900953835205
+[angles] theta: 69.35, Phi: 66.57
+[pos] -3.80 16.45 isLifted: 1
+prevDist: 0.7476900953835205, currentDist: 0.6405719717180167
+[angles] theta: 69.13, Phi: 66.32
+[pos] -3.71 16.50 isLifted: 1
+prevDist: 0.6405719717180167, currentDist: 0.5376275028773339
+[angles] theta: 68.92, Phi: 66.07
+[pos] -3.61 16.55 isLifted: 1
+prevDist: 0.5376275028773339, currentDist: 0.4258751758753624
+[angles] theta: 68.70, Phi: 65.81
+[pos] -3.52 16.59 isLifted: 1
+prevDist: 0.4258751758753624, currentDist: 0.3277898487836639
+[angles] theta: 68.50, Phi: 65.54
+[pos] -3.42 16.64 isLifted: 1
+prevDist: 0.3277898487836639, currentDist: 0.21626955065928843
+[angles] theta: 68.29, Phi: 65.27
+[pos] -3.33 16.68 isLifted: 1
+prevDist: 0.21626955065928843, currentDist: 0.11936933476030057
+[angles] theta: 68.09, Phi: 64.99
+[pos] -3.24 16.73 isLifted: 1
+prevDist: 0.11936933476030057, currentDist: 0.02366260722166843
+[angles] theta: 67.90, Phi: 64.70
+[pos] -3.14 16.77 isLifted: 1
+nextCoords: -3.2357726338671604 12.042516515802522 isLifted: 0
+[vel] -0.61 -29.99 [isLifted]0
+[angles] theta: 67.42, Phi: 65.78
+[pos] -3.14 16.67 isLifted: 0
+missed timing by843.0000000000
+[angles] theta: 66.95, Phi: 66.85
+[pos] -3.15 16.56 isLifted: 0
+[angles] theta: 66.49, Phi: 67.91
+[pos] -3.15 16.46 isLifted: 0
+[angles] theta: 66.04, Phi: 68.95
+[pos] -3.15 16.35 isLifted: 0
+prevDist: 4.418316113394107, currentDist: 4.308337372044415
+[angles] theta: 65.59, Phi: 69.98
+[pos] -3.15 16.25 isLifted: 0
+prevDist: 4.308337372044415, currentDist: 4.208357662380309
+[angles] theta: 65.15, Phi: 70.99
+[pos] -3.15 16.14 isLifted: 0
+prevDist: 4.208357662380309, currentDist: 4.098381125272712
+[angles] theta: 64.72, Phi: 71.99
+[pos] -3.15 16.04 isLifted: 0
+prevDist: 4.098381125272712, currentDist: 3.9984035753225453
+[angles] theta: 64.30, Phi: 72.98
+[pos] -3.16 15.93 isLifted: 0
+prevDist: 3.9984035753225453, currentDist: 3.8882218727782667
+[angles] theta: 63.88, Phi: 73.95
+[pos] -3.16 15.83 isLifted: 0
+prevDist: 3.8882218727782667, currentDist: 3.788241364421206
+[angles] theta: 63.47, Phi: 74.92
+[pos] -3.16 15.72 isLifted: 0
+prevDist: 3.788241364421206, currentDist: 3.6782640292111166
+[angles] theta: 63.07, Phi: 75.87
+[pos] -3.16 15.62 isLifted: 0
+prevDist: 3.6782640292111166, currentDist: 3.5782858426555153
+[angles] theta: 62.67, Phi: 76.82
+[pos] -3.16 15.51 isLifted: 0
+prevDist: 3.5782858426555153, currentDist: 3.4683112901274376
+[angles] theta: 62.28, Phi: 77.75
+[pos] -3.17 15.40 isLifted: 0
+prevDist: 3.4683112901274376, currentDist: 3.3581276607694153
+[angles] theta: 61.90, Phi: 78.67
+[pos] -3.17 15.30 isLifted: 0
+prevDist: 3.3581276607694153, currentDist: 3.258147432082405
+[angles] theta: 61.52, Phi: 79.59
+[pos] -3.17 15.19 isLifted: 0
+prevDist: 3.258147432082405, currentDist: 3.148170631122417
+[angles] theta: 61.15, Phi: 80.49
+[pos] -3.17 15.09 isLifted: 0
+prevDist: 3.148170631122417, currentDist: 3.048193173967527
+[angles] theta: 60.78, Phi: 81.39
+[pos] -3.17 14.98 isLifted: 0
+prevDist: 3.048193173967527, currentDist: 2.938219743194641
+[angles] theta: 60.42, Phi: 82.27
+[pos] -3.18 14.88 isLifted: 0
+prevDist: 2.938219743194641, currentDist: 2.8380315554591613
+[angles] theta: 60.06, Phi: 83.15
+[pos] -3.18 14.77 isLifted: 0
+prevDist: 2.8380315554591613, currentDist: 2.728053654761668
+[angles] theta: 59.71, Phi: 84.02
+[pos] -3.18 14.67 isLifted: 0
+prevDist: 2.728053654761668, currentDist: 2.6280753502171508
+[angles] theta: 59.36, Phi: 84.89
+[pos] -3.18 14.56 isLifted: 0
+prevDist: 2.6280753502171508, currentDist: 2.518101205252791
+[angles] theta: 59.02, Phi: 85.74
+[pos] -3.18 14.46 isLifted: 0
+prevDist: 2.518101205252791, currentDist: 2.4181267508251225
+[angles] theta: 58.68, Phi: 86.59
+[pos] -3.18 14.35 isLifted: 0
+prevDist: 2.4181267508251225, currentDist: 2.3081574072260787
+[angles] theta: 58.35, Phi: 87.43
+[pos] -3.19 14.25 isLifted: 0
+prevDist: 2.3081574072260787, currentDist: 2.20795798579044
+[angles] theta: 58.02, Phi: 88.27
+[pos] -3.19 14.14 isLifted: 0
+prevDist: 2.20795798579044, currentDist: 2.0979828646803416
+[angles] theta: 57.70, Phi: 89.10
+[pos] -3.19 14.04 isLifted: 0
+prevDist: 2.0979828646803416, currentDist: 1.9980078587565244
+[angles] theta: 57.38, Phi: 89.92
+[pos] -3.19 13.93 isLifted: 0
+prevDist: 1.9980078587565244, currentDist: 1.8880384098660146
+[angles] theta: 57.06, Phi: 90.74
+[pos] -3.19 13.83 isLifted: 0
+prevDist: 1.8880384098660146, currentDist: 1.7880694450411858
+[angles] theta: 56.76, Phi: 91.54
+[pos] -3.20 13.72 isLifted: 0
+prevDist: 1.7880694450411858, currentDist: 1.6778648697344813
+[angles] theta: 56.45, Phi: 92.35
+[pos] -3.20 13.62 isLifted: 0
+prevDist: 1.6778648697344813, currentDist: 1.5778890405378978
+[angles] theta: 56.15, Phi: 93.15
+[pos] -3.20 13.51 isLifted: 0
+prevDist: 1.5778890405378978, currentDist: 1.4679194316195165
+[angles] theta: 55.85, Phi: 93.94
+[pos] -3.20 13.41 isLifted: 0
+prevDist: 1.4679194316195165, currentDist: 1.3679513006268422
+[angles] theta: 55.56, Phi: 94.72
+[pos] -3.20 13.30 isLifted: 0
+prevDist: 1.3679513006268422, currentDist: 1.2579922075924101
+[angles] theta: 55.27, Phi: 95.51
+[pos] -3.21 13.20 isLifted: 0
+prevDist: 1.2579922075924101, currentDist: 1.1577703765628067
+[angles] theta: 54.99, Phi: 96.28
+[pos] -3.21 13.09 isLifted: 0
+prevDist: 1.1577703765628067, currentDist: 1.0478004954775215
+[angles] theta: 54.71, Phi: 97.05
+[pos] -3.21 12.99 isLifted: 0
+prevDist: 1.0478004954775215, currentDist: 0.9478339419346853
+[angles] theta: 54.44, Phi: 97.82
+[pos] -3.21 12.88 isLifted: 0
+prevDist: 0.9478339419346853, currentDist: 0.8378799525946423
+[angles] theta: 54.16, Phi: 98.58
+[pos] -3.21 12.78 isLifted: 0
+prevDist: 0.8378799525946423, currentDist: 0.7379336813837014
+[angles] theta: 53.90, Phi: 99.34
+[pos] -3.21 12.67 isLifted: 0
+prevDist: 0.7379336813837014, currentDist: 0.6280125409552406
+[angles] theta: 53.63, Phi: 100.09
+[pos] -3.22 12.57 isLifted: 0
+prevDist: 0.6280125409552406, currentDist: 0.5277192455086505
+[angles] theta: 53.38, Phi: 100.83
+[pos] -3.22 12.46 isLifted: 0
+prevDist: 0.5277192455086505, currentDist: 0.4177813250455008
+[angles] theta: 53.12, Phi: 101.58
+[pos] -3.22 12.36 isLifted: 0
+prevDist: 0.4177813250455008, currentDist: 0.31787503632288844
+[angles] theta: 52.87, Phi: 102.31
+[pos] -3.22 12.25 isLifted: 0
+prevDist: 0.31787503632288844, currentDist: 0.20808212848256039
+[angles] theta: 52.62, Phi: 103.05
+[pos] -3.22 12.15 isLifted: 0
+prevDist: 0.20808212848256039, currentDist: 0.10863459556852577
+[angles] theta: 52.38, Phi: 103.78
+[pos] -3.23 12.04 isLifted: 0
+prevDist: 0.10863459556852577, currentDist: 0.006297313200773221
+[angles] theta: 52.14, Phi: 104.50
+[pos] -3.23 11.94 isLifted: 0
+nextCoords: -7.946538050031418 12.042516515802522 isLifted: 0
+[vel] -29.99 0.65 [isLifted]0
+[angles] theta: 52.72, Phi: 104.29
+[pos] -3.33 11.94 isLifted: 0
+missed timing by835.0000000000
+[angles] theta: 53.29, Phi: 104.07
+[pos] -3.44 11.94 isLifted: 0
+[angles] theta: 53.87, Phi: 103.85
+[pos] -3.54 11.94 isLifted: 0
+[angles] theta: 54.45, Phi: 103.62
+[pos] -3.65 11.95 isLifted: 0
+prevDist: 4.407730393568438, currentDist: 4.297534004643131
+[angles] theta: 55.02, Phi: 103.38
+[pos] -3.75 11.95 isLifted: 0
+prevDist: 4.297534004643131, currentDist: 4.197557731712304
+[angles] theta: 55.60, Phi: 103.14
+[pos] -3.86 11.95 isLifted: 0
+prevDist: 4.197557731712304, currentDist: 4.087585172207525
+[angles] theta: 56.18, Phi: 102.89
+[pos] -3.96 11.95 isLifted: 0
+prevDist: 4.087585172207525, currentDist: 3.9876114316774327
+[angles] theta: 56.76, Phi: 102.64
+[pos] -4.07 11.95 isLifted: 0
+prevDist: 3.9876114316774327, currentDist: 3.8776418812259634
+[angles] theta: 57.34, Phi: 102.38
+[pos] -4.17 11.95 isLifted: 0
+prevDist: 3.8776418812259634, currentDist: 3.7776711012251116
+[angles] theta: 57.92, Phi: 102.11
+[pos] -4.28 11.96 isLifted: 0
+prevDist: 3.7776711012251116, currentDist: 3.6674664617019173
+[angles] theta: 58.50, Phi: 101.84
+[pos] -4.38 11.96 isLifted: 0
+prevDist: 3.6674664617019173, currentDist: 3.567492486004995
+[angles] theta: 59.08, Phi: 101.56
+[pos] -4.49 11.96 isLifted: 0
+prevDist: 3.567492486004995, currentDist: 3.457522851218078
+[angles] theta: 59.67, Phi: 101.27
+[pos] -4.59 11.96 isLifted: 0
+prevDist: 3.457522851218078, currentDist: 3.357552182273405
+[angles] theta: 60.25, Phi: 100.98
+[pos] -4.70 11.96 isLifted: 0
+prevDist: 3.357552182273405, currentDist: 3.2475865324394344
+[angles] theta: 60.83, Phi: 100.68
+[pos] -4.80 11.97 isLifted: 0
+prevDist: 3.2475865324394344, currentDist: 3.1473735630458073
+[angles] theta: 61.41, Phi: 100.38
+[pos] -4.90 11.97 isLifted: 0
+prevDist: 3.1473735630458073, currentDist: 3.0474009804017212
+[angles] theta: 62.00, Phi: 100.07
+[pos] -5.01 11.97 isLifted: 0
+prevDist: 3.0474009804017212, currentDist: 2.937433295301608
+[angles] theta: 62.58, Phi: 99.76
+[pos] -5.11 11.97 isLifted: 0
+prevDist: 2.937433295301608, currentDist: 2.8374648463620087
+[angles] theta: 63.17, Phi: 99.44
+[pos] -5.22 11.97 isLifted: 0
+prevDist: 2.8374648463620087, currentDist: 2.7275022242581706
+[angles] theta: 63.75, Phi: 99.11
+[pos] -5.32 11.97 isLifted: 0
+prevDist: 2.7275022242581706, currentDist: 2.6275389194695067
+[angles] theta: 64.33, Phi: 98.78
+[pos] -5.43 11.98 isLifted: 0
+prevDist: 2.6275389194695067, currentDist: 2.517314456321264
+[angles] theta: 64.92, Phi: 98.44
+[pos] -5.53 11.98 isLifted: 0
+prevDist: 2.517314456321264, currentDist: 2.417346574655305
+[angles] theta: 65.50, Phi: 98.10
+[pos] -5.64 11.98 isLifted: 0
+prevDist: 2.417346574655305, currentDist: 2.307385119781877
+[angles] theta: 66.09, Phi: 97.74
+[pos] -5.74 11.98 isLifted: 0
+prevDist: 2.307385119781877, currentDist: 2.2074234938009836
+[angles] theta: 66.67, Phi: 97.39
+[pos] -5.85 11.98 isLifted: 0
+prevDist: 2.2074234938009836, currentDist: 2.097469930649217
+[angles] theta: 67.26, Phi: 97.03
+[pos] -5.95 11.99 isLifted: 0
+prevDist: 2.097469930649217, currentDist: 1.9972286222802071
+[angles] theta: 67.84, Phi: 96.66
+[pos] -6.06 11.99 isLifted: 0
+prevDist: 1.9972286222802071, currentDist: 1.8872688729082523
+[angles] theta: 68.43, Phi: 96.28
+[pos] -6.16 11.99 isLifted: 0
+prevDist: 1.8872688729082523, currentDist: 1.7873097629236234
+[angles] theta: 69.02, Phi: 95.90
+[pos] -6.27 11.99 isLifted: 0
+prevDist: 1.7873097629236234, currentDist: 1.6773603720236117
+[angles] theta: 69.60, Phi: 95.52
+[pos] -6.37 11.99 isLifted: 0
+prevDist: 1.6773603720236117, currentDist: 1.5774125039535167
+[angles] theta: 70.19, Phi: 95.13
+[pos] -6.48 11.99 isLifted: 0
+prevDist: 1.5774125039535167, currentDist: 1.4674780531994305
+[angles] theta: 70.77, Phi: 94.73
+[pos] -6.58 12.00 isLifted: 0
+prevDist: 1.4674780531994305, currentDist: 1.367199289167332
+[angles] theta: 71.36, Phi: 94.32
+[pos] -6.69 12.00 isLifted: 0
+prevDist: 1.367199289167332, currentDist: 1.2572571436634372
+[angles] theta: 71.95, Phi: 93.91
+[pos] -6.79 12.00 isLifted: 0
+prevDist: 1.2572571436634372, currentDist: 1.1573192797523344
+[angles] theta: 72.53, Phi: 93.50
+[pos] -6.90 12.00 isLifted: 0
+prevDist: 1.1573192797523344, currentDist: 1.0474013291377613
+[angles] theta: 73.12, Phi: 93.08
+[pos] -7.00 12.00 isLifted: 0
+prevDist: 1.0474013291377613, currentDist: 0.9474924454966731
+[angles] theta: 73.70, Phi: 92.65
+[pos] -7.11 12.00 isLifted: 0
+prevDist: 0.9474924454966731, currentDist: 0.8376177906816171
+[angles] theta: 74.29, Phi: 92.22
+[pos] -7.21 12.01 isLifted: 0
+prevDist: 0.8376177906816171, currentDist: 0.737255466540615
+[angles] theta: 74.88, Phi: 91.78
+[pos] -7.32 12.01 isLifted: 0
+prevDist: 0.737255466540615, currentDist: 0.6273812652104839
+[angles] theta: 75.46, Phi: 91.33
+[pos] -7.42 12.01 isLifted: 0
+prevDist: 0.6273812652104839, currentDist: 0.5275411281889064
+[angles] theta: 76.05, Phi: 90.88
+[pos] -7.53 12.01 isLifted: 0
+prevDist: 0.5275411281889064, currentDist: 0.41780530265173976
+[angles] theta: 76.64, Phi: 90.42
+[pos] -7.63 12.01 isLifted: 0
+prevDist: 0.41780530265173976, currentDist: 0.3182038040590157
+[angles] theta: 77.23, Phi: 89.96
+[pos] -7.73 12.02 isLifted: 0
+prevDist: 0.3182038040590157, currentDist: 0.21770558237053572
+[angles] theta: 77.81, Phi: 89.49
+[pos] -7.84 12.02 isLifted: 0
+prevDist: 0.21770558237053572, currentDist: 0.10889145783018185
+[angles] theta: 78.40, Phi: 89.01
+[pos] -7.94 12.02 isLifted: 0
+prevDist: 0.10889145783018185, currentDist: 0.023446526013432115
+[angles] theta: 78.99, Phi: 88.53
+[pos] -8.05 12.02 isLifted: 0
+nextCoords: -7.946538050031418 16.753281931966782 isLifted: 0
+[vel] 0.66 29.99 [isLifted]0
+[angles] theta: 79.11, Phi: 87.83
+[pos] -8.05 12.13 isLifted: 0
+missed timing by838.0000000000
+[angles] theta: 79.23, Phi: 87.13
+[pos] -8.04 12.23 isLifted: 0
+[angles] theta: 79.36, Phi: 86.42
+[pos] -8.04 12.33 isLifted: 0
+[angles] theta: 79.49, Phi: 85.70
+[pos] -8.04 12.44 isLifted: 0
+prevDist: 4.424269226183655, currentDist: 4.314294398939765
+[angles] theta: 79.64, Phi: 84.98
+[pos] -8.04 12.54 isLifted: 0
+prevDist: 4.314294398939765, currentDist: 4.214318423461815
+[angles] theta: 79.78, Phi: 84.25
+[pos] -8.03 12.65 isLifted: 0
+prevDist: 4.214318423461815, currentDist: 4.104130664379194
+[angles] theta: 79.94, Phi: 83.51
+[pos] -8.03 12.75 isLifted: 0
+prevDist: 4.104130664379194, currentDist: 4.004151860744576
+[angles] theta: 80.10, Phi: 82.77
+[pos] -8.03 12.86 isLifted: 0
+prevDist: 4.004151860744576, currentDist: 3.8941764339679787
+[angles] theta: 80.26, Phi: 82.01
+[pos] -8.02 12.96 isLifted: 0
+prevDist: 3.8941764339679787, currentDist: 3.79399320946662
+[angles] theta: 80.43, Phi: 81.25
+[pos] -8.02 13.07 isLifted: 0
+prevDist: 3.79399320946662, currentDist: 3.6840144473720695
+[angles] theta: 80.61, Phi: 80.49
+[pos] -8.02 13.17 isLifted: 0
+prevDist: 3.6840144473720695, currentDist: 3.584034885719276
+[angles] theta: 80.80, Phi: 79.71
+[pos] -8.02 13.27 isLifted: 0
+prevDist: 3.584034885719276, currentDist: 3.4840564971968275
+[angles] theta: 80.99, Phi: 78.93
+[pos] -8.01 13.38 isLifted: 0
+prevDist: 3.4840564971968275, currentDist: 3.3738788377218523
+[angles] theta: 81.18, Phi: 78.14
+[pos] -8.01 13.48 isLifted: 0
+prevDist: 3.3738788377218523, currentDist: 3.2738970700426737
+[angles] theta: 81.39, Phi: 77.34
+[pos] -8.01 13.59 isLifted: 0
+prevDist: 3.2738970700426737, currentDist: 3.1639184566295815
+[angles] theta: 81.60, Phi: 76.53
+[pos] -8.00 13.69 isLifted: 0
+prevDist: 3.1639184566295815, currentDist: 3.063748418981002
+[angles] theta: 81.82, Phi: 75.71
+[pos] -8.00 13.80 isLifted: 0
+prevDist: 3.063748418981002, currentDist: 2.953765791286758
+[angles] theta: 82.04, Phi: 74.89
+[pos] -8.00 13.90 isLifted: 0
+prevDist: 2.953765791286758, currentDist: 2.853782746353081
+[angles] theta: 82.27, Phi: 74.05
+[pos] -8.00 14.01 isLifted: 0
+prevDist: 2.853782746353081, currentDist: 2.7438028242477346
+[angles] theta: 82.51, Phi: 73.20
+[pos] -7.99 14.11 isLifted: 0
+prevDist: 2.7438028242477346, currentDist: 2.6436392176235244
+[angles] theta: 82.75, Phi: 72.35
+[pos] -7.99 14.21 isLifted: 0
+prevDist: 2.6436392176235244, currentDist: 2.543653263824249
+[angles] theta: 83.01, Phi: 71.48
+[pos] -7.99 14.32 isLifted: 0
+prevDist: 2.543653263824249, currentDist: 2.433670047794291
+[angles] theta: 83.27, Phi: 70.60
+[pos] -7.98 14.42 isLifted: 0
+prevDist: 2.433670047794291, currentDist: 2.3335218610800155
+[angles] theta: 83.53, Phi: 69.72
+[pos] -7.98 14.53 isLifted: 0
+prevDist: 2.3335218610800155, currentDist: 2.2235337305976834
+[angles] theta: 83.81, Phi: 68.82
+[pos] -7.98 14.63 isLifted: 0
+prevDist: 2.2235337305976834, currentDist: 2.1235455880937164
+[angles] theta: 84.09, Phi: 67.90
+[pos] -7.98 14.74 isLifted: 0
+prevDist: 2.1235455880937164, currentDist: 2.0135599915770075
+[angles] theta: 84.38, Phi: 66.98
+[pos] -7.97 14.84 isLifted: 0
+prevDist: 2.0135599915770075, currentDist: 1.9134257796650675
+[angles] theta: 84.68, Phi: 66.04
+[pos] -7.97 14.94 isLifted: 0
+prevDist: 1.9134257796650675, currentDist: 1.8134337120207942
+[angles] theta: 84.99, Phi: 65.09
+[pos] -7.97 15.05 isLifted: 0
+prevDist: 1.8134337120207942, currentDist: 1.7034435132580181
+[angles] theta: 85.31, Phi: 64.13
+[pos] -7.97 15.15 isLifted: 0
+prevDist: 1.7034435132580181, currentDist: 1.603453590369071
+[angles] theta: 85.64, Phi: 63.15
+[pos] -7.96 15.26 isLifted: 0
+prevDist: 1.603453590369071, currentDist: 1.493342610533632
+[angles] theta: 85.97, Phi: 62.15
+[pos] -7.96 15.36 isLifted: 0
+prevDist: 1.493342610533632, currentDist: 1.3933469654188964
+[angles] theta: 86.32, Phi: 61.14
+[pos] -7.96 15.47 isLifted: 0
+prevDist: 1.3933469654188964, currentDist: 1.283352539643473
+[angles] theta: 86.67, Phi: 60.12
+[pos] -7.95 15.57 isLifted: 0
+prevDist: 1.283352539643473, currentDist: 1.1832869963016686
+[angles] theta: 87.04, Phi: 59.07
+[pos] -7.95 15.67 isLifted: 0
+prevDist: 1.1832869963016686, currentDist: 1.0832874637986307
+[angles] theta: 87.42, Phi: 58.01
+[pos] -7.95 15.78 isLifted: 0
+prevDist: 1.0832874637986307, currentDist: 0.9732880890006711
+[angles] theta: 87.81, Phi: 56.93
+[pos] -7.95 15.88 isLifted: 0
+prevDist: 0.9732880890006711, currentDist: 0.8732887940407912
+[angles] theta: 88.21, Phi: 55.83
+[pos] -7.94 15.99 isLifted: 0
+prevDist: 0.8732887940407912, currentDist: 0.7633099329663913
+[angles] theta: 88.62, Phi: 54.70
+[pos] -7.94 16.09 isLifted: 0
+prevDist: 0.7633099329663913, currentDist: 0.6633141543580995
+[angles] theta: 89.04, Phi: 53.56
+[pos] -7.94 16.19 isLifted: 0
+prevDist: 0.6633141543580995, currentDist: 0.5633198744749226
+[angles] theta: 89.48, Phi: 52.38
+[pos] -7.93 16.30 isLifted: 0
+prevDist: 0.5633198744749226, currentDist: 0.4535835280809696
+[angles] theta: 89.94, Phi: 51.19
+[pos] -7.93 16.40 isLifted: 0
+prevDist: 0.4535835280809696, currentDist: 0.35366881478725953
+[angles] theta: 90.41, Phi: 49.96
+[pos] -7.93 16.51 isLifted: 0
+prevDist: 0.35366881478725953, currentDist: 0.2438434036842724
+[angles] theta: 90.90, Phi: 48.71
+[pos] -7.92 16.61 isLifted: 0
+prevDist: 0.2438434036842724, currentDist: 0.14571883930228055
+[angles] theta: 91.40, Phi: 47.42
+[pos] -7.92 16.71 isLifted: 0
+prevDist: 0.14571883930228055, currentDist: 0.05077000821594545
+[angles] theta: 91.92, Phi: 46.10
+[pos] -7.92 16.82 isLifted: 0
+nextCoords: -3.2357726338671586 16.753281931966782 isLifted: 0
+[vel] 30.00 -0.43 [isLifted]0
+[angles] theta: 91.30, Phi: 46.77
+[pos] -7.81 16.81 isLifted: 0
+missed timing by832.0000000000
+[angles] theta: 90.68, Phi: 47.42
+[pos] -7.71 16.81 isLifted: 0
+[angles] theta: 90.06, Phi: 48.05
+[pos] -7.60 16.81 isLifted: 0
+[angles] theta: 89.45, Phi: 48.67
+[pos] -7.50 16.81 isLifted: 0
+prevDist: 4.364595908276528, currentDist: 4.264604550168474
+[angles] theta: 88.85, Phi: 49.28
+[pos] -7.39 16.81 isLifted: 0
+prevDist: 4.264604550168474, currentDist: 4.154614536725209
+[angles] theta: 88.25, Phi: 49.87
+[pos] -7.29 16.80 isLifted: 0
+prevDist: 4.154614536725209, currentDist: 4.054496530295863
+[angles] theta: 87.66, Phi: 50.45
+[pos] -7.19 16.80 isLifted: 0
+prevDist: 4.054496530295863, currentDist: 3.954503336824313
+[angles] theta: 87.08, Phi: 51.02
+[pos] -7.08 16.80 isLifted: 0
+prevDist: 3.954503336824313, currentDist: 3.8445112329664743
+[angles] theta: 86.49, Phi: 51.57
+[pos] -6.98 16.80 isLifted: 0
+prevDist: 3.8445112329664743, currentDist: 3.744518813836944
+[angles] theta: 85.92, Phi: 52.11
+[pos] -6.87 16.80 isLifted: 0
+prevDist: 3.744518813836944, currentDist: 3.6345276345942956
+[angles] theta: 85.34, Phi: 52.64
+[pos] -6.77 16.79 isLifted: 0
+prevDist: 3.6345276345942956, currentDist: 3.53441809808098
+[angles] theta: 84.78, Phi: 53.16
+[pos] -6.66 16.79 isLifted: 0
+prevDist: 3.53441809808098, currentDist: 3.424424224814027
+[angles] theta: 84.21, Phi: 53.67
+[pos] -6.56 16.79 isLifted: 0
+prevDist: 3.424424224814027, currentDist: 3.3244301463960073
+[angles] theta: 83.65, Phi: 54.16
+[pos] -6.45 16.79 isLifted: 0
+prevDist: 3.3244301463960073, currentDist: 3.2144370856679334
+[angles] theta: 83.10, Phi: 54.65
+[pos] -6.35 16.79 isLifted: 0
+prevDist: 3.2144370856679334, currentDist: 3.114443819446866
+[angles] theta: 82.55, Phi: 55.12
+[pos] -6.24 16.78 isLifted: 0
+prevDist: 3.114443819446866, currentDist: 3.0043461722279767
+[angles] theta: 82.00, Phi: 55.59
+[pos] -6.14 16.78 isLifted: 0
+prevDist: 3.0043461722279767, currentDist: 2.9043502628564495
+[angles] theta: 81.45, Phi: 56.04
+[pos] -6.03 16.78 isLifted: 0
+prevDist: 2.9043502628564495, currentDist: 2.794355100699463
+[angles] theta: 80.91, Phi: 56.49
+[pos] -5.93 16.78 isLifted: 0
+prevDist: 2.794355100699463, currentDist: 2.6943598415168184
+[angles] theta: 80.38, Phi: 56.92
+[pos] -5.82 16.78 isLifted: 0
+prevDist: 2.6943598415168184, currentDist: 2.584365480157424
+[angles] theta: 79.84, Phi: 57.35
+[pos] -5.72 16.77 isLifted: 0
+prevDist: 2.584365480157424, currentDist: 2.4842836191630933
+[angles] theta: 79.32, Phi: 57.77
+[pos] -5.62 16.77 isLifted: 0
+prevDist: 2.4842836191630933, currentDist: 2.384285978488216
+[angles] theta: 78.79, Phi: 58.17
+[pos] -5.51 16.77 isLifted: 0
+prevDist: 2.384285978488216, currentDist: 2.2742888133801924
+[angles] theta: 78.27, Phi: 58.57
+[pos] -5.41 16.77 isLifted: 0
+prevDist: 2.2742888133801924, currentDist: 2.1742916394632337
+[angles] theta: 77.75, Phi: 58.96
+[pos] -5.30 16.77 isLifted: 0
+prevDist: 2.1742916394632337, currentDist: 2.064295064396195
+[angles] theta: 77.23, Phi: 59.34
+[pos] -5.20 16.76 isLifted: 0
+prevDist: 2.064295064396195, currentDist: 1.9642388546974776
+[angles] theta: 76.72, Phi: 59.71
+[pos] -5.09 16.76 isLifted: 0
+prevDist: 1.9642388546974776, currentDist: 1.8542395362395963
+[angles] theta: 76.21, Phi: 60.07
+[pos] -4.99 16.76 isLifted: 0
+prevDist: 1.8542395362395963, currentDist: 1.754240229993448
+[angles] theta: 75.70, Phi: 60.43
+[pos] -4.88 16.76 isLifted: 0
+prevDist: 1.754240229993448, currentDist: 1.644241090588068
+[angles] theta: 75.20, Phi: 60.78
+[pos] -4.78 16.76 isLifted: 0
+prevDist: 1.644241090588068, currentDist: 1.5442419793386242
+[angles] theta: 74.69, Phi: 61.11
+[pos] -4.67 16.76 isLifted: 0
+prevDist: 1.5442419793386242, currentDist: 1.4342431001062708
+[angles] theta: 74.20, Phi: 61.44
+[pos] -4.57 16.75 isLifted: 0
+prevDist: 1.4342431001062708, currentDist: 1.3342314025742366
+[angles] theta: 73.70, Phi: 61.77
+[pos] -4.46 16.75 isLifted: 0
+prevDist: 1.3342314025742366, currentDist: 1.2242317652577017
+[angles] theta: 73.21, Phi: 62.08
+[pos] -4.36 16.75 isLifted: 0
+prevDist: 1.2242317652577017, currentDist: 1.1242321565581646
+[angles] theta: 72.72, Phi: 62.39
+[pos] -4.26 16.75 isLifted: 0
+prevDist: 1.1242321565581646, currentDist: 1.0242326242669932
+[angles] theta: 72.23, Phi: 62.68
+[pos] -4.15 16.75 isLifted: 0
+prevDist: 1.0242326242669932, currentDist: 0.9142332569227767
+[angles] theta: 71.75, Phi: 62.97
+[pos] -4.05 16.74 isLifted: 0
+prevDist: 0.9142332569227767, currentDist: 0.814335688445738
+[angles] theta: 71.27, Phi: 63.26
+[pos] -3.94 16.74 isLifted: 0
+prevDist: 0.814335688445738, currentDist: 0.70435260553729
+[angles] theta: 70.79, Phi: 63.53
+[pos] -3.84 16.74 isLifted: 0
+prevDist: 0.70435260553729, currentDist: 0.6043733280850512
+[angles] theta: 70.32, Phi: 63.80
+[pos] -3.73 16.74 isLifted: 0
+prevDist: 0.6043733280850512, currentDist: 0.4944058041238754
+[angles] theta: 69.84, Phi: 64.06
+[pos] -3.63 16.74 isLifted: 0
+prevDist: 0.4944058041238754, currentDist: 0.3944510437618432
+[angles] theta: 69.37, Phi: 64.31
+[pos] -3.52 16.73 isLifted: 0
+prevDist: 0.3944510437618432, currentDist: 0.28517931905192234
+[angles] theta: 68.91, Phi: 64.56
+[pos] -3.42 16.73 isLifted: 0
+prevDist: 0.28517931905192234, currentDist: 0.1856926783380266
+[angles] theta: 68.44, Phi: 64.80
+[pos] -3.31 16.73 isLifted: 0
+prevDist: 0.1856926783380266, currentDist: 0.07779299608014048
+[angles] theta: 67.98, Phi: 65.03
+[pos] -3.21 16.73 isLifted: 0
+nextCoords: -3.492485097566359 8.24674071180703 isLifted: 1
+[vel] -1.00 -29.98 [isLifted]1
+[angles] theta: 67.51, Phi: 66.11
+[pos] -3.21 16.62 isLifted: 1
+missed timing by839.0000000000
+[angles] theta: 67.05, Phi: 67.17
+[pos] -3.22 16.52 isLifted: 1
+[angles] theta: 66.60, Phi: 68.21
+[pos] -3.22 16.41 isLifted: 1
+[angles] theta: 66.16, Phi: 69.25
+[pos] -3.22 16.31 isLifted: 1
+prevDist: 8.167805723366866, currentDist: 8.067862075979356
+[angles] theta: 65.72, Phi: 70.27
+[pos] -3.22 16.20 isLifted: 1
+prevDist: 8.067862075979356, currentDist: 7.957925699177109
+[angles] theta: 65.30, Phi: 71.27
+[pos] -3.23 16.10 isLifted: 1
+prevDist: 7.957925699177109, currentDist: 7.857644677257531
+[angles] theta: 64.88, Phi: 72.26
+[pos] -3.23 15.99 isLifted: 1
+prevDist: 7.857644677257531, currentDist: 7.747706940161787
+[angles] theta: 64.46, Phi: 73.24
+[pos] -3.23 15.89 isLifted: 1
+prevDist: 7.747706940161787, currentDist: 7.647765096614339
+[angles] theta: 64.06, Phi: 74.21
+[pos] -3.24 15.78 isLifted: 1
+prevDist: 7.647765096614339, currentDist: 7.537489252240347
+[angles] theta: 63.66, Phi: 75.17
+[pos] -3.24 15.68 isLifted: 1
+prevDist: 7.537489252240347, currentDist: 7.437546125571266
+[angles] theta: 63.27, Phi: 76.12
+[pos] -3.24 15.57 isLifted: 1
+prevDist: 7.437546125571266, currentDist: 7.327610478634744
+[angles] theta: 62.88, Phi: 77.05
+[pos] -3.25 15.47 isLifted: 1
+prevDist: 7.327610478634744, currentDist: 7.2273282592537464
+[angles] theta: 62.50, Phi: 77.98
+[pos] -3.25 15.36 isLifted: 1
+prevDist: 7.2273282592537464, currentDist: 7.117391145890839
+[angles] theta: 62.12, Phi: 78.90
+[pos] -3.25 15.26 isLifted: 1
+prevDist: 7.117391145890839, currentDist: 7.017450025897351
+[angles] theta: 61.76, Phi: 79.80
+[pos] -3.26 15.15 isLifted: 1
+prevDist: 7.017450025897351, currentDist: 6.907172947061117
+[angles] theta: 61.39, Phi: 80.70
+[pos] -3.26 15.05 isLifted: 1
+prevDist: 6.907172947061117, currentDist: 6.807230439978829
+[angles] theta: 61.04, Phi: 81.59
+[pos] -3.26 14.94 isLifted: 1
+prevDist: 6.807230439978829, currentDist: 6.6972956646374735
+[angles] theta: 60.68, Phi: 82.47
+[pos] -3.27 14.84 isLifted: 1
+prevDist: 6.6972956646374735, currentDist: 6.597012025150627
+[angles] theta: 60.34, Phi: 83.35
+[pos] -3.27 14.73 isLifted: 1
+prevDist: 6.597012025150627, currentDist: 6.487075659847011
+[angles] theta: 60.00, Phi: 84.21
+[pos] -3.27 14.63 isLifted: 1
+prevDist: 6.487075659847011, currentDist: 6.387135411038421
+[angles] theta: 59.66, Phi: 85.07
+[pos] -3.28 14.52 isLifted: 1
+prevDist: 6.387135411038421, currentDist: 6.276856857822006
+[angles] theta: 59.33, Phi: 85.92
+[pos] -3.28 14.42 isLifted: 1
+prevDist: 6.276856857822006, currentDist: 6.1769151002704055
+[angles] theta: 59.00, Phi: 86.76
+[pos] -3.28 14.31 isLifted: 1
+prevDist: 6.1769151002704055, currentDist: 6.066981383896452
+[angles] theta: 58.68, Phi: 87.60
+[pos] -3.29 14.20 isLifted: 1
+prevDist: 6.066981383896452, currentDist: 5.956701802775787
+[angles] theta: 58.36, Phi: 88.43
+[pos] -3.29 14.10 isLifted: 1
+prevDist: 5.956701802775787, currentDist: 5.856760581546229
+[angles] theta: 58.05, Phi: 89.25
+[pos] -3.29 13.99 isLifted: 1
+prevDist: 5.856760581546229, currentDist: 5.7468276001765775
+[angles] theta: 57.75, Phi: 90.07
+[pos] -3.30 13.89 isLifted: 1
+prevDist: 5.7468276001765775, currentDist: 5.646541056838369
+[angles] theta: 57.44, Phi: 90.88
+[pos] -3.30 13.78 isLifted: 1
+prevDist: 5.646541056838369, currentDist: 5.5366062586352385
+[angles] theta: 57.15, Phi: 91.68
+[pos] -3.30 13.68 isLifted: 1
+prevDist: 5.5366062586352385, currentDist: 5.436667821885047
+[angles] theta: 56.85, Phi: 92.48
+[pos] -3.31 13.58 isLifted: 1
+prevDist: 5.436667821885047, currentDist: 5.336380369307494
+[angles] theta: 56.56, Phi: 93.27
+[pos] -3.31 13.47 isLifted: 1
+prevDist: 5.336380369307494, currentDist: 5.226446058511265
+[angles] theta: 56.28, Phi: 94.06
+[pos] -3.31 13.37 isLifted: 1
+prevDist: 5.226446058511265, currentDist: 5.126508221478762
+[angles] theta: 56.00, Phi: 94.84
+[pos] -3.32 13.26 isLifted: 1
+prevDist: 5.126508221478762, currentDist: 5.016225652772765
+[angles] theta: 55.72, Phi: 95.62
+[pos] -3.32 13.16 isLifted: 1
+prevDist: 5.016225652772765, currentDist: 4.916285990653612
+[angles] theta: 55.45, Phi: 96.39
+[pos] -3.32 13.05 isLifted: 1
+prevDist: 4.916285990653612, currentDist: 4.806355261369525
+[angles] theta: 55.18, Phi: 97.15
+[pos] -3.32 12.95 isLifted: 1
+prevDist: 4.806355261369525, currentDist: 4.706421043729079
+[angles] theta: 54.92, Phi: 97.91
+[pos] -3.33 12.84 isLifted: 1
+prevDist: 4.706421043729079, currentDist: 4.596132319189922
+[angles] theta: 54.66, Phi: 98.67
+[pos] -3.33 12.74 isLifted: 1
+prevDist: 4.596132319189922, currentDist: 4.496196218790228
+[angles] theta: 54.41, Phi: 99.42
+[pos] -3.33 12.63 isLifted: 1
+prevDist: 4.496196218790228, currentDist: 4.386269872506832
+[angles] theta: 54.16, Phi: 100.17
+[pos] -3.34 12.53 isLifted: 1
+prevDist: 4.386269872506832, currentDist: 4.285972682469075
+[angles] theta: 53.91, Phi: 100.91
+[pos] -3.34 12.42 isLifted: 1
+prevDist: 4.285972682469075, currentDist: 4.17604415583321
+[angles] theta: 53.67, Phi: 101.65
+[pos] -3.34 12.32 isLifted: 1
+prevDist: 4.17604415583321, currentDist: 4.0761124780641325
+[angles] theta: 53.43, Phi: 102.38
+[pos] -3.35 12.21 isLifted: 1
+prevDist: 4.0761124780641325, currentDist: 3.9658197372644595
+[angles] theta: 53.20, Phi: 103.11
+[pos] -3.35 12.11 isLifted: 1
+prevDist: 3.9658197372644595, currentDist: 3.8658859697148
+[angles] theta: 52.97, Phi: 103.83
+[pos] -3.35 12.00 isLifted: 1
+prevDist: 3.8658859697148, currentDist: 3.7559628975051513
+[angles] theta: 52.75, Phi: 104.55
+[pos] -3.36 11.90 isLifted: 1
+prevDist: 3.7559628975051513, currentDist: 3.655660778552268
+[angles] theta: 52.53, Phi: 105.27
+[pos] -3.36 11.79 isLifted: 1
+prevDist: 3.655660778552268, currentDist: 3.5457352812136036
+[angles] theta: 52.31, Phi: 105.98
+[pos] -3.36 11.69 isLifted: 1
+prevDist: 3.5457352812136036, currentDist: 3.4458071372037526
+[angles] theta: 52.10, Phi: 106.69
+[pos] -3.37 11.58 isLifted: 1
+prevDist: 3.4458071372037526, currentDist: 3.335508968875746
+[angles] theta: 51.89, Phi: 107.39
+[pos] -3.37 11.48 isLifted: 1
+prevDist: 3.335508968875746, currentDist: 3.2355784990959426
+[angles] theta: 51.69, Phi: 108.09
+[pos] -3.37 11.37 isLifted: 1
+prevDist: 3.2355784990959426, currentDist: 3.125660119144353
+[angles] theta: 51.49, Phi: 108.79
+[pos] -3.38 11.27 isLifted: 1
+prevDist: 3.125660119144353, currentDist: 3.025351156612993
+[angles] theta: 51.30, Phi: 109.48
+[pos] -3.38 11.16 isLifted: 1
+prevDist: 3.025351156612993, currentDist: 2.91543008446732
+[angles] theta: 51.11, Phi: 110.17
+[pos] -3.38 11.06 isLifted: 1
+prevDist: 2.91543008446732, currentDist: 2.8155071869520296
+[angles] theta: 50.93, Phi: 110.85
+[pos] -3.39 10.95 isLifted: 1
+prevDist: 2.8155071869520296, currentDist: 2.7052012816839976
+[angles] theta: 50.74, Phi: 111.53
+[pos] -3.39 10.85 isLifted: 1
+prevDist: 2.7052012816839976, currentDist: 2.605275823552307
+[angles] theta: 50.57, Phi: 112.21
+[pos] -3.39 10.74 isLifted: 1
+prevDist: 2.605275823552307, currentDist: 2.495364717507984
+[angles] theta: 50.40, Phi: 112.89
+[pos] -3.39 10.64 isLifted: 1
+prevDist: 2.495364717507984, currentDist: 2.3954526118763253
+[angles] theta: 50.23, Phi: 113.56
+[pos] -3.40 10.53 isLifted: 1
+prevDist: 2.3954526118763253, currentDist: 2.285131608986958
+[angles] theta: 50.07, Phi: 114.23
+[pos] -3.40 10.43 isLifted: 1
+prevDist: 2.285131608986958, currentDist: 2.18521729188489
+[angles] theta: 49.91, Phi: 114.89
+[pos] -3.40 10.32 isLifted: 1
+prevDist: 2.18521729188489, currentDist: 2.075321076207313
+[angles] theta: 49.76, Phi: 115.56
+[pos] -3.41 10.22 isLifted: 1
+prevDist: 2.075321076207313, currentDist: 1.9749825340393166
+[angles] theta: 49.61, Phi: 116.21
+[pos] -3.41 10.11 isLifted: 1
+prevDist: 1.9749825340393166, currentDist: 1.8650841713868846
+[angles] theta: 49.47, Phi: 116.87
+[pos] -3.41 10.01 isLifted: 1
+prevDist: 1.8650841713868846, currentDist: 1.7651875562441828
+[angles] theta: 49.33, Phi: 117.52
+[pos] -3.42 9.90 isLifted: 1
+prevDist: 1.7651875562441828, currentDist: 1.6548475347794223
+[angles] theta: 49.20, Phi: 118.17
+[pos] -3.42 9.80 isLifted: 1
+prevDist: 1.6548475347794223, currentDist: 1.5549496794838533
+[angles] theta: 49.08, Phi: 118.82
+[pos] -3.42 9.70 isLifted: 1
+prevDist: 1.5549496794838533, currentDist: 1.4550658569591755
+[angles] theta: 48.95, Phi: 119.46
+[pos] -3.43 9.59 isLifted: 1
+prevDist: 1.4550658569591755, currentDist: 1.3447118288817723
+[angles] theta: 48.84, Phi: 120.10
+[pos] -3.43 9.49 isLifted: 1
+prevDist: 1.3447118288817723, currentDist: 1.244828520357711
+[angles] theta: 48.73, Phi: 120.74
+[pos] -3.43 9.38 isLifted: 1
+prevDist: 1.244828520357711, currentDist: 1.134980617320629
+[angles] theta: 48.62, Phi: 121.37
+[pos] -3.43 9.28 isLifted: 1
+prevDist: 1.134980617320629, currentDist: 1.0351469190674911
+[angles] theta: 48.52, Phi: 122.00
+[pos] -3.44 9.17 isLifted: 1
+prevDist: 1.0351469190674911, currentDist: 0.9247499114361349
+[angles] theta: 48.43, Phi: 122.63
+[pos] -3.44 9.07 isLifted: 1
+prevDist: 0.9247499114361349, currentDist: 0.824930628030349
+[angles] theta: 48.34, Phi: 123.25
+[pos] -3.44 8.96 isLifted: 1
+prevDist: 0.824930628030349, currentDist: 0.7151877359547586
+[angles] theta: 48.26, Phi: 123.88
+[pos] -3.45 8.86 isLifted: 1
+prevDist: 0.7151877359547586, currentDist: 0.6147291583048345
+[angles] theta: 48.19, Phi: 124.49
+[pos] -3.45 8.75 isLifted: 1
+prevDist: 0.6147291583048345, currentDist: 0.5050493982450802
+[angles] theta: 48.12, Phi: 125.11
+[pos] -3.45 8.65 isLifted: 1
+prevDist: 0.5050493982450802, currentDist: 0.4054911059802964
+[angles] theta: 48.06, Phi: 125.72
+[pos] -3.46 8.54 isLifted: 1
+prevDist: 0.4054911059802964, currentDist: 0.2950530319711063
+[angles] theta: 48.00, Phi: 126.33
+[pos] -3.46 8.44 isLifted: 1
+prevDist: 0.2950530319711063, currentDist: 0.19597049277059297
+[angles] theta: 47.95, Phi: 126.94
+[pos] -3.46 8.33 isLifted: 1
+prevDist: 0.19597049277059297, currentDist: 0.08937220280543538
+[angles] theta: 47.91, Phi: 127.55
+[pos] -3.47 8.23 isLifted: 1
+nextCoords: -3.726602422842035 8.255559564819828 isLifted: 0
+[vel] -29.85 2.97 [isLifted]0
+[angles] theta: 48.67, Phi: 127.23
+[pos] -3.57 8.24 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 49.42, Phi: 126.91
+[pos] -3.67 8.25 isLifted: 0
+[angles] theta: 50.17, Phi: 126.58
+[pos] -3.78 8.26 isLifted: 0
+[angles] theta: 50.92, Phi: 126.24
+[pos] -3.88 8.27 isLifted: 0
+prevDist: 0.053581887900018235, currentDist: 0.1540757698216256
+[angles] theta: 51.66, Phi: 125.90
+[pos] -3.99 8.28 isLifted: 0
+nextCoords: -4.222409098412156 8.334228155954014 isLifted: 0
+[vel] -29.22 6.82 [isLifted]0
+[angles] theta: 52.39, Phi: 125.48
+[pos] -4.09 8.30 isLifted: 0
+missed timing by843.0000000000
+[angles] theta: 53.11, Phi: 125.06
+[pos] -4.19 8.32 isLifted: 0
+[angles] theta: 53.83, Phi: 124.63
+[pos] -4.29 8.35 isLifted: 0
+[angles] theta: 54.54, Phi: 124.19
+[pos] -4.40 8.37 isLifted: 0
+prevDist: 0.06940663543256201, currentDist: 0.18115781284072147
+[angles] theta: 55.25, Phi: 123.75
+[pos] -4.50 8.39 isLifted: 0
+nextCoords: -4.688806616510706 8.488899243697954 isLifted: 0
+[vel] -26.58 13.92 [isLifted]0
+[angles] theta: 55.90, Phi: 123.20
+[pos] -4.59 8.44 isLifted: 0
+missed timing by838.0000000000
+[angles] theta: 56.54, Phi: 122.64
+[pos] -4.69 8.49 isLifted: 0
+[angles] theta: 57.18, Phi: 122.07
+[pos] -4.78 8.54 isLifted: 0
+[angles] theta: 57.81, Phi: 121.50
+[pos] -4.87 8.59 isLifted: 0
+prevDist: 0.10453478123029893, currentDist: 0.20749073508266339
+[angles] theta: 58.43, Phi: 120.93
+[pos] -4.96 8.63 isLifted: 0
+nextCoords: -5.15646054418772 8.736630208301058 isLifted: 0
+[vel] -26.37 14.31 [isLifted]0
+[angles] theta: 59.05, Phi: 120.35
+[pos] -5.06 8.68 isLifted: 0
+missed timing by838.0000000000
+[angles] theta: 59.67, Phi: 119.76
+[pos] -5.15 8.73 isLifted: 0
+[angles] theta: 60.28, Phi: 119.17
+[pos] -5.24 8.78 isLifted: 0
+[angles] theta: 60.89, Phi: 118.58
+[pos] -5.33 8.83 isLifted: 0
+prevDist: 0.09412640176603748, currentDist: 0.19706308818631202
+[angles] theta: 61.49, Phi: 117.98
+[pos] -5.43 8.88 isLifted: 0
+nextCoords: -5.5720515614829855 9.058017701361987 isLifted: 0
+[vel] -18.71 23.45 [isLifted]0
+[angles] theta: 61.92, Phi: 117.30
+[pos] -5.49 8.96 isLifted: 0
+missed timing by833.0000000000
+[angles] theta: 62.35, Phi: 116.61
+[pos] -5.56 9.04 isLifted: 0
+[angles] theta: 62.77, Phi: 115.91
+[pos] -5.62 9.13 isLifted: 0
+[angles] theta: 63.20, Phi: 115.22
+[pos] -5.69 9.21 isLifted: 0
+prevDist: 0.08648990735011902, currentDist: 0.1923810106218817
+[angles] theta: 63.63, Phi: 114.52
+[pos] -5.75 9.29 isLifted: 0
+nextCoords: -5.927086419333756 9.44446812343708 isLifted: 0
+[vel] -22.61 19.72 [isLifted]0
+[angles] theta: 64.14, Phi: 113.84
+[pos] -5.83 9.36 isLifted: 0
+missed timing by846.0000000000
+[angles] theta: 64.65, Phi: 113.17
+[pos] -5.91 9.43 isLifted: 0
+[angles] theta: 65.16, Phi: 112.48
+[pos] -5.99 9.49 isLifted: 0
+[angles] theta: 65.66, Phi: 111.80
+[pos] -6.07 9.56 isLifted: 0
+prevDist: 0.07766125427514683, currentDist: 0.18377134172932677
+[angles] theta: 66.17, Phi: 111.11
+[pos] -6.15 9.63 isLifted: 0
+nextCoords: -6.191742082351044 9.848258590689417 isLifted: 0
+[vel] -5.64 29.47 [isLifted]0
+[angles] theta: 66.32, Phi: 110.44
+[pos] -6.17 9.73 isLifted: 0
+missed timing by833.0000000000
+[angles] theta: 66.48, Phi: 109.77
+[pos] -6.19 9.84 isLifted: 0
+[angles] theta: 66.64, Phi: 109.09
+[pos] -6.21 9.94 isLifted: 0
+[angles] theta: 66.80, Phi: 108.41
+[pos] -6.23 10.04 isLifted: 0
+prevDist: 0.09354056734469765, currentDist: 0.195520935726184
+[angles] theta: 66.97, Phi: 107.73
+[pos] -6.24 10.15 isLifted: 0
+nextCoords: -6.391345957119823 10.292482439757569 isLifted: 0
+[vel] -21.84 20.56 [isLifted]0
+[angles] theta: 67.47, Phi: 107.02
+[pos] -6.32 10.22 isLifted: 0
+missed timing by842.0000000000
+[angles] theta: 67.96, Phi: 106.30
+[pos] -6.40 10.29 isLifted: 0
+[angles] theta: 68.46, Phi: 105.59
+[pos] -6.47 10.36 isLifted: 0
+[angles] theta: 68.96, Phi: 104.86
+[pos] -6.55 10.43 isLifted: 0
+prevDist: 0.1036584748223076, currentDist: 0.20995757832775575
+[angles] theta: 69.45, Phi: 104.14
+[pos] -6.63 10.50 isLifted: 0
+nextCoords: -6.501603292686807 10.681362523265019 isLifted: 0
+[vel] 17.33 24.49 [isLifted]0
+[angles] theta: 69.15, Phi: 103.85
+[pos] -6.57 10.59 isLifted: 0
+missed timing by842.0000000000
+[angles] theta: 68.86, Phi: 103.56
+[pos] -6.50 10.67 isLifted: 0
+[angles] theta: 68.57, Phi: 103.26
+[pos] -6.44 10.76 isLifted: 0
+[angles] theta: 68.29, Phi: 102.95
+[pos] -6.38 10.84 isLifted: 0
+prevDist: 0.09989403594359862, currentDist: 0.1998829903146208
+[angles] theta: 68.02, Phi: 102.64
+[pos] -6.32 10.93 isLifted: 0
+nextCoords: -6.54082074874154 10.906360591509884 isLifted: 0
+[vel] -29.83 -3.19 [isLifted]0
+[angles] theta: 68.61, Phi: 102.33
+[pos] -6.43 10.92 isLifted: 0
+missed timing by844.0000000000
+[angles] theta: 69.20, Phi: 102.02
+[pos] -6.53 10.91 isLifted: 0
+[angles] theta: 69.79, Phi: 101.70
+[pos] -6.63 10.89 isLifted: 0
+[angles] theta: 70.39, Phi: 101.37
+[pos] -6.74 10.88 isLifted: 0
+prevDist: 0.09066756757282506, currentDist: 0.20091603947079928
+[angles] theta: 70.98, Phi: 101.04
+[pos] -6.84 10.87 isLifted: 0
+nextCoords: -6.56329203963456 11.135433439351175 isLifted: 0
+[vel] 21.65 20.77 [isLifted]0
+[angles] theta: 70.60, Phi: 100.88
+[pos] -6.77 10.94 isLifted: 0
+missed timing by840.0000000000
+[angles] theta: 70.23, Phi: 100.72
+[pos] -6.69 11.02 isLifted: 0
+[angles] theta: 69.86, Phi: 100.55
+[pos] -6.61 11.09 isLifted: 0
+[angles] theta: 69.50, Phi: 100.38
+[pos] -6.54 11.16 isLifted: 0
+prevDist: 0.06516004122755314, currentDist: 0.033853138886229296
+[angles] theta: 69.14, Phi: 100.20
+[pos] -6.46 11.23 isLifted: 0
+nextCoords: -6.564611178098941 11.447302277397549 isLifted: 0
+[vel] -13.01 27.03 [isLifted]0
+[angles] theta: 69.50, Phi: 99.43
+[pos] -6.51 11.33 isLifted: 0
+missed timing by834.0000000000
+[angles] theta: 69.86, Phi: 98.65
+[pos] -6.55 11.42 isLifted: 0
+[angles] theta: 70.23, Phi: 97.87
+[pos] -6.60 11.51 isLifted: 0
+[angles] theta: 70.60, Phi: 97.08
+[pos] -6.64 11.61 isLifted: 0
+prevDist: 0.07199564663977055, currentDist: 0.1793154299207222
+[angles] theta: 70.97, Phi: 96.29
+[pos] -6.69 11.70 isLifted: 0
+nextCoords: -2.8197838651789713 11.626482459566702 isLifted: 0
+[vel] 30.00 -0.57 [isLifted]0
+[angles] theta: 70.38, Phi: 96.70
+[pos] -6.58 11.70 isLifted: 0
+missed timing by843.0000000000
+[angles] theta: 69.79, Phi: 97.11
+[pos] -6.48 11.70 isLifted: 0
+[angles] theta: 69.20, Phi: 97.50
+[pos] -6.37 11.69 isLifted: 0
+[angles] theta: 68.61, Phi: 97.89
+[pos] -6.27 11.69 isLifted: 0
+prevDist: 3.550784291094893, currentDist: 3.450800755610508
+[angles] theta: 68.01, Phi: 98.28
+[pos] -6.17 11.69 isLifted: 0
+prevDist: 3.450800755610508, currentDist: 3.3508182027615057
+[angles] theta: 67.42, Phi: 98.66
+[pos] -6.06 11.69 isLifted: 0
+prevDist: 3.3508182027615057, currentDist: 3.240838638114712
+[angles] theta: 66.83, Phi: 99.03
+[pos] -5.96 11.68 isLifted: 0
+prevDist: 3.240838638114712, currentDist: 3.140672141520721
+[angles] theta: 66.24, Phi: 99.40
+[pos] -5.85 11.68 isLifted: 0
+prevDist: 3.140672141520721, currentDist: 3.0306886925026997
+[angles] theta: 65.65, Phi: 99.76
+[pos] -5.75 11.68 isLifted: 0
+prevDist: 3.0306886925026997, currentDist: 2.9307048169168315
+[angles] theta: 65.05, Phi: 100.12
+[pos] -5.64 11.68 isLifted: 0
+prevDist: 2.9307048169168315, currentDist: 2.820723874156932
+[angles] theta: 64.46, Phi: 100.47
+[pos] -5.54 11.67 isLifted: 0
+prevDist: 2.820723874156932, currentDist: 2.7205642055400974
+[angles] theta: 63.87, Phi: 100.81
+[pos] -5.43 11.67 isLifted: 0
+prevDist: 2.7205642055400974, currentDist: 2.6105788719755996
+[angles] theta: 63.28, Phi: 101.15
+[pos] -5.33 11.67 isLifted: 0
+prevDist: 2.6105788719755996, currentDist: 2.510593320281321
+[angles] theta: 62.69, Phi: 101.49
+[pos] -5.22 11.67 isLifted: 0
+prevDist: 2.510593320281321, currentDist: 2.4006106036132895
+[angles] theta: 62.09, Phi: 101.81
+[pos] -5.12 11.66 isLifted: 0
+prevDist: 2.4006106036132895, currentDist: 2.300460321850323
+[angles] theta: 61.50, Phi: 102.13
+[pos] -5.02 11.66 isLifted: 0
+prevDist: 2.300460321850323, currentDist: 2.2004714189108396
+[angles] theta: 60.91, Phi: 102.45
+[pos] -4.91 11.66 isLifted: 0
+prevDist: 2.2004714189108396, currentDist: 2.090484851842476
+[angles] theta: 60.32, Phi: 102.76
+[pos] -4.81 11.66 isLifted: 0
+prevDist: 2.090484851842476, currentDist: 1.9904983518753918
+[angles] theta: 59.73, Phi: 103.06
+[pos] -4.70 11.65 isLifted: 0
+prevDist: 1.9904983518753918, currentDist: 1.8803632064974471
+[angles] theta: 59.13, Phi: 103.36
+[pos] -4.60 11.65 isLifted: 0
+prevDist: 1.8803632064974471, currentDist: 1.7803714672464153
+[angles] theta: 58.54, Phi: 103.65
+[pos] -4.49 11.65 isLifted: 0
+prevDist: 1.7803714672464153, currentDist: 1.6703816964168787
+[angles] theta: 57.95, Phi: 103.93
+[pos] -4.39 11.65 isLifted: 0
+prevDist: 1.6703816964168787, currentDist: 1.5703922391429226
+[angles] theta: 57.36, Phi: 104.21
+[pos] -4.28 11.64 isLifted: 0
+prevDist: 1.5703922391429226, currentDist: 1.4602787008961786
+[angles] theta: 56.77, Phi: 104.49
+[pos] -4.18 11.64 isLifted: 0
+prevDist: 1.4602787008961786, currentDist: 1.360283300392541
+[angles] theta: 56.18, Phi: 104.75
+[pos] -4.07 11.64 isLifted: 0
+prevDist: 1.360283300392541, currentDist: 1.2502892096096003
+[angles] theta: 55.59, Phi: 105.02
+[pos] -3.97 11.64 isLifted: 0
+prevDist: 1.2502892096096003, currentDist: 1.1502955623238722
+[angles] theta: 55.00, Phi: 105.27
+[pos] -3.87 11.63 isLifted: 0
+prevDist: 1.1502955623238722, currentDist: 1.0502220255398957
+[angles] theta: 54.41, Phi: 105.52
+[pos] -3.76 11.63 isLifted: 0
+prevDist: 1.0502220255398957, currentDist: 0.9402227147163029
+[angles] theta: 53.82, Phi: 105.76
+[pos] -3.66 11.63 isLifted: 0
+prevDist: 0.9402227147163029, currentDist: 0.8402234978291724
+[angles] theta: 53.23, Phi: 106.00
+[pos] -3.55 11.63 isLifted: 0
+prevDist: 0.8402234978291724, currentDist: 0.7302246069831271
+[angles] theta: 52.64, Phi: 106.23
+[pos] -3.45 11.62 isLifted: 0
+prevDist: 0.7302246069831271, currentDist: 0.6302494735188529
+[angles] theta: 52.06, Phi: 106.46
+[pos] -3.34 11.62 isLifted: 0
+prevDist: 0.6302494735188529, currentDist: 0.5202565225061234
+[angles] theta: 51.47, Phi: 106.67
+[pos] -3.24 11.62 isLifted: 0
+prevDist: 0.5202565225061234, currentDist: 0.42026613264211415
+[angles] theta: 50.89, Phi: 106.89
+[pos] -3.13 11.62 isLifted: 0
+prevDist: 0.42026613264211415, currentDist: 0.3102838580805204
+[angles] theta: 50.30, Phi: 107.09
+[pos] -3.03 11.62 isLifted: 0
+prevDist: 0.3102838580805204, currentDist: 0.2103160612533593
+[angles] theta: 49.72, Phi: 107.29
+[pos] -2.92 11.61 isLifted: 0
+prevDist: 0.2103160612533593, currentDist: 0.10156251843979935
+[angles] theta: 49.13, Phi: 107.49
+[pos] -2.82 11.61 isLifted: 0
+prevDist: 0.10156251843979935, currentDist: 0.016483876595899817
+[angles] theta: 48.55, Phi: 107.67
+[pos] -2.71 11.61 isLifted: 0
+nextCoords: -2.8197838651789713 14.324533396735902 isLifted: 0
+[vel] -1.21 29.98 [isLifted]0
+[angles] theta: 48.83, Phi: 106.95
+[pos] -2.72 11.71 isLifted: 0
+missed timing by839.0000000000
+[angles] theta: 49.11, Phi: 106.22
+[pos] -2.72 11.82 isLifted: 0
+[angles] theta: 49.39, Phi: 105.49
+[pos] -2.73 11.92 isLifted: 0
+[angles] theta: 49.68, Phi: 104.76
+[pos] -2.73 12.03 isLifted: 0
+prevDist: 2.4062090512806176, currentDist: 2.2962893221854412
+[angles] theta: 49.97, Phi: 104.02
+[pos] -2.74 12.13 isLifted: 0
+prevDist: 2.2962893221854412, currentDist: 2.195983218180892
+[angles] theta: 50.26, Phi: 103.28
+[pos] -2.74 12.23 isLifted: 0
+prevDist: 2.195983218180892, currentDist: 2.0960523884638307
+[angles] theta: 50.56, Phi: 102.54
+[pos] -2.74 12.34 isLifted: 0
+prevDist: 2.0960523884638307, currentDist: 1.9861365179420656
+[angles] theta: 50.86, Phi: 101.79
+[pos] -2.75 12.44 isLifted: 0
+prevDist: 1.9861365179420656, currentDist: 1.885824994863594
+[angles] theta: 51.16, Phi: 101.03
+[pos] -2.75 12.55 isLifted: 0
+prevDist: 1.885824994863594, currentDist: 1.7759049985768864
+[angles] theta: 51.47, Phi: 100.27
+[pos] -2.76 12.65 isLifted: 0
+prevDist: 1.7759049985768864, currentDist: 1.6756002528406388
+[angles] theta: 51.78, Phi: 99.51
+[pos] -2.76 12.76 isLifted: 0
+prevDist: 1.6756002528406388, currentDist: 1.5656752089873929
+[angles] theta: 52.09, Phi: 98.75
+[pos] -2.76 12.86 isLifted: 0
+prevDist: 1.5656752089873929, currentDist: 1.4657531104147576
+[angles] theta: 52.41, Phi: 97.97
+[pos] -2.77 12.96 isLifted: 0
+prevDist: 1.4657531104147576, currentDist: 1.3654412561658495
+[angles] theta: 52.73, Phi: 97.20
+[pos] -2.77 13.07 isLifted: 0
+prevDist: 1.3654412561658495, currentDist: 1.2555207990144475
+[angles] theta: 53.05, Phi: 96.42
+[pos] -2.78 13.17 isLifted: 0
+prevDist: 1.2555207990144475, currentDist: 1.1552186460177647
+[angles] theta: 53.38, Phi: 95.63
+[pos] -2.78 13.28 isLifted: 0
+prevDist: 1.1552186460177647, currentDist: 1.0452907599444379
+[angles] theta: 53.71, Phi: 94.84
+[pos] -2.78 13.38 isLifted: 0
+prevDist: 1.0452907599444379, currentDist: 0.9453708761528659
+[angles] theta: 54.05, Phi: 94.04
+[pos] -2.79 13.49 isLifted: 0
+prevDist: 0.9453708761528659, currentDist: 0.8350647094043435
+[angles] theta: 54.39, Phi: 93.24
+[pos] -2.79 13.59 isLifted: 0
+prevDist: 0.8350647094043435, currentDist: 0.735136986925145
+[angles] theta: 54.73, Phi: 92.44
+[pos] -2.80 13.69 isLifted: 0
+prevDist: 0.735136986925145, currentDist: 0.6348417384629192
+[angles] theta: 55.07, Phi: 91.62
+[pos] -2.80 13.80 isLifted: 0
+prevDist: 0.6348417384629192, currentDist: 0.5249063588991105
+[angles] theta: 55.42, Phi: 90.81
+[pos] -2.80 13.90 isLifted: 0
+prevDist: 0.5249063588991105, currentDist: 0.42499412497767763
+[angles] theta: 55.78, Phi: 89.98
+[pos] -2.81 14.01 isLifted: 0
+prevDist: 0.42499412497767763, currentDist: 0.31468552823424295
+[angles] theta: 56.13, Phi: 89.15
+[pos] -2.81 14.11 isLifted: 0
+prevDist: 0.31468552823424295, currentDist: 0.21475637902722308
+[angles] theta: 56.50, Phi: 88.32
+[pos] -2.82 14.22 isLifted: 0
+prevDist: 0.21475637902722308, currentDist: 0.10453362017746319
+[angles] theta: 56.86, Phi: 87.47
+[pos] -2.82 14.32 isLifted: 0
+prevDist: 0.10453362017746319, currentDist: 0.004538546047573185
+[angles] theta: 57.23, Phi: 86.62
+[pos] -2.82 14.42 isLifted: 0
+nextCoords: -2.6106499932934746 14.26995542114796 isLifted: 0
+[vel] 24.38 -17.48 [isLifted]0
+[angles] theta: 56.63, Phi: 87.25
+[pos] -2.74 14.36 isLifted: 0
+missed timing by836.0000000000
+[angles] theta: 56.03, Phi: 87.88
+[pos] -2.65 14.30 isLifted: 0
+[angles] theta: 55.43, Phi: 88.50
+[pos] -2.57 14.24 isLifted: 0
+[angles] theta: 54.83, Phi: 89.11
+[pos] -2.48 14.18 isLifted: 0
+prevDist: 0.05049504144875222, currentDist: 0.15862344890176844
+[angles] theta: 54.23, Phi: 89.71
+[pos] -2.40 14.12 isLifted: 0
+nextCoords: -2.175174963815545 14.102604685673871 isLifted: 0
+[vel] 29.91 -2.31 [isLifted]0
+[angles] theta: 53.72, Phi: 89.92
+[pos] -2.30 14.11 isLifted: 0
+missed timing by833.0000000000
+[angles] theta: 53.21, Phi: 90.11
+[pos] -2.19 14.10 isLifted: 0
+[angles] theta: 52.70, Phi: 90.31
+[pos] -2.09 14.09 isLifted: 0
+[angles] theta: 52.20, Phi: 90.49
+[pos] -1.98 14.08 isLifted: 0
+prevDist: 0.08610257000761645, currentDist: 0.19647961297502028
+[angles] theta: 51.69, Phi: 90.67
+[pos] -1.88 14.08 isLifted: 0
+nextCoords: -1.7760061477420628 13.874867909370074 isLifted: 0
+[vel] 13.57 -26.76 [isLifted]0
+[angles] theta: 51.15, Phi: 91.46
+[pos] -1.83 13.98 isLifted: 0
+missed timing by840.0000000000
+[angles] theta: 50.61, Phi: 92.24
+[pos] -1.78 13.89 isLifted: 0
+[angles] theta: 50.07, Phi: 93.02
+[pos] -1.74 13.79 isLifted: 0
+[angles] theta: 49.53, Phi: 93.79
+[pos] -1.69 13.70 isLifted: 0
+prevDist: 0.09219004672995107, currentDist: 0.19487391610189997
+[angles] theta: 48.99, Phi: 94.56
+[pos] -1.64 13.61 isLifted: 0
+nextCoords: -1.4104379499807838 13.58572506627194 isLifted: 0
+[vel] 29.83 -3.16 [isLifted]0
+[angles] theta: 48.47, Phi: 94.74
+[pos] -1.54 13.59 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 47.96, Phi: 94.91
+[pos] -1.43 13.58 isLifted: 0
+[angles] theta: 47.44, Phi: 95.08
+[pos] -1.33 13.57 isLifted: 0
+[angles] theta: 46.93, Phi: 95.24
+[pos] -1.23 13.56 isLifted: 0
+prevDist: 0.081960609480213, currentDist: 0.18226253819137808
+[angles] theta: 46.41, Phi: 95.40
+[pos] -1.12 13.55 isLifted: 0
+nextCoords: -1.1832870371141624 13.353113338796508 isLifted: 0
+[angles] theta: 45.90, Phi: 95.55
+[pos] -1.02 13.54 isLifted: 0
+[vel] -9.18 -28.56 [isLifted]0
+[angles] theta: 45.69, Phi: 96.29
+[pos] -1.05 13.44 isLifted: 0
+missed timing by833.0000000000
+[angles] theta: 45.48, Phi: 97.03
+[pos] -1.08 13.34 isLifted: 0
+[angles] theta: 45.28, Phi: 97.77
+[pos] -1.11 13.24 isLifted: 0
+[angles] theta: 45.08, Phi: 98.49
+[pos] -1.15 13.14 isLifted: 0
+prevDist: 0.1347798843398602, currentDist: 0.21569729254868844
+[angles] theta: 44.89, Phi: 99.22
+[pos] -1.18 13.04 isLifted: 0
+nextCoords: -0.9818504666337837 13.09812826752814 isLifted: 0
+[vel] 28.79 8.45 [isLifted]0
+[angles] theta: 44.51, Phi: 99.07
+[pos] -1.08 13.07 isLifted: 0
+missed timing by836.0000000000
+[angles] theta: 44.15, Phi: 98.91
+[pos] -0.98 13.10 isLifted: 0
+[angles] theta: 43.78, Phi: 98.74
+[pos] -0.88 13.12 isLifted: 0
+[angles] theta: 43.42, Phi: 98.57
+[pos] -0.77 13.15 isLifted: 0
+prevDist: 0.10417240630243743, currentDist: 0.21810845202005408
+[angles] theta: 43.07, Phi: 98.40
+[pos] -0.67 13.18 isLifted: 0
+nextCoords: -0.8547852398254996 12.903613998299646 isLifted: 0
+[vel] -16.67 -24.94 [isLifted]0
+[angles] theta: 43.02, Phi: 99.03
+[pos] -0.73 13.10 isLifted: 0
+missed timing by836.0000000000
+[angles] theta: 42.98, Phi: 99.65
+[pos] -0.79 13.01 isLifted: 0
+[angles] theta: 42.94, Phi: 100.27
+[pos] -0.85 12.92 isLifted: 0
+[angles] theta: 42.91, Phi: 100.88
+[pos] -0.91 12.83 isLifted: 0
+prevDist: 0.0170704297518124, currentDist: 0.09202005480756799
+[angles] theta: 42.88, Phi: 101.49
+[pos] -0.96 12.75 isLifted: 0
+nextCoords: -0.742433469764558 12.699608057235915 isLifted: 0
+[vel] 29.23 -6.77 [isLifted]0
+[angles] theta: 42.31, Phi: 101.72
+[pos] -0.86 12.72 isLifted: 0
+missed timing by840.0000000000
+[angles] theta: 41.75, Phi: 101.95
+[pos] -0.76 12.70 isLifted: 0
+[angles] theta: 41.19, Phi: 102.16
+[pos] -0.66 12.67 isLifted: 0
+[angles] theta: 40.62, Phi: 102.37
+[pos] -0.56 12.65 isLifted: 0
+prevDist: 0.08758946278354224, currentDist: 0.18905800758777103
+[angles] theta: 40.06, Phi: 102.58
+[pos] -0.45 12.63 isLifted: 0
+nextCoords: -0.6455067813833484 12.486977513398266 isLifted: 0
+[vel] -24.21 -17.71 [isLifted]0
+[angles] theta: 40.24, Phi: 103.00
+[pos] -0.54 12.56 isLifted: 0
+missed timing by844.0000000000
+[angles] theta: 40.42, Phi: 103.43
+[pos] -0.62 12.50 isLifted: 0
+[angles] theta: 40.60, Phi: 103.84
+[pos] -0.71 12.44 isLifted: 0
+[angles] theta: 40.80, Phi: 104.25
+[pos] -0.79 12.38 isLifted: 0
+prevDist: 0.07978885895047937, currentDist: 0.17978453381499598
+[angles] theta: 41.00, Phi: 104.66
+[pos] -0.87 12.31 isLifted: 0
+nextCoords: -0.5647331513058997 12.266696130797449 isLifted: 0
+[vel] 29.70 -4.21 [isLifted]0
+[angles] theta: 40.44, Phi: 104.82
+[pos] -0.77 12.30 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 39.89, Phi: 104.97
+[pos] -0.67 12.28 isLifted: 0
+[angles] theta: 39.33, Phi: 105.11
+[pos] -0.56 12.27 isLifted: 0
+[angles] theta: 38.78, Phi: 105.25
+[pos] -0.46 12.25 isLifted: 0
+prevDist: 0.005772198280733487, currentDist: 0.10605561638154769
+[angles] theta: 38.23, Phi: 105.38
+[pos] -0.36 12.24 isLifted: 0
+nextCoords: -0.5018950063161896 12.044319119238306 isLifted: 0
+[vel] -17.61 -24.29 [isLifted]0
+[angles] theta: 38.23, Phi: 105.98
+[pos] -0.42 12.15 isLifted: 0
+missed timing by841.0000000000
+[angles] theta: 38.23, Phi: 106.56
+[pos] -0.48 12.07 isLifted: 0
+[angles] theta: 38.24, Phi: 107.14
+[pos] -0.54 11.98 isLifted: 0
+[angles] theta: 38.25, Phi: 107.72
+[pos] -0.60 11.90 isLifted: 0
+prevDist: 0.0747592110929123, currentDist: 0.17450672755919985
+[angles] theta: 38.27, Phi: 108.30
+[pos] -0.66 11.81 isLifted: 0
+nextCoords: -0.45928916862552427 11.837316258337564 isLifted: 0
+[vel] 29.73 4.05 [isLifted]0
+[angles] theta: 37.80, Phi: 108.24
+[pos] -0.56 11.83 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 37.33, Phi: 108.17
+[pos] -0.45 11.84 isLifted: 0
+[angles] theta: 36.86, Phi: 108.10
+[pos] -0.35 11.85 isLifted: 0
+[angles] theta: 36.40, Phi: 108.02
+[pos] -0.25 11.87 isLifted: 0
+prevDist: 0.11002272347755114, currentDist: 0.2118258319304327
+[angles] theta: 35.94, Phi: 107.94
+[pos] -0.14 11.88 isLifted: 0
+nextCoords: -0.43089019001986273 11.625802128195794 isLifted: 0
+[vel] -22.59 -19.74 [isLifted]0
+[angles] theta: 36.08, Phi: 108.42
+[pos] -0.22 11.81 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 36.22, Phi: 108.89
+[pos] -0.30 11.74 isLifted: 0
+[angles] theta: 36.38, Phi: 109.36
+[pos] -0.38 11.67 isLifted: 0
+[angles] theta: 36.54, Phi: 109.82
+[pos] -0.46 11.60 isLifted: 0
+prevDist: 0.06740373366719964, currentDist: 0.03889898271821376
+[angles] theta: 36.70, Phi: 110.27
+[pos] -0.53 11.54 isLifted: 0
+nextCoords: -0.41629906598114985 11.36703563049282 isLifted: 0
+[vel] 16.48 -25.07 [isLifted]0
+[angles] theta: 36.12, Phi: 110.90
+[pos] -0.48 11.45 isLifted: 0
+missed timing by840.0000000000
+[angles] theta: 35.53, Phi: 111.51
+[pos] -0.42 11.36 isLifted: 0
+[angles] theta: 34.94, Phi: 112.13
+[pos] -0.36 11.27 isLifted: 0
+[angles] theta: 34.35, Phi: 112.74
+[pos] -0.31 11.18 isLifted: 0
+prevDist: 0.11218510781511547, currentDist: 0.21513209547232073
+[angles] theta: 33.75, Phi: 113.35
+[pos] -0.25 11.10 isLifted: 0
+nextCoords: -0.4330895302626576 10.997260151935338 isLifted: 0
+[vel] -26.16 -14.68 [isLifted]0
+[angles] theta: 34.05, Phi: 113.68
+[pos] -0.34 11.04 isLifted: 0
+missed timing by842.0000000000
+[angles] theta: 34.37, Phi: 114.01
+[pos] -0.43 10.99 isLifted: 0
+[angles] theta: 34.69, Phi: 114.33
+[pos] -0.52 10.94 isLifted: 0
+[angles] theta: 35.01, Phi: 114.65
+[pos] -0.61 10.89 isLifted: 0
+prevDist: 0.10407763808630338, currentDist: 0.2068865739865175
+[angles] theta: 35.35, Phi: 114.96
+[pos] -0.70 10.84 isLifted: 0
+nextCoords: -0.4656457995589154 10.770549703032996 isLifted: 0
+[vel] 28.76 -8.52 [isLifted]0
+[angles] theta: 34.70, Phi: 115.20
+[pos] -0.60 10.81 isLifted: 0
+missed timing by839.0000000000
+[angles] theta: 34.06, Phi: 115.44
+[pos] -0.50 10.78 isLifted: 0
+[angles] theta: 33.41, Phi: 115.67
+[pos] -0.40 10.75 isLifted: 0
+[angles] theta: 32.77, Phi: 115.89
+[pos] -0.30 10.72 isLifted: 0
+prevDist: 0.068787072146397, currentDist: 0.17318719175573122
+[angles] theta: 32.12, Phi: 116.11
+[pos] -0.20 10.69 isLifted: 0
+nextCoords: -0.5143614165378594 10.549710697550292 isLifted: 0
+[angles] theta: 31.48, Phi: 116.32
+[pos] -0.10 10.66 isLifted: 0
+[vel] -27.40 -12.23 [isLifted]0
+[angles] theta: 31.85, Phi: 116.60
+[pos] -0.20 10.61 isLifted: 0
+missed timing by837.0000000000
+[angles] theta: 32.23, Phi: 116.88
+[pos] -0.29 10.57 isLifted: 0
+[angles] theta: 32.62, Phi: 117.14
+[pos] -0.39 10.53 isLifted: 0
+[angles] theta: 33.01, Phi: 117.40
+[pos] -0.48 10.48 isLifted: 0
+prevDist: 0.12591375429722557, currentDist: 0.0777192916812586
+[angles] theta: 33.41, Phi: 117.66
+[pos] -0.58 10.44 isLifted: 0
+nextCoords: -0.624578631051353 10.209098355943048 isLifted: 0
+[vel] -5.69 -29.46 [isLifted]0
+[angles] theta: 33.20, Phi: 118.33
+[pos] -0.60 10.34 isLifted: 0
+missed timing by841.0000000000
+[angles] theta: 33.00, Phi: 119.00
+[pos] -0.62 10.24 isLifted: 0
+[angles] theta: 32.79, Phi: 119.67
+[pos] -0.64 10.13 isLifted: 0
+[angles] theta: 32.60, Phi: 120.33
+[pos] -0.66 10.03 isLifted: 0
+prevDist: 0.08058764504031214, currentDist: 0.18256750663713203
+[angles] theta: 32.40, Phi: 121.00
+[pos] -0.68 9.93 isLifted: 0
+nextCoords: -0.8364542953247067 9.771726753388128 isLifted: 0
+[vel] -21.09 -21.34 [isLifted]0
+[angles] theta: 32.62, Phi: 121.45
+[pos] -0.75 9.85 isLifted: 0
+missed timing by845.0000000000
+[angles] theta: 32.85, Phi: 121.89
+[pos] -0.82 9.78 isLifted: 0
+[angles] theta: 33.08, Phi: 122.34
+[pos] -0.90 9.70 isLifted: 0
+[angles] theta: 33.32, Phi: 122.77
+[pos] -0.97 9.63 isLifted: 0
+prevDist: 0.09582684245179442, currentDist: 0.19473296552756464
+[angles] theta: 33.58, Phi: 123.20
+[pos] -1.04 9.55 isLifted: 0
+nextCoords: -1.140282915573131 9.342213383579518 isLifted: 0
+[vel] -13.04 -27.02 [isLifted]0
+[angles] theta: 33.61, Phi: 123.78
+[pos] -1.09 9.46 isLifted: 0
+missed timing by841.0000000000
+[angles] theta: 33.65, Phi: 124.35
+[pos] -1.13 9.36 isLifted: 0
+[angles] theta: 33.70, Phi: 124.91
+[pos] -1.18 9.27 isLifted: 0
+[angles] theta: 33.75, Phi: 125.47
+[pos] -1.22 9.17 isLifted: 0
+prevDist: 0.08241492318369063, currentDist: 0.18976897278909063
+[angles] theta: 33.82, Phi: 126.03
+[pos] -1.27 9.08 isLifted: 0
+nextCoords: -1.4779712966532266 8.999721533819127 isLifted: 0
+[vel] -27.99 -10.80 [isLifted]0
+[angles] theta: 34.37, Phi: 126.18
+[pos] -1.36 9.04 isLifted: 0
+missed timing by848.0000000000
+[angles] theta: 34.94, Phi: 126.33
+[pos] -1.46 9.00 isLifted: 0
+[angles] theta: 35.51, Phi: 126.47
+[pos] -1.56 8.96 isLifted: 0
+[angles] theta: 36.09, Phi: 126.60
+[pos] -1.66 8.93 isLifted: 0
+prevDist: 0.09114004839639339, currentDist: 0.19492444977528933
+[angles] theta: 36.68, Phi: 126.72
+[pos] -1.75 8.89 isLifted: 0
+nextCoords: -1.865411532160028 8.713049716230788 isLifted: 0
+[vel] -16.39 -25.13 [isLifted]0
+[angles] theta: 36.89, Phi: 127.19
+[pos] -1.81 8.80 isLifted: 0
+missed timing by847.0000000000
+[angles] theta: 37.11, Phi: 127.66
+[pos] -1.87 8.71 isLifted: 0
+[angles] theta: 37.34, Phi: 128.13
+[pos] -1.92 8.62 isLifted: 0
+[angles] theta: 37.59, Phi: 128.59
+[pos] -1.98 8.54 isLifted: 0
+prevDist: 0.10788026006525021, currentDist: 0.20754932245003582
+[angles] theta: 37.84, Phi: 129.05
+[pos] -2.04 8.45 isLifted: 0
+nextCoords: -2.255161813476157 8.506550864874473 isLifted: 0
+[vel] -29.02 7.63 [isLifted]0
+[angles] theta: 38.61, Phi: 128.74
+[pos] -2.14 8.47 isLifted: 0
+missed timing by832.0000000000
+[angles] theta: 39.38, Phi: 128.42
+[pos] -2.24 8.50 isLifted: 0
+[angles] theta: 40.15, Phi: 128.09
+[pos] -2.34 8.53 isLifted: 0
+[angles] theta: 40.91, Phi: 127.76
+[pos] -2.44 8.55 isLifted: 0
+prevDist: 0.08801920148916123, currentDist: 0.18987622953013197
+[angles] theta: 41.67, Phi: 127.43
+[pos] -2.55 8.58 isLifted: 0
+nextCoords: -2.5890011177552843 8.382052582855211 isLifted: 0
+[vel] -5.80 -29.43 [isLifted]0
+[angles] theta: 41.67, Phi: 128.01
+[pos] -2.56 8.48 isLifted: 0
+missed timing by840.0000000000
+[angles] theta: 41.68, Phi: 128.60
+[pos] -2.58 8.37 isLifted: 0
+[angles] theta: 41.70, Phi: 129.18
+[pos] -2.60 8.27 isLifted: 0
+[angles] theta: 41.73, Phi: 129.75
+[pos] -2.62 8.17 isLifted: 0
+prevDist: 0.1125911041563993, currentDist: 0.21430638953607503
+[angles] theta: 41.76, Phi: 130.33
+[pos] -2.64 8.06 isLifted: 0
+nextCoords: -2.80633805634473 8.323852139711875 isLifted: 0
+[vel] -16.00 25.38 [isLifted]0
+[angles] theta: 42.27, Phi: 129.69
+[pos] -2.70 8.15 isLifted: 0
+missed timing by842.0000000000
+[angles] theta: 42.77, Phi: 129.06
+[pos] -2.76 8.24 isLifted: 0
+[angles] theta: 43.27, Phi: 128.42
+[pos] -2.81 8.33 isLifted: 0
+[angles] theta: 43.77, Phi: 127.77
+[pos] -2.87 8.42 isLifted: 0
+prevDist: 0.007155837998214015, currentDist: 0.1153137203803245
+[angles] theta: 44.27, Phi: 127.13
+[pos] -2.92 8.51 isLifted: 0
+nextCoords: -3.029978570267186 8.28142696104381 isLifted: 0
+[vel] -13.01 -27.03 [isLifted]0
+[angles] theta: 44.49, Phi: 127.60
+[pos] -2.97 8.41 isLifted: 0
+missed timing by841.0000000000
+[angles] theta: 44.72, Phi: 128.07
+[pos] -3.01 8.32 isLifted: 0
+[angles] theta: 44.96, Phi: 128.53
+[pos] -3.06 8.22 isLifted: 0
+[angles] theta: 45.21, Phi: 128.99
+[pos] -3.10 8.13 isLifted: 0
+prevDist: 0.06837073779242041, currentDist: 0.1668326261640408
+[angles] theta: 45.48, Phi: 129.44
+[pos] -3.15 8.03 isLifted: 0
+nextCoords: -3.2583250422615677 8.255559764347614 isLifted: 0
+[vel] -12.99 27.04 [isLifted]0
+[angles] theta: 45.87, Phi: 128.79
+[pos] -3.19 8.13 isLifted: 0
+missed timing by842.0000000000
+[angles] theta: 46.27, Phi: 128.13
+[pos] -3.24 8.22 isLifted: 0
+[angles] theta: 46.66, Phi: 127.47
+[pos] -3.28 8.32 isLifted: 0
+[angles] theta: 47.06, Phi: 126.81
+[pos] -3.33 8.41 isLifted: 0
+prevDist: 0.06798785011969301, currentDist: 0.17026181590471337
+[angles] theta: 47.45, Phi: 126.15
+[pos] -3.37 8.50 isLifted: 0
+nextCoords: -3.492485097566359 8.24674071180703 isLifted: 0
+[vel] -13.06 -27.01 [isLifted]0
+[angles] theta: 47.70, Phi: 126.60
+[pos] -3.42 8.41 isLifted: 0
+missed timing by844.0000000000
+[angles] theta: 47.96, Phi: 127.04
+[pos] -3.46 8.32 isLifted: 0
+[angles] theta: 48.23, Phi: 127.48
+[pos] -3.51 8.22 isLifted: 0
+[angles] theta: 48.50, Phi: 127.92
+[pos] -3.55 8.13 isLifted: 0
+prevDist: 0.03196619269175749, currentDist: 0.1301397625445933
+[angles] theta: 48.79, Phi: 128.35
+[pos] -3.60 8.03 isLifted: 0
+[vel] -28.75 8.58 [isLifted]1
+[angles] theta: 49.53, Phi: 127.92
+[pos] -3.70 8.06 isLifted: 1
+missed timing by835.0000000000
+[angles] theta: 50.27, Phi: 127.48
+[pos] -3.80 8.09 isLifted: 1
+[angles] theta: 51.00, Phi: 127.04
+[pos] -3.90 8.12 isLifted: 1
+[angles] theta: 51.73, Phi: 126.59
+[pos] -4.00 8.15 isLifted: 1
+[angles] theta: 52.45, Phi: 126.14
+[pos] -4.10 8.18 isLifted: 1
+[angles] theta: 53.17, Phi: 125.69
+[pos] -4.20 8.21 isLifted: 1
+[angles] theta: 53.88, Phi: 125.22
+[pos] -4.30 8.24 isLifted: 1
+[angles] theta: 54.59, Phi: 124.76
+[pos] -4.40 8.27 isLifted: 1
+[angles] theta: 55.29, Phi: 124.29
+[pos] -4.51 8.30 isLifted: 1
+[angles] theta: 55.99, Phi: 123.81
+[pos] -4.61 8.33 isLifted: 1
+[angles] theta: 56.68, Phi: 123.33
+[pos] -4.71 8.35 isLifted: 1
+[angles] theta: 57.37, Phi: 122.84
+[pos] -4.81 8.38 isLifted: 1
+[angles] theta: 58.05, Phi: 122.35
+[pos] -4.91 8.41 isLifted: 1
+[angles] theta: 58.73, Phi: 121.86
+[pos] -5.01 8.44 isLifted: 1
+[angles] theta: 59.41, Phi: 121.36
+[pos] -5.11 8.47 isLifted: 1
+[angles] theta: 60.08, Phi: 120.85
+[pos] -5.21 8.50 isLifted: 1
+[angles] theta: 60.74, Phi: 120.34
+[pos] -5.31 8.53 isLifted: 1
+[angles] theta: 61.41, Phi: 119.83
+[pos] -5.41 8.56 isLifted: 1
+[angles] theta: 62.06, Phi: 119.31
+[pos] -5.51 8.59 isLifted: 1
+[angles] theta: 62.72, Phi: 118.79
+[pos] -5.61 8.62 isLifted: 1
+[angles] theta: 63.37, Phi: 118.27
+[pos] -5.71 8.65 isLifted: 1
+[angles] theta: 64.02, Phi: 117.73
+[pos] -5.81 8.68 isLifted: 1
+[angles] theta: 64.66, Phi: 117.20
+[pos] -5.91 8.71 isLifted: 1
+[angles] theta: 65.30, Phi: 116.66
+[pos] -6.02 8.74 isLifted: 1
+[angles] theta: 65.94, Phi: 116.12
+[pos] -6.12 8.77 isLifted: 1
+[angles] theta: 66.57, Phi: 115.57
+[pos] -6.22 8.80 isLifted: 1
+[angles] theta: 67.20, Phi: 115.02
+[pos] -6.32 8.82 isLifted: 1
+[angles] theta: 67.83, Phi: 114.46
+[pos] -6.42 8.85 isLifted: 1
+[angles] theta: 68.45, Phi: 113.90
+[pos] -6.52 8.88 isLifted: 1
+[angles] theta: 69.07, Phi: 113.33
+[pos] -6.62 8.91 isLifted: 1
+[angles] theta: 69.69, Phi: 112.76
+[pos] -6.72 8.94 isLifted: 1
+[angles] theta: 70.30, Phi: 112.19
+[pos] -6.82 8.97 isLifted: 1
+[angles] theta: 70.91, Phi: 111.61
+[pos] -6.92 9.00 isLifted: 1
+[angles] theta: 71.52, Phi: 111.03
+[pos] -7.02 9.03 isLifted: 1
+[angles] theta: 72.13, Phi: 110.44
+[pos] -7.12 9.06 isLifted: 1
+[angles] theta: 72.74, Phi: 109.85
+[pos] -7.22 9.09 isLifted: 1
+[angles] theta: 73.34, Phi: 109.25
+[pos] -7.32 9.12 isLifted: 1
+[angles] theta: 73.94, Phi: 108.66
+[pos] -7.42 9.15 isLifted: 1
+[angles] theta: 74.54, Phi: 108.05
+[pos] -7.52 9.18 isLifted: 1
+[angles] theta: 75.13, Phi: 107.44
+[pos] -7.62 9.21 isLifted: 1
+[angles] theta: 75.73, Phi: 106.83
+[pos] -7.72 9.24 isLifted: 1
+[angles] theta: 76.32, Phi: 106.21
+[pos] -7.82 9.27 isLifted: 1
+[angles] theta: 76.91, Phi: 105.59
+[pos] -7.93 9.30 isLifted: 1
+[angles] theta: 77.50, Phi: 104.96
+[pos] -8.03 9.32 isLifted: 1
+[angles] theta: 78.08, Phi: 104.33
+[pos] -8.13 9.35 isLifted: 1
+[angles] theta: 78.67, Phi: 103.70
+[pos] -8.23 9.38 isLifted: 1
+[angles] theta: 79.25, Phi: 103.06
+[pos] -8.33 9.41 isLifted: 1
+[angles] theta: 79.84, Phi: 102.41
+[pos] -8.43 9.44 isLifted: 1
+[angles] theta: 80.42, Phi: 101.77
+[pos] -8.53 9.47 isLifted: 1
+[angles] theta: 81.00, Phi: 101.11
+[pos] -8.63 9.50 isLifted: 1
+[angles] theta: 81.58, Phi: 100.45
+[pos] -8.73 9.53 isLifted: 1
+[angles] theta: 82.16, Phi: 99.79
+[pos] -8.83 9.56 isLifted: 1
+[angles] theta: 82.73, Phi: 99.12
+[pos] -8.93 9.59 isLifted: 1
+[angles] theta: 83.31, Phi: 98.45
+[pos] -9.03 9.62 isLifted: 1
+[angles] theta: 83.88, Phi: 97.77
+[pos] -9.13 9.65 isLifted: 1
+[angles] theta: 84.46, Phi: 97.09
+[pos] -9.23 9.68 isLifted: 1
+[angles] theta: 85.03, Phi: 96.40
+[pos] -9.33 9.71 isLifted: 1
+[angles] theta: 85.61, Phi: 95.71
+[pos] -9.43 9.74 isLifted: 1
+[angles] theta: 86.18, Phi: 95.01
+[pos] -9.53 9.77 isLifted: 1
+[angles] theta: 86.76, Phi: 94.30
+[pos] -9.63 9.80 isLifted: 1
+[angles] theta: 87.33, Phi: 93.59
+[pos] -9.73 9.83 isLifted: 1
+[angles] theta: 87.90, Phi: 92.88
+[pos] -9.83 9.85 isLifted: 1
+[angles] theta: 88.47, Phi: 92.16
+[pos] -9.93 9.88 isLifted: 1
+[angles] theta: 89.05, Phi: 91.43
+[pos] -10.03 9.91 isLifted: 1
+[angles] theta: 89.62, Phi: 90.70
+[pos] -10.13 9.94 isLifted: 1

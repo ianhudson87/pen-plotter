@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas to G-code</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        canvas { border: 1px solid black; touch-action: none; width: 100%; max-width: 500px; height: auto; }
+        button { margin-top: 10px; padding: 10px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h2>i am printer</h2>
+    <canvas id="drawCanvas" width="500" height="500"></canvas>
+    <br>
+    <button onclick="sendGCode()">print!</button>
+    
+    <script>
+        const canvas = document.getElementById('drawCanvas');
+        const ctx = canvas.getContext('2d');
+        let drawing = false;
+        let paths = [];
+        
+        function startDrawing(event) {
+            drawing = true;
+            ctx.beginPath();
+            const { x, y } = getCanvasCoords(event);
+            ctx.moveTo(x, y);
+            paths.push(`G0 X${x} Y${y}`);
+        }
+
+        function draw(event) {
+            if (!drawing) return;
+            const { x, y } = getCanvasCoords(event);
+            ctx.lineTo(x, y);
+            ctx.stroke();
+            paths.push(`G1 X${x} Y${y}`);
+        }
+
+        function stopDrawing() {
+            drawing = false;
+        }
+
+        function getCanvasCoords(event) {
+            const rect = canvas.getBoundingClientRect();
+            let x, y;
+            if (event.touches) {
+                x = event.touches[0].clientX - rect.left;
+                y = event.touches[0].clientY - rect.top;
+            } else {
+                x = event.clientX - rect.left;
+                y = event.clientY - rect.top;
+            }
+            return { x: x.toFixed(2), y: y.toFixed(2) };
+        }
+        
+        function sendGCode() {
+            const gcode = paths.join('\n');
+            fetch('http://192.168.1.157/plot', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ gcode })
+            })
+            .then(response => response.json()) // Ensure the JSON response is properly parsed
+            .then(data => {
+                alert(data.message); // Use the parsed JSON to display the message
+            })
+            .catch(error => alert('Error sending G-code: ' + error.message)); // Include error details
+        }
+        
+        canvas.addEventListener('mousedown', startDrawing);
+        canvas.addEventListener('mousemove', draw);
+        canvas.addEventListener('mouseup', stopDrawing);
+        canvas.addEventListener('mouseleave', stopDrawing);
+        canvas.addEventListener('touchstart', startDrawing);
+        canvas.addEventListener('touchmove', draw);
+        canvas.addEventListener('touchend', stopDrawing);
+    </script>
+</body>
+</html>
