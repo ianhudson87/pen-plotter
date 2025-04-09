@@ -1,0 +1,5 @@
+gcodeFiles/*
+traceLogs/*
+
+!gcodeFiles/README.md
+!traceLogs/README.md

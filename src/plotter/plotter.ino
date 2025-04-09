@@ -1,183 +1,198 @@
-// This Arduino example demonstrates bidirectional operation of a
-// 28BYJ-48, using a ULN2003 interface board to drive the stepper.
-// The 28BYJ-48 motor is a 4-phase, 8-beat motor, geared down by
-// a factor of 68. One bipolar winding is on motor pins 1 & 3 and
-// the other on motor pins 2 & 4. The step angle is 5.625/64 and the
-// operating Frequency is 100pps. Current draw is 92mA.
-////////////////////////////////////////////////
-#include "MovementPlanner.cpp"
-#include <Vector.h>
+#include <Servo.h>
+#include <Arduino.h>
 
-bool started = false;
-int buttonPin = 14;
-int buttonState = 0;
-double clockDelayMs = 5;
-int shoulderMotorPins[4] = {13,12,11,10};
-int elbowMotorPins[4] = {9,8,7,6};
-int wristMotorPins[4] = {5,4,3,2};
-Motor shoulderMotor(shoulderMotorPins, clockDelayMs);
-Motor elbowMotor(elbowMotorPins, clockDelayMs);
-Motor wristMotor(wristMotorPins, clockDelayMs);
-AngleSolver angleSolver(12.9, 18.7);
+// Conversion factor from degrees to radians
+#define DEG_TO_RAD 0.017453292519943295769236907684886
+ 
+// Conversion factor from radians to degrees
+#define RAD_TO_DEG 57.295779513082320876798154814105
 
-Coordinates c1(9,0);
-Coordinates c2(9,5);
-Coordinates c3(14,5);
-Coordinates c4(14,0);
-// Coordinates c5(12,10);
-// Coordinates c6(12,0);
-// Coordinates c7(19,0);
-// Coordinates c8(17,0);
-// Coordinates c9(17,10);
-// Coordinates c10(15,10);
-// Coordinates c11(19,10);
-Coordinates c12(14.5,0);
-CoordinatesQueue* coordinatesQueue;
+#define SAFETY_DEG 22
 
-Coordinates* currentCoords = new Coordinates(14.5,0);
-MovementPlanner* movementPlanner;
+#define SHOULDER_CORRECTION_DEG -3.0
+#define ELBOW_CORRECTION_DEG 2.0
 
-bool plannedMovement = true;
+#define LIFT_PLOTTER_UP_ANGLE 90
+#define LIFT_PLOTTER_DOWN_ANGLE 140
 
-// double startingX = 13.7;
-// double startingY = 13.5;
-// double targetX = 25;
-// double targetY = 7;
+#define SHOULDER_OUTPUT_PIN 2
+#define ELBOW_OUTPUT_PIN 3
+#define LIFTER_OUTPUT_PIN 4
+#define SHOULDER_POTENTIOMETER_PIN 5
+#define ELBOW_POTENTIOMETER_PIN 6
 
-//////////////////////////////////////////////////////////////////////////////
+Servo shoulderServo;
+Servo elbowServo;
+Servo lifterServo;
+
+double xVel = 0.0;
+double yVel = 0.0;
+
+double a = 10.0;
+double b = 10.2;
+
+double theta = 90.0;
+double phi = 90.0;
+
+bool isLiftedUp = true;
+
+double clockPeriodMs = 200;
+
+struct Matrix {
+ double m11;
+ double m12;
+ double m21;
+ double m22;
+};
+
+struct Tuple {
+ double x;
+ double y;
+};
+
 void setup() {
   Serial.begin(9600);
-  coordinatesQueue = new CoordinatesQueue();
-  coordinatesQueue->QueueCoords(&c1);
-  coordinatesQueue->QueueCoords(&c2);
-  coordinatesQueue->QueueCoords(&c3);
-  coordinatesQueue->QueueCoords(&c4);
-  // coordinatesQueue->QueueCoords(&c5);
-  // coordinatesQueue->QueueCoords(&c6);
-  // coordinatesQueue->QueueCoords(&c7);
-  // coordinatesQueue->QueueCoords(&c8);
-  // coordinatesQueue->QueueCoords(&c9);
-  // coordinatesQueue->QueueCoords(&c10);
-  // coordinatesQueue->QueueCoords(&c11);
-  coordinatesQueue->QueueCoords(&c12);
 
-  movementPlanner = new MovementPlanner(shoulderMotor, elbowMotor, wristMotor, angleSolver, coordinatesQueue, currentCoords, 3, 0.75);
+  shoulderServo.attach(SHOULDER_OUTPUT_PIN);
+  elbowServo.attach(ELBOW_OUTPUT_PIN);
+  lifterServo.attach(LIFTER_OUTPUT_PIN);
+  pinMode(SHOULDER_POTENTIOMETER_PIN, INPUT);
+  pinMode(ELBOW_POTENTIOMETER_PIN, INPUT);
 
-
-  // Coordinates* test = coordinatesQueue->DequeueCoords();
-  // Serial.println("(" + String(test->x) + ", " + String(test->y) + ")");
-  // test = coordinatesQueue->DequeueCoords();
-  // Serial.println("(" + String(test->x) + ", " + String(test->y) + ")");
-  // test = coordinatesQueue->DequeueCoords();
-  // Serial.println("(" + String(test->x) + ", " + String(test->y) + ")");
-  // test = coordinatesQueue->DequeueCoords();
-  // Serial.println("(" + String(test->x) + ", " + String(test->y) + ")");
-  // test = coordinatesQueue->DequeueCoords();
-  // Serial.println("(" + String(test->x) + ", " + String(test->y) + ")");
-
-  
-  // double startingShoulder = angleSolver.GetShoulderAngle(startingX, startingY);
-  // double startingElbow = angleSolver.GetElbowAngle(startingX, startingY);
-
-  // double targetShoulder = angleSolver.GetShoulderAngle(targetX, targetY);
-  // double targetElbow = angleSolver.GetElbowAngle(targetX, targetY);
-
-  // Serial.println("start: " + String(startingShoulder) + "," + String(startingElbow));
-  // Serial.println("target: " + String(targetShoulder) + "," + String(targetElbow));
-
-
-  // shoulderMotor.QueueRotation(targetShoulder - startingShoulder, 2);
-  // elbowMotor.QueueRotation(startingElbow - targetElbow, 2);
-  // wristMotor.QueueRotation(false, 180, 1);
-
-  shoulderMotor.QueueRotation(10, 15);
-  elbowMotor.QueueRotation(0, 10);
-
-  // Coordinates test2 = {1,1};
-  // int storage_array[5];
-  // Vector<int> coordinatesTest(storage_array);
-  // coordinatesTest.push_back(5);
-  // int test3 = coordinatesTest.front();
-  // Serial.println("(" + String(test.x) + ", " + String(test.y) + ")");
-  // Serial.println("(" + String(test2.x) + ", " + String(test2.y) + ")");
-  // Serial.println("(" + String(test3) + ", " + String(test3) + ")");
-
-  pinMode(buttonPin, INPUT); // button
+  WriteJointMotorAngles(theta, phi);
+  WriteLifterMotorAngle(isLiftedUp);
 }
 
-//////////////////////////////////////////////////////////////////////////////
-void loop(){
-  if (!started && digitalRead(buttonPin) == 0) {
-    return;
-  }
-  else if (!started && digitalRead(buttonPin) == 1)
-  {
-    delay(3000);
-    started = true;
-  }
-
+void loop() {
   int startTime = millis();
 
-  if(plannedMovement)
+  Serial.println("[time]" + String(millis()));
+
+  //// START ////
+  ReadDirectionAndLiftInstructions();
+
+  WriteLifterMotorAngle(isLiftedUp);
+
+  Matrix jInv = CalculateInverseJacobian(theta, phi, a, b);
+
+  double thetaVel = jInv.m11 * xVel + jInv.m12 * yVel;
+  double phiVel = jInv.m21 * xVel + jInv.m22 * yVel;
+
+  theta += thetaVel * clockPeriodMs / 1000.0;
+  phi += phiVel * clockPeriodMs / 1000.0;
+
+  Serial.println("[angles] theta: " + String(theta) + ", Phi: " + String(phi));
+
+  if(theta > 180-SAFETY_DEG || theta < SAFETY_DEG || phi > 180-SAFETY_DEG || phi < SAFETY_DEG)
   {
-    movementPlanner->ProcessMovement();
+    theta -= thetaVel * clockPeriodMs / 1000.0;
+    phi -= phiVel * clockPeriodMs / 1000.0;
+    Serial.println("[error] unsafe angle");
   }
-  else
-  {
-    shoulderMotor.ProcessRotation();
-    elbowMotor.ProcessRotation();
-  }
-  
-  // shoulderMotor.ProcessRotation();
-  // elbowMotor.ProcessRotation();
-  // wristMotor.ProcessRotation();
 
-  // double startingShoulder = angleSolver.GetShoulderAngle(startingX, startingY);
-  // double startingElbow = angleSolver.GetElbowAngle(startingX, startingY);
+  WriteJointMotorAngles(theta, phi);
 
-  // double targetShoulder = angleSolver.GetShoulderAngle(targetX, targetY);
-  // double targetElbow = angleSolver.GetElbowAngle(targetX, targetY);
+  Tuple pos = GetGlobalPos(theta, phi, a, b);
+  SendGlobalPosAndLift(pos.x, pos.y, isLiftedUp);
 
-  // Serial.println("start: " + String(startingShoulder) + "," + String(startingElbow));
-  // Serial.println("target: " + String(targetShoulder) + "," + String(targetElbow));
+  //// END ////
 
   int endTime = millis();
   int deltaTime = endTime - startTime;
-  if(deltaTime < clockDelayMs)
+  if(deltaTime < clockPeriodMs)
   {
-    delay(clockDelayMs - deltaTime);
+    delay(clockPeriodMs - deltaTime);
   }
   else
   {
-    Serial.println("missed timing by" + String(deltaTime - clockDelayMs, 10));
+    Serial.println("missed timing by" + String(deltaTime - clockPeriodMs, 10));
+  }
+
+  Serial.flush();
+}
+
+void WriteJointMotorAngles(double shoulderAngle, double elbowAngle)
+{
+  double correctedShoulderAngle = 180.0 - shoulderAngle + SHOULDER_CORRECTION_DEG;
+  double correctedElbowAngle = elbowAngle + ELBOW_CORRECTION_DEG;
+
+  correctedShoulderAngle = map(correctedShoulderAngle, 0, 180, 35, 150); //
+  correctedElbowAngle = map(correctedElbowAngle, 0, 180, 35, 150); //
+
+  shoulderServo.write(correctedShoulderAngle);
+  // shoulderServo.writeMicroseconds((correctedShoulderAngle / 90.0 + 0.5) * 1000.0);
+  elbowServo.write(correctedElbowAngle);
+  // elbowServo.writeMicroseconds(((correctedElbowAngle) / 90.0 + 0.5) * 1000.0);
+}
+
+void WriteLifterMotorAngle(bool isLiftedUp)
+{
+  if(isLiftedUp)
+  {
+    lifterServo.write(LIFT_PLOTTER_UP_ANGLE);
+  }
+  else
+  {
+    lifterServo.write(LIFT_PLOTTER_DOWN_ANGLE);
   }
 }
 
-// //////////////////////////////////////////////////////////////////////////////
-// //set pins to ULN2003 high in sequence from 1 to 4
-// //delay "motorSpeed" between each pin setting (to determine speed)
-// void anticlockwise()
-// {
-//   for(int i = 0; i < 8; i++)
-//   {
-//     setOutput(i);
-//     delay(motorSpeed);
-//   }
-// }
+void ReadDirectionAndLiftInstructions()
+{
+  if(Serial.available() > 0)
+  {
+    float x = Serial.parseFloat();
+    float y = Serial.parseFloat();
+    int isLiftedInt = Serial.parseInt();
 
-// void clockwise()
-// {
-//   for(int i = 7; i >= 0; i--)
-//   {
-//     setOutput(i);
-//     delay(motorSpeed);
-//   }
-// }
+    xVel = double(x);
+    yVel = double(y);
 
-// void setOutput(int out)
-// {
-//   digitalWrite(motorPin1, bitRead(lookup[out], 0));
-//   digitalWrite(motorPin2, bitRead(lookup[out], 1));
-//   digitalWrite(motorPin3, bitRead(lookup[out], 2));
-//   digitalWrite(motorPin4, bitRead(lookup[out], 3));
-// }
+    if(isLiftedInt == 1)
+    {
+      isLiftedUp = true;
+    }
+    else if(isLiftedInt == 0)
+    {
+      isLiftedUp = false;
+    }
+
+    Serial.println("[vel] " + String(xVel) + " " + String(yVel) + " [isLifted]" + String(isLiftedInt));
+
+    // while(Serial.available() > 0)
+    // {
+    //   Serial.read();
+    // }
+  }
+}
+
+Matrix CalculateInverseJacobian(double theta, double phi, double a, double b)
+{
+  double thetaRad = theta * DEG_TO_RAD;
+  double phiRad = phi * DEG_TO_RAD;
+
+  double j11 = b * cos(thetaRad + phiRad);
+  double j12 = b * sin(thetaRad + phiRad);
+  double j21 = -b * cos(thetaRad + phiRad) - a * cos(thetaRad);
+  double j22 = -b * sin(thetaRad + phiRad) - a * sin(thetaRad);
+  double det = 1.0 / (-a * b * ( (sin(thetaRad) * cos(thetaRad + phiRad)) - (sin(thetaRad + phiRad) * cos(thetaRad)) ));
+  Matrix result = {j11 * det, j12 * det, j21 * det, j22 * det};
+  return result;
+}
+
+void SendGlobalPosAndLift(double x, double y, bool isLiftedUp)
+{
+  Serial.println("[pos] " + String(x) + " " + String(y) + " isLifted: " + String(isLiftedUp));
+}
+
+Tuple GetGlobalPos(double theta, double phi, double a, double b)
+{
+  double thetaRad = theta * DEG_TO_RAD;
+  double phiRad = phi * DEG_TO_RAD;
+
+  double x = b * cos(thetaRad + phiRad) + a * cos(thetaRad);
+  double y = b * sin(thetaRad + phiRad) + a * sin(thetaRad);
+
+  Tuple result = {x, y};
+  return result;
+}
