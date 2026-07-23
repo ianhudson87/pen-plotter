@@ -1,18 +1,18 @@
 #include <Arduino.h>
 
-class Coordinates
+class Vector2D
 {
   public:
     double x;
     double y;
 
-    Coordinates(double x, double y)
+    Vector2D(double x, double y)
     {
       this->x = x;
       this->y = y;
     }
 
-    Coordinates(const Coordinates& obj)
+    Vector2D(const Vector2D& obj)
     {
       this->x = obj.x;
       this->y = obj.y;
@@ -23,7 +23,7 @@ class Coordinates
       return "(" + String(this->x) + ", " + String(this->y) + ")";
     }
 
-    Coordinates Normalize()
+    Vector2D Normalize()
     {
       double length = sqrt(pow(this->x, 2) + pow(this->y, 2));
       this->x /= length;
@@ -31,13 +31,13 @@ class Coordinates
       return *this;
     }
 
-    void Add(Coordinates obj)
+    void Add(Vector2D obj)
     {
       this->x += obj.x;
       this->y +=  obj.y;
     }
 
-    void Substract(Coordinates obj)
+    void Substract(Vector2D obj)
     {
       this->x -= obj.x;
       this->y -= obj.y;
@@ -49,50 +49,50 @@ class Coordinates
       this->y *= scalar;
     }
 
-    Coordinates operator-(Coordinates obj)
+    Vector2D operator-(Vector2D obj)
     {
-      return Coordinates(this->x - obj.x, this->y - obj.y);
+      return Vector2D(this->x - obj.x, this->y - obj.y);
     }
 
-    Coordinates operator+(Coordinates obj)
+    Vector2D operator+(Vector2D obj)
     {
-      return Coordinates(this->x + obj.x, this->y + obj.y);
+      return Vector2D(this->x + obj.x, this->y + obj.y);
     }
 
-    Coordinates operator+=(Coordinates obj)
+    Vector2D operator+=(Vector2D obj)
     {
       this->Add(obj);
       return *this;
     }
 
-    Coordinates operator*(double scalar)
+    Vector2D operator*(double scalar)
     {
-      return Coordinates(this->x * scalar, this->y * scalar);
+      return Vector2D(this->x * scalar, this->y * scalar);
     }
 };
 
-class CoordinatesQueue
+class Vector2DQueue
 {
   private:
-    Coordinates* storageArray[50];
+    Vector2D* storageArray[50];
     int getPointer = 0;
     int putPointer = 0;
 
   public:
-    CoordinatesQueue()
+    Vector2DQueue()
     {
     }
 
-    void QueueCoords(Coordinates* coordinates)
+    void QueueCoords(Vector2D* Vector2D)
     {
-      storageArray[putPointer] = coordinates;
+      storageArray[putPointer] = Vector2D;
       putPointer++;
     }
 
-    Coordinates* DequeueCoords()
+    Vector2D* DequeueCoords()
     {
       Serial.println(String(getPointer));
-      Coordinates* firstCoords = storageArray[getPointer];
+      Vector2D* firstCoords = storageArray[getPointer];
       Serial.println(firstCoords->ToString());
       getPointer++;
       return firstCoords;

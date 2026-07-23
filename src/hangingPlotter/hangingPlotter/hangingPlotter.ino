@@ -1,6 +1,6 @@
 #include "MotorDriver.cpp"
 #include "Planner.cpp"
-#include "Coordinates.cpp"
+#include "Vector2D.cpp"
 
 // DATAMODELS
 enum PlotterState {
@@ -32,6 +32,9 @@ float motorSpeed = 10; // degrees per seconds
 
 MotorDriver leftMotor(leftMotorPins);
 MotorDriver rightMotor(rightMotorPins);
+
+
+Planner planner(plotterHeadStartingX, plotterHeadStartingY)
 // END CONSTANTS
 
 // RUNTIME VARIABLES
@@ -39,11 +42,6 @@ float d_leftString = stringLengthStartingVal; // current distance between left m
 float d_rightString = stringLengthStartingVal; // current distance between right motor and right connection
 
 enum PlotterState plotterStateMachine = Lowering;
-
-
-
-float xPos = plotterHeadStartingX;
-float yPos = plotterHeadStartingY;
 
 int prevStateChangeButtonVal = 0;
 // END RUNTIME VARIABLES
@@ -99,34 +97,8 @@ void loop() {
   }
   else if(plotterStateMachine == Calculating)
   {
-    Serial.print("Spiral iteration: ");
-    Serial.println(spiralIterations);
-    float distanceChange = 0.5 * (spiralIterations / 2 + 1);
-    switch(spiralIterations % 4)
-    {
-      case 0:
-        xPos += distanceChange;
-        break;
-      case 1:
-        yPos -= distanceChange;
-        break;
-      case 2:
-        xPos -= distanceChange;
-        break;
-      case 3:
-        yPos += distanceChange;
-        break;
-    }
-    spiralIterations++;
-    Serial.print("currentLengths: ");
-    Serial.print(d_leftString);
-    Serial.print(", ");
-    Serial.println(d_rightString);
-    Serial.print("target coords: ");
-    Serial.print(xPos);
-    Serial.print(", ");
-    Serial.println(yPos);
-    Coordinates targetLengths = GetTargetLengths(xPos, yPos);
+    Vector2D nextPos = planner.GetNextPos()
+    Vector2D targetLengths = GetTargetLengths(nextPos.x, nextPos.y);
     float leftMotorRotation = (d_leftString - targetLengths.x) / circum_Motor * 360.0f;
     float rightMotorRotation = (d_rightString - targetLengths.y) / circum_Motor * -360.0f;
     Serial.print("rotation degrees: ");
@@ -162,8 +134,7 @@ void loop() {
       d_leftString = stringLengthStartingVal; // current distance between left motor and left connection
       d_rightString = stringLengthStartingVal; // current distance between right motor and right connection
       spiralIterations = 0;
-      xPos = plotterHeadStartingX;
-      yPos = plotterHeadStartingY;
+      planner.SetCurrentPos(plotterHeadStartingX, plotterHeadStartingY);
     }
 
     rightMotor.ProcessRotation();
@@ -173,11 +144,11 @@ void loop() {
   prevStateChangeButtonVal = currentStateChangeButtonVal;
 }
 
-Coordinates GetTargetLengths(float x, float y)
+Vector2D GetTargetLengths(float x, float y)
 {
   float targetLeftStringLength = sqrt(sq(x - d_betweenConnections / 2) + sq(y)); // distance from left motor to left connection point
   float targetRightStringLength = sqrt(sq(d_betweenMotors - d_betweenConnections / 2 - x) + sq(y)); // distance from right motor to right connection point
-  Coordinates result = {targetLeftStringLength, targetRightStringLength};
+  Vector2D result{targetLeftStringLength, targetRightStringLength};
   Serial.print("target lengths: ");
   Serial.print(targetLeftStringLength);
   Serial.print(", ");

@@ -1,27 +1,45 @@
-#include "Coordinates.cpp"
+#include "Vector2D.cpp"
 
-class MotorDriver
+class Planner
 {
   private:
     int spiralIterations = 0;
-    Coordinates lastPos;
+    Vector2D currentPos;
 
   public:
-    MotorDriver(Coordinates startingPosition)
+    Planner (Vector2D startingPosition)
     {
-      this->lastPos = startingPosition;
+      this->currentPos = startingPosition;
     }
 
-    Coordinates GetNextPos()
+    void SetCurrentPos(Vector2D pos)
     {
-      Serial.println("asdf");
-      this->queuedStartTime = millis();
-      this->steppingClockwise = rotateDegrees < 0;
-      rotateDegrees = rotateDegrees > 0 ? rotateDegrees : -rotateDegrees;
-      this->stepsRemaining = rotateDegrees / this->stepSize;
-      Serial.println(this->stepsRemaining);
+      this->currentPos = pos;
+    }
 
-      this->stepsTaken = 0;
-      this->msPerStep = 1 / degreesPerSecond * this->stepSize * 1000; // If this is less than the time delay between calls to processRotation, then it will move as quick as possible
+    Vector2D GetNextPos()
+    {
+      float distanceChange = 0.5 * (spiralIterations / 2 + 1);
+      Vector2D unitChange;
+      switch(spiralIterations % 4)
+      {
+        case 0:
+          unitChange = Vector2D{1, 0};
+          break;
+        case 1:
+          unitChange = Vector2D{0, -1};
+          break;
+        case 2:
+          unitChange = Vector2D{-1, 0};
+          break;
+        case 3:
+          unitChange = Vector2D{0, 1};
+          break;
+      }
+      spiralIterations++;
+
+      this->currentPos += (unitChange *= distanceChange)
+
+      return this->currentPos;
     }
 }
