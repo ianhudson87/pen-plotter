@@ -1,8 +1,9 @@
-#include "MotorDriver.cpp"
-#include "MovementPlanner.cpp"
-#include "Vector2D.cpp"
-#include "PlotterStateMachine.cpp"
-#include "HangPlotterManager.cpp"
+#include <MotorDriver.cpp>
+#include <Vector2D.cpp>
+#include <MovementPlanner.cpp>
+#include <Button.cpp>
+#include <PlotterStateMachine.cpp>
+#include <HangPlotterManager.cpp>
 
 // CONSTANTS
 int leftMotorPins[4] = {13, 12, 14, 27};
@@ -14,63 +15,68 @@ MotorDriver rightMotor(rightMotorPins);
 Button stateChangeButton(35); // pin 35
 Button retractButton(34); // pin 34
 
-HangPlotterManager hangPlotterManager(PlotterState::Lowering);
-MovementPlanner movementPlanner(plotterHeadStartingX, plotterHeadStartingY);
-PlotterStateMachine plotterStateMachine();
+Vector2D plotterHeadStartingPos(8.625, 6.88);
+HangPlotterManager hangPlotterManager;
+MovementPlanner movementPlanner(plotterHeadStartingPos);
+PlotterStateMachine plotterStateMachine(PlotterState::Lowering);
 // END CONSTANTS
 
-void setup() {
+void setup()
+{
   Serial.begin(115200);
 }
 
-void loop() {
+void loop()
+{
   stateChangeButton.ReadPin();
   retractButton.ReadPin();
 
   //////////////////////////////////////////////////
   // Start handle current state
   //////////////////////////////////////////////////
-  if(plotterStateMachine.GetCurrentState() == PlotterState::Lowering)
+  PlotterState currentState = plotterStateMachine.GetCurrentState();
+
+  if (currentState == PlotterState::Lowering)
   {
     rightMotor.DoStep(false); // counter-clockwise
     leftMotor.DoStep(true); // clockwise
     delay(5);
   }
-  else if(plotterStateMachine.GetCurrentState() == PlotterState::LeftRetracting)
+  else if (currentState == PlotterState::LeftRetracting)
   {
-    
-    if(digitalRead(retractButtonPin) == HIGH)
+    if (retractButton.IsHigh())
     {
       leftMotor.DoStep(false);
       delay(5);
     }
   }
-  else if(plotterStateMachine.GetCurrentState() == PlotterState::RightRetracting)
+  else if (currentState == PlotterState::RightRetracting)
   {
-    if(digitalRead(retractButtonPin) == HIGH)
+    if (retractButton.IsHigh())
     {
       rightMotor.DoStep(true);
       delay(5);
     }
   }
-  else if(plotterStateMachine.GetCurrentState() == PlotterState::Calculating)
+  else if (currentState == PlotterState::Calculating)
   {
-    Vector2D nextPos = movementPlanner.GetNextPos()
+    Vector2D nextPos = movementPlanner.GetNextPos();
     Vector2D targetLengths = hangPlotterManager.GetTargetLengths(nextPos);
     Vector2D rotations = hangPlotterManager.GetMotorRotations(targetLengths);
     Vector2D rotationSpeeds = hangPlotterManager.GetMotorRotationSpeeds(rotations);
 
-    hangPlotterManager.SetCurrentLengths(targetLengths); // Keep track of what lengths the plotter will have after movement is complete
+    // Keep track of what lengths the plotter will have after movement is complete.
+    hangPlotterManager.SetCurrentLengths(targetLengths);
 
-    leftMotor.QueueRotation(leftMotorRotation, leftMotorSpeed);
-    rightMotor.QueueRotation(rightMotorRotation, rightMotorSpeed);
+    leftMotor.QueueRotation(rotations.x, rotationSpeeds.x);
+    rightMotor.QueueRotation(rotations.y, rotationSpeeds.y);
   }
-  else if(plotterStateMachine.GetCurrentState() == PlotterState::Calculating)
+  else if (currentState == PlotterState::Moving)
   {
     rightMotor.ProcessRotation();
     leftMotor.ProcessRotation();
   }
-  else if(plotterStateMachine.GetCurrentState() == PlotterState::Reset)
+  else if (currentState == PlotterState::Reset)
   {
     movementPlanner.Reset();
     hangPlotterManager.Reset();
@@ -82,28 +88,19 @@ void loop() {
   //////////////////////////////////////////////////
   // Start handle state change. Only process one event at a time.
   //////////////////////////////////////////////////
-  if(stateChangeButton.IsStateLowToHigh())
+  if (stateChangeButton.IsStateLowToHigh())
   {
-    plotterStateMachine.HandleEvent(PlotterEvent::ButtonPress)
+    plotterStateMachine.HandleEvent(PlotterEvent::ButtonPress);
   }
-  else if(leftMotor.IsDoneRotating() && rightMotor.IsDoneRotating())
+  else if (currentState == PlotterState::Moving && leftMotor.IsDoneRotating() && rightMotor.IsDoneRotating())
   {
-    plotterStateMachine.HandleEvent(PlotterEvent::MotorRotationComplete)
+    plotterStateMachine.HandleEvent(PlotterEvent::MotorRotationComplete);
   }
   else
   {
-    plotterStateMachine.HandleEvent(PlotterEvent::LoopComplete)
+    plotterStateMachine.HandleEvent(PlotterEvent::LoopComplete);
   }
   //////////////////////////////////////////////////
   // End handle state change.
   //////////////////////////////////////////////////
 }
-
-
-
-
-
-
-
-
-

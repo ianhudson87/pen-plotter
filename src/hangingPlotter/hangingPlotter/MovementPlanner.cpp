@@ -9,14 +9,8 @@ class MovementPlanner
 
   public:
     MovementPlanner (Vector2D startingPosition)
+      : startPos(startingPosition), currentPos(startingPosition)
     {
-      this->currentPos = startingPosition;
-    }
-
-    void SetCurrentPos(Vector2D pos)
-    {
-      this->startPos = pos;
-      this->currentPos = pos;
     }
 
     void Reset()
@@ -46,8 +40,8 @@ class MovementPlanner
       }
       spiralIterations++;
 
-      this->currentPos += (unitChange *= distanceChange)
+      this->currentPos += (unitChange * distanceChange);
 
       return this->currentPos;
     }
-}
+};

@@ -1,3 +1,5 @@
+#pragma once
+
 #include <Arduino.h>
 
 class Vector2D
@@ -5,6 +7,12 @@ class Vector2D
   public:
     double x;
     double y;
+
+    Vector2D()
+    {
+      this->x = 0;
+      this->y = 0;
+    }
 
     Vector2D(double x, double y)
     {
@@ -68,6 +76,13 @@ class Vector2D
     Vector2D operator*(double scalar)
     {
       return Vector2D(this->x * scalar, this->y * scalar);
+    }
+
+    Vector2D operator*=(double scalar)
+    {
+      this->x *= scalar;
+      this->y *= scalar;
+      return *this;
     }
 };
 

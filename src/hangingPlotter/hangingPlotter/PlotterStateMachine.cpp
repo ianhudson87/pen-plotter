@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 enum class PlotterState
 {
   Lowering,
@@ -21,7 +23,7 @@ class PlotterStateMachine
     PlotterState currentState;
   
   public:
-    PlotterStateMachine(PlotterState startState))
+    PlotterStateMachine(PlotterState startState = PlotterState::Lowering)
     {
       this->currentState = startState;
     }
@@ -89,4 +91,4 @@ class PlotterStateMachine
             break;
         }
     }
-}
+};

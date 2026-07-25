@@ -1,3 +1,6 @@
+#include <Arduino.h>
+#include <Vector2D.cpp>
+
 // keeps tracks of the current lengths of the hanging plotter lengths
 // calculates how many rotations the motor needs to move and how fast
 
@@ -24,7 +27,7 @@ class HangPlotterManager
     void Reset()
     {
       this->d_leftString = stringLengthStartingVal;
-      this->d_rightString = stringLengthStartingVal
+      this->d_rightString = stringLengthStartingVal;
     }
 
     // returns the lengths of the strings based on target position. x = left string. y = right string.
@@ -53,8 +56,26 @@ class HangPlotterManager
     // output: rotations speed x = left motor. y = right motor.
     Vector2D GetMotorRotationSpeeds(Vector2D motorRotations)
     {
-        float leftMotorSpeed = abs(motorRotations.x) > abs(motorRotations.y) ? motorSpeed : motorSpeed * abs(motorRotations.x / motorRotations.y);
-        float rightMotorSpeed = abs(motorRotations.y) > abs(motorRotations.x) ? motorSpeed : motorSpeed * abs(motorRotations.y / motorRotations.x);
+        float leftRotationAbs = abs(motorRotations.x);
+        float rightRotationAbs = abs(motorRotations.y);
+
+        if (leftRotationAbs == 0 && rightRotationAbs == 0)
+        {
+          return Vector2D(0, 0);
+        }
+
+        if (rightRotationAbs == 0)
+        {
+          return Vector2D(motorSpeed, 0);
+        }
+
+        if (leftRotationAbs == 0)
+        {
+          return Vector2D(0, motorSpeed);
+        }
+
+        float leftMotorSpeed = leftRotationAbs > rightRotationAbs ? motorSpeed : motorSpeed * abs(motorRotations.x / motorRotations.y);
+        float rightMotorSpeed = rightRotationAbs > leftRotationAbs ? motorSpeed : motorSpeed * abs(motorRotations.y / motorRotations.x);
         Vector2D result{leftMotorSpeed, rightMotorSpeed};
         return result;
     }
@@ -65,4 +86,4 @@ class HangPlotterManager
       this->d_leftString = currentLengths.x;
       this->d_rightString = currentLengths.y;
     }
-}
+};

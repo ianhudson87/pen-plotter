@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 // How to use:
 // Call ReadPin() every beginning of every loop.
 // IsStateLowToHigh() tells you whether the button was pressed on the current loop
@@ -20,11 +22,16 @@ class Button
     void ReadPin()
     {
       prevState = currentState;
-      currentState = digitalRead(stateChangeButtonPin);
+      currentState = digitalRead(pin);
     }
 
     bool IsStateLowToHigh()
     {
       return prevState == LOW && currentState == HIGH;
     }
-}
+
+    bool IsHigh()
+    {
+      return currentState == HIGH;
+    }
+};
