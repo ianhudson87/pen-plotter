@@ -1,20 +1,28 @@
 #include "Vector2D.cpp"
 
-class Planner
+class MovementPlanner
 {
   private:
     int spiralIterations = 0;
+    Vector2D startPos;
     Vector2D currentPos;
 
   public:
-    Planner (Vector2D startingPosition)
+    MovementPlanner (Vector2D startingPosition)
     {
       this->currentPos = startingPosition;
     }
 
     void SetCurrentPos(Vector2D pos)
     {
+      this->startPos = pos;
       this->currentPos = pos;
+    }
+
+    void Reset()
+    {
+      spiralIterations = 0;
+      currentPos = startPos;
     }
 
     Vector2D GetNextPos()

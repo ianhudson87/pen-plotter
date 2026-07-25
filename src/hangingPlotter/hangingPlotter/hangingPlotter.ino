@@ -1,159 +1,102 @@
 #include "MotorDriver.cpp"
-#include "Planner.cpp"
+#include "MovementPlanner.cpp"
 #include "Vector2D.cpp"
-
-// DATAMODELS
-enum PlotterState {
-  Lowering,
-  LeftRetracting,
-  RightRetracting,
-  Calculating,
-  Moving
-};
-// END DATAMODELS
+#include "PlotterStateMachine.cpp"
+#include "HangPlotterManager.cpp"
 
 // CONSTANTS
 int leftMotorPins[4] = {13, 12, 14, 27};
 int rightMotorPins[4] = {26, 25, 33, 32};
 
-int stateChangeButtonPin = 35;
-int retractButtonPin = 34;
-
-float d_betweenMotors = 17.2; // distance between motors
-float d_betweenConnections = 2.75; // distance between connection points
-float radius_Motor = 1.435;
-float circum_Motor = radius_Motor * TWO_PI;
-
-float stringLengthStartingVal = 10.0;
-float plotterHeadStartingX = 8.625;
-float plotterHeadStartingY = 6.88;
-
-float motorSpeed = 10; // degrees per seconds
-
 MotorDriver leftMotor(leftMotorPins);
 MotorDriver rightMotor(rightMotorPins);
 
+Button stateChangeButton(35); // pin 35
+Button retractButton(34); // pin 34
 
-Planner planner(plotterHeadStartingX, plotterHeadStartingY)
+HangPlotterManager hangPlotterManager(PlotterState::Lowering);
+MovementPlanner movementPlanner(plotterHeadStartingX, plotterHeadStartingY);
+PlotterStateMachine plotterStateMachine();
 // END CONSTANTS
-
-// RUNTIME VARIABLES
-float d_leftString = stringLengthStartingVal; // current distance between left motor and left connection
-float d_rightString = stringLengthStartingVal; // current distance between right motor and right connection
-
-enum PlotterState plotterStateMachine = Lowering;
-
-int prevStateChangeButtonVal = 0;
-// END RUNTIME VARIABLES
 
 void setup() {
   Serial.begin(115200);
-
-  pinMode(stateChangeButtonPin, INPUT);
-  pinMode(retractButtonPin, INPUT);
-
 }
 
 void loop() {
-  // Serial.print("state machine: ");
-  // Serial.println(plotterStateMachine);
-  bool currentStateChangeButtonVal = digitalRead(stateChangeButtonPin);
+  stateChangeButton.ReadPin();
+  retractButton.ReadPin();
 
-  if(plotterStateMachine == Lowering)
+  //////////////////////////////////////////////////
+  // Start handle current state
+  //////////////////////////////////////////////////
+  if(plotterStateMachine.GetCurrentState() == PlotterState::Lowering)
   {
-    if(currentStateChangeButtonVal == HIGH && prevStateChangeButtonVal == LOW)
-    {
-      plotterStateMachine = LeftRetracting;
-    }
-    // rightMotor.ProcessRotation();
-    // leftMotor.ProcessRotation();
     rightMotor.DoStep(false); // counter-clockwise
     leftMotor.DoStep(true); // clockwise
     delay(5);
   }
-  else if(plotterStateMachine == LeftRetracting)
+  else if(plotterStateMachine.GetCurrentState() == PlotterState::LeftRetracting)
   {
-    if(currentStateChangeButtonVal == HIGH && prevStateChangeButtonVal == LOW)
-    {
-      plotterStateMachine = RightRetracting;
-    }
+    
     if(digitalRead(retractButtonPin) == HIGH)
     {
       leftMotor.DoStep(false);
       delay(5);
     }
   }
-  else if(plotterStateMachine == RightRetracting)
+  else if(plotterStateMachine.GetCurrentState() == PlotterState::RightRetracting)
   {
-    if(currentStateChangeButtonVal == HIGH && prevStateChangeButtonVal == LOW)
-    {
-      plotterStateMachine = Calculating;
-    }
     if(digitalRead(retractButtonPin) == HIGH)
     {
       rightMotor.DoStep(true);
       delay(5);
     }
   }
-  else if(plotterStateMachine == Calculating)
+  else if(plotterStateMachine.GetCurrentState() == PlotterState::Calculating)
   {
-    Vector2D nextPos = planner.GetNextPos()
-    Vector2D targetLengths = GetTargetLengths(nextPos.x, nextPos.y);
-    float leftMotorRotation = (d_leftString - targetLengths.x) / circum_Motor * 360.0f;
-    float rightMotorRotation = (d_rightString - targetLengths.y) / circum_Motor * -360.0f;
-    Serial.print("rotation degrees: ");
-    Serial.print(leftMotorRotation);
-    Serial.print(", ");
-    Serial.println(rightMotorRotation);
-    d_leftString = targetLengths.x;
-    d_rightString = targetLengths.y;
+    Vector2D nextPos = movementPlanner.GetNextPos()
+    Vector2D targetLengths = hangPlotterManager.GetTargetLengths(nextPos);
+    Vector2D rotations = hangPlotterManager.GetMotorRotations(targetLengths);
+    Vector2D rotationSpeeds = hangPlotterManager.GetMotorRotationSpeeds(rotations);
 
-    float leftMotorSpeed = abs(leftMotorRotation) > abs(rightMotorRotation) ? motorSpeed : motorSpeed * abs(leftMotorRotation / rightMotorRotation);
-    float rightMotorSpeed = abs(rightMotorRotation) > abs(leftMotorRotation) ? motorSpeed : motorSpeed * abs(rightMotorRotation / leftMotorRotation);
+    hangPlotterManager.SetCurrentLengths(targetLengths); // Keep track of what lengths the plotter will have after movement is complete
 
     leftMotor.QueueRotation(leftMotorRotation, leftMotorSpeed);
     rightMotor.QueueRotation(rightMotorRotation, rightMotorSpeed);
-
-    Serial.print("rotation speeds: ");
-    Serial.print(leftMotorSpeed);
-    Serial.print(", ");
-    Serial.println(rightMotorSpeed);
-
-    plotterStateMachine = Moving;
   }
-  else if(plotterStateMachine == Moving)
+  else if(plotterStateMachine.GetCurrentState() == PlotterState::Calculating)
   {
-    if(leftMotor.IsDoneRotating() && rightMotor.IsDoneRotating())
-    {
-      plotterStateMachine = Calculating;
-    }
-
-    if(currentStateChangeButtonVal == HIGH && prevStateChangeButtonVal == LOW)
-    {
-      plotterStateMachine = Lowering;
-      d_leftString = stringLengthStartingVal; // current distance between left motor and left connection
-      d_rightString = stringLengthStartingVal; // current distance between right motor and right connection
-      spiralIterations = 0;
-      planner.SetCurrentPos(plotterHeadStartingX, plotterHeadStartingY);
-    }
-
     rightMotor.ProcessRotation();
     leftMotor.ProcessRotation();
   }
+  else if(plotterStateMachine.GetCurrentState() == PlotterState::Reset)
+  {
+    movementPlanner.Reset();
+    hangPlotterManager.Reset();
+  }
+  //////////////////////////////////////////////////
+  // End handle current state
+  //////////////////////////////////////////////////
 
-  prevStateChangeButtonVal = currentStateChangeButtonVal;
-}
-
-Vector2D GetTargetLengths(float x, float y)
-{
-  float targetLeftStringLength = sqrt(sq(x - d_betweenConnections / 2) + sq(y)); // distance from left motor to left connection point
-  float targetRightStringLength = sqrt(sq(d_betweenMotors - d_betweenConnections / 2 - x) + sq(y)); // distance from right motor to right connection point
-  Vector2D result{targetLeftStringLength, targetRightStringLength};
-  Serial.print("target lengths: ");
-  Serial.print(targetLeftStringLength);
-  Serial.print(", ");
-  Serial.println(targetRightStringLength);
-  return result;
+  //////////////////////////////////////////////////
+  // Start handle state change. Only process one event at a time.
+  //////////////////////////////////////////////////
+  if(stateChangeButton.IsStateLowToHigh())
+  {
+    plotterStateMachine.HandleEvent(PlotterEvent::ButtonPress)
+  }
+  else if(leftMotor.IsDoneRotating() && rightMotor.IsDoneRotating())
+  {
+    plotterStateMachine.HandleEvent(PlotterEvent::MotorRotationComplete)
+  }
+  else
+  {
+    plotterStateMachine.HandleEvent(PlotterEvent::LoopComplete)
+  }
+  //////////////////////////////////////////////////
+  // End handle state change.
+  //////////////////////////////////////////////////
 }
 
 
