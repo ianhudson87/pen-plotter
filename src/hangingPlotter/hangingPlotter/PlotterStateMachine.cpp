@@ -1,94 +1,63 @@
-#include <Arduino.h>
+#include <PlotterStateMachine.h>
 
-enum class PlotterState
+PlotterStateMachine::PlotterStateMachine(PlotterState startState)
 {
-  Lowering,
-  LeftRetracting,
-  RightRetracting,
-  Calculating,
-  Moving,
-  Reset
-};
+  this->currentState = startState;
+}
 
-enum class PlotterEvent
+PlotterState PlotterStateMachine::GetCurrentState() const
 {
-  ButtonPress,
-  MotorRotationComplete,
-  LoopComplete,
-};
+  return currentState;
+}
 
-class PlotterStateMachine
+void PlotterStateMachine::SetState(PlotterState newState)
 {
-  private:
-    PlotterState currentState;
-  
-  public:
-    PlotterStateMachine(PlotterState startState = PlotterState::Lowering)
-    {
-      this->currentState = startState;
-    }
+  this->currentState = newState;
+}
 
-    PlotterState GetCurrentState()
-    {
-      return currentState;
-    }
-
-    void SetState(PlotterState newState)
-    {
-      this->currentState = newState;
-    }
-
-    void HandleEvent(PlotterEvent event)
-    {
-        switch (currentState)
-        {
-          case PlotterState::Lowering:
-            if (event == PlotterEvent::ButtonPress)
-            {
-              currentState = PlotterState::LeftRetracting;
-              Serial.println("Transitioned: Lowering -> LeftRetracting");
-            }
-            break;
-          case PlotterState::LeftRetracting:
-            if (event == PlotterEvent::ButtonPress)
-            {
-              currentState = PlotterState::RightRetracting;
-              Serial.println("Transitioned: LeftRetracting -> RightRetracting");
-            }
-            break;
-          case PlotterState::RightRetracting:
-            if (event == PlotterEvent::ButtonPress)
-            {
-              currentState = PlotterState::Calculating;
-              Serial.println("Transitioned: RightRetracting -> Calculating");
-            }
-            break;
-          case PlotterState::Calculating:
-            if (event == PlotterEvent::LoopComplete)
-            {
-              currentState = PlotterState::Moving;
-              Serial.println("Transitioned: Calculating -> Moving");
-            }
-            break;
-          case PlotterState::Moving:
-            if (event == PlotterEvent::MotorRotationComplete)
-            {
-              currentState = PlotterState::Calculating;
-              Serial.println("Transitioned: Moving -> Calculating");
-            }
-            else if (event == PlotterEvent::ButtonPress)
-            {
-              currentState = PlotterState::Reset;
-              Serial.println("Transitioned: Moving -> Reset");
-            }
-            break;
-          case PlotterState::Reset:
-            if (event == PlotterEvent::LoopComplete)
-            {
-              currentState = PlotterState::Lowering;
-              Serial.println("Transitioned: Reset -> Lowering");
-            }
-            break;
-        }
-    }
-};
+void PlotterStateMachine::HandleEvent(PlotterEvent event)
+{
+  switch (currentState)
+  {
+    case PlotterState::Lowering:
+      if (event == PlotterEvent::ButtonPress)
+      {
+        currentState = PlotterState::LeftRetracting;
+      }
+      break;
+    case PlotterState::LeftRetracting:
+      if (event == PlotterEvent::ButtonPress)
+      {
+        currentState = PlotterState::RightRetracting;
+      }
+      break;
+    case PlotterState::RightRetracting:
+      if (event == PlotterEvent::ButtonPress)
+      {
+        currentState = PlotterState::Calculating;
+      }
+      break;
+    case PlotterState::Calculating:
+      if (event == PlotterEvent::LoopComplete)
+      {
+        currentState = PlotterState::Moving;
+      }
+      break;
+    case PlotterState::Moving:
+      if (event == PlotterEvent::MotorRotationComplete)
+      {
+        currentState = PlotterState::Calculating;
+      }
+      else if (event == PlotterEvent::ButtonPress)
+      {
+        currentState = PlotterState::Reset;
+      }
+      break;
+    case PlotterState::Reset:
+      if (event == PlotterEvent::LoopComplete)
+      {
+        currentState = PlotterState::Lowering;
+      }
+      break;
+  }
+}

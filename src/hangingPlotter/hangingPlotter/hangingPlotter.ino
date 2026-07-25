@@ -1,9 +1,9 @@
-#include <MotorDriver.cpp>
-#include <Vector2D.cpp>
-#include <MovementPlanner.cpp>
-#include <Button.cpp>
-#include <PlotterStateMachine.cpp>
-#include <HangPlotterManager.cpp>
+#include <MotorDriver.h>
+#include <Vector2D.h>
+#include <MovementPlanner.h>
+#include <Button.h>
+#include <PlotterStateMachine.h>
+#include <HangPlotterManager.h>
 
 // CONSTANTS
 int leftMotorPins[4] = {13, 12, 14, 27};

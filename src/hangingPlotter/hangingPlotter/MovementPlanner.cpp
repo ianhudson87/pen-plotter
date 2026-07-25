@@ -1,47 +1,44 @@
-#include "Vector2D.cpp"
+#include <MovementPlanner.h>
 
-class MovementPlanner
+MovementPlanner::MovementPlanner(Vector2D startingPosition)
+  : startPos(startingPosition), currentPos(startingPosition)
 {
-  private:
-    int spiralIterations = 0;
-    Vector2D startPos;
-    Vector2D currentPos;
+}
 
-  public:
-    MovementPlanner (Vector2D startingPosition)
-      : startPos(startingPosition), currentPos(startingPosition)
-    {
-    }
+void MovementPlanner::SetCurrentPos(Vector2D pos)
+{
+  this->startPos = pos;
+  this->currentPos = pos;
+}
 
-    void Reset()
-    {
-      spiralIterations = 0;
-      currentPos = startPos;
-    }
+void MovementPlanner::Reset()
+{
+  spiralIterations = 0;
+  currentPos = startPos;
+}
 
-    Vector2D GetNextPos()
-    {
-      float distanceChange = 0.5 * (spiralIterations / 2 + 1);
-      Vector2D unitChange;
-      switch(spiralIterations % 4)
-      {
-        case 0:
-          unitChange = Vector2D{1, 0};
-          break;
-        case 1:
-          unitChange = Vector2D{0, -1};
-          break;
-        case 2:
-          unitChange = Vector2D{-1, 0};
-          break;
-        case 3:
-          unitChange = Vector2D{0, 1};
-          break;
-      }
-      spiralIterations++;
+Vector2D MovementPlanner::GetNextPos()
+{
+  float distanceChange = 0.5 * (spiralIterations / 2 + 1);
+  Vector2D unitChange;
+  switch (spiralIterations % 4)
+  {
+    case 0:
+      unitChange = Vector2D{1, 0};
+      break;
+    case 1:
+      unitChange = Vector2D{0, -1};
+      break;
+    case 2:
+      unitChange = Vector2D{-1, 0};
+      break;
+    case 3:
+      unitChange = Vector2D{0, 1};
+      break;
+  }
 
-      this->currentPos += (unitChange * distanceChange);
+  spiralIterations++;
+  this->currentPos += (unitChange * distanceChange);
 
-      return this->currentPos;
-    }
-};
+  return this->currentPos;
+}
