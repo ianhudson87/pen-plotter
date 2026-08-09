@@ -1,6 +1,7 @@
 #include <MotorDriver.h>
 #include <Vector2D.h>
 #include <MovementPlanner.h>
+#include <GCodeServer.h>
 #include <Button.h>
 #include <PlotterStateMachine.h>
 #include <HangPlotterManager.h>
@@ -9,21 +10,38 @@
 int leftMotorPins[4] = {13, 12, 14, 27};
 int rightMotorPins[4] = {26, 25, 33, 32};
 
+const char* accessPointName = "HangingPlotter";
+const char* accessPointPassword = "plotter123";
+const uint16_t gcodeServerPort = 8080;
+
 MotorDriver leftMotor(leftMotorPins);
 MotorDriver rightMotor(rightMotorPins);
 
 Button stateChangeButton(35); // pin 35
 Button retractButton(34); // pin 34
 
-Vector2D plotterHeadStartingPos(8.625, 6.88);
+Vector2D gcodeOriginOffset(86.25, 68.8);
 HangPlotterManager hangPlotterManager;
-MovementPlanner movementPlanner(plotterHeadStartingPos);
+GCodeServer gcodeServer(gcodeServerPort);
+MovementPlanner movementPlanner(gcodeOriginOffset, gcodeOriginOffset, gcodeServer);
 PlotterStateMachine plotterStateMachine(PlotterState::Lowering);
 // END CONSTANTS
 
 void setup()
 {
   Serial.begin(115200);
+
+  if (gcodeServer.Begin(accessPointName, accessPointPassword))
+  {
+    Serial.print("G-code server listening at ");
+    Serial.print(gcodeServer.GetIpAddress());
+    Serial.print(":");
+    Serial.println(gcodeServerPort);
+  }
+  else
+  {
+    Serial.println("Failed to start Wi-Fi access point");
+  }
 }
 
 void loop()

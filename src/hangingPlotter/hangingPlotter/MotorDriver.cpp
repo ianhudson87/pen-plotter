@@ -28,6 +28,14 @@ void MotorDriver::QueueRotation(double rotateDegrees, double degreesPerSecond)
   this->stepsRemaining = rotateDegrees / this->stepSize;
 
   this->stepsTaken = 0;
+
+  if (this->stepsRemaining <= 0 || degreesPerSecond <= 0)
+  {
+    this->stepsRemaining = 0;
+    this->msPerStep = 0;
+    return;
+  }
+
   this->msPerStep = 1 / degreesPerSecond * this->stepSize * 1000;
 }
 
